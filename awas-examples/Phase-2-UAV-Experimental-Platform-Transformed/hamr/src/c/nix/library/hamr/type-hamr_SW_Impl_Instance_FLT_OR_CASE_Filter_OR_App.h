@@ -1,0 +1,6 @@
+#ifndef SIREUM_TYPE_H_hamr_SW_Impl_Instance_FLT_OR_CASE_Filter_OR_App
+#define SIREUM_TYPE_H_hamr_SW_Impl_Instance_FLT_OR_CASE_Filter_OR_App
+#include <misc.h>
+
+
+#endif

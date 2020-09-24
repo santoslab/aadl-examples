@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="a232c7db-11ac-49a4-bec8-30beef289183" manual="true">
+    <element uuid="da454c54-3c3d-4499-b93c-caddb76c1373" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>fo</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="0b78a8ea-057c-4ae3-8ca0-7d56bb510cc0" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>po</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="d8b8b98f-b08c-45df-9d5a-6a8663447e32" manual="true">
+      <element uuid="f72a3bb2-7d18-4cc5-a2fc-9b8b6c993ab1">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>rh</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="f94aecda-e741-4bc4-8036-6d0a348241c7" manual="true">
+      <element uuid="f2a006ed-5426-433e-8a26-08353240c423">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>sa</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="f4a4e028-3586-4e36-90ca-b9c9e117a5ba" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>tp</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="bc55bca4-cedf-4193-b27a-4db80b6fd6c2" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_operation</seg>
+      </bo>
+      <position x="601.0" y="120.0"/>
+      <size width="110.0" height="50.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="7973a9c8-a599-4b50-a6b2-96c6425baa8c" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_power</seg>
+      </bo>
+      <position x="621.0" y="260.0"/>
+      <size width="90.0" height="50.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="0028dd53-9c07-4523-83cb-81266d4b9755" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>peripheral_malfunction</seg>
+      </bo>
+      <position x="547.0" y="58.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="5f6fc287-0278-4554-b00d-f4ea23fc5a5b" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>report_hazard</seg>
+      </bo>
+      <position x="608.0" y="190.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="471984d5-c837-47d8-81c6-416d79082f62" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>send_alarm</seg>
+      </bo>
+      <position y="187.0"/>
+      <size width="87.0" height="50.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="3eae7348-8e5c-49f7-a188-bd05db7cc84e" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>to_peripherals</seg>
+      </bo>
+      <position y="250.0"/>
+      <size width="105.0" height="50.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="74a706bc-019b-44aa-943b-3bb2f1394e9a">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="c8c6de38-0e12-45dc-888a-59f4d8ed3e61" manual="true">
+      <element uuid="b6cd8ef5-d1cf-4c83-9c57-2f1613b34a25" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>from_operation</seg>
+        </bo>
+        <position x="105.0" y="92.0"/>
+        <size width="110.0" height="50.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="3a850b8c-e75d-41e8-b5ff-1b701f6da503" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>from_power</seg>
+        </bo>
+        <position x="125.0" y="196.0"/>
+        <size width="90.0" height="50.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="253c648e-fe86-45cc-80a5-9079276f09c9" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>report_hazard</seg>
+        </bo>
+        <position x="112.0" y="147.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="05c12635-17d3-42c6-9ac4-151fd32d6165" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>send_alarm</seg>
+        </bo>
+        <position y="141.0"/>
+        <size width="87.0" height="50.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="8100c79a-d357-474a-b360-27dcd9d5c630" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>to_peripherals</seg>
+        </bo>
+        <position y="200.0"/>
+        <size width="105.0" height="50.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="1ef62f1c-4eb8-493f-811f-2dfc5f9adc85">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>detect_hazard</seg>
+      </bo>
+      <position x="330.0" y="50.0"/>
+      <size width="215.0" height="260.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+        <filter>classifiers</filter>
+        <filter>connections</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>modeTransitionTriggerNames</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCalls</filter>
+        <filter>subprogramCallSequences</filter>
+      </contentFilters>
+    </element>
+    <element uuid="d1a596f2-d78b-446c-8c5e-4ea2dfaea59d" manual="true">
+      <element uuid="8b53477e-197a-4cdd-9bd3-65b904c59e87">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>special_hazard1</seg>
+      </bo>
+      <position x="68.0" y="120.0"/>
+      <size width="211.0" height="50.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+        <filter>classifiers</filter>
+        <filter>connections</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>modeTransitionTriggerNames</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCalls</filter>
+        <filter>subprogramCallSequences</filter>
+      </contentFilters>
+    </element>
+    <element uuid="6c5c0d8e-38df-4a46-9b09-0c7d68c4a80f" manual="true">
+      <element uuid="711cedaa-f1bd-48c5-a30b-0e6151962496">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>special_hazard2</seg>
+      </bo>
+      <position x="67.0" y="44.0"/>
+      <size width="214.0" height="50.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>alarm_process.i</seg>
+    </bo>
+    <position x="20.0"/>
+    <size width="711.0" height="421.0"/>
+    <contentFilters>
+      <filter>generalizations</filter>
+      <filter>subprogramCallOrders</filter>
+      <filter>calledSubprogram</filter>
+    </contentFilters>
+  </element>
+  <config type="structure">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>safety::alarm_process.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

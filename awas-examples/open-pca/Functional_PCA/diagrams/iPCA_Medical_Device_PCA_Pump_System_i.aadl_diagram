@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="47baa8ca-8f93-4389-8c89-9d8c34f8ebbf" manual="true">
+    <element uuid="1055e514-53e3-4fa7-8ceb-c13ed6ab8b36" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>a</seg>
+      </bo>
+    </element>
+    <element uuid="bc393ba3-f468-46ef-bc99-77975088a3f0" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>ab</seg>
+      </bo>
+      <bendpoints>
+        <point x="104.0" y="82.0"/>
+        <point x="104.0" y="320.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="2ce54221-03e7-4659-98c2-93a7b9712841" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>con</seg>
+      </bo>
+    </element>
+    <element uuid="8fda9262-9502-449d-9d19-c84434b2cf9e" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>eb</seg>
+      </bo>
+    </element>
+    <element uuid="b8b52100-3b77-40c6-ae74-33b242d39d0b" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>jb</seg>
+      </bo>
+    </element>
+    <element uuid="e5a59fb3-5fe3-4568-bce5-84ec3b23c12f" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>s</seg>
+      </bo>
+    </element>
+    <element uuid="7feb81cb-db43-4876-b105-db3a23edf003" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>sb</seg>
+      </bo>
+      <bendpoints>
+        <point x="94.0" y="136.0"/>
+        <point x="94.0" y="374.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="fc55e2a3-6b6e-4003-9cd5-910696493f2e" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>act</seg>
+      </bo>
+      <position y="48.0"/>
+      <size width="43.0" height="44.0"/>
+    </element>
+    <element uuid="de9bd7a1-7060-4b13-98c3-904c5db2190f" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>connectors</seg>
+      </bo>
+      <position y="494.0"/>
+      <size width="93.0" height="44.0"/>
+    </element>
+    <element uuid="ef550166-1fde-4cec-9a9e-49ddcf02745e" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>external_network</seg>
+      </bo>
+      <position y="394.0"/>
+    </element>
+    <element uuid="b79a7663-62c9-425e-905e-5dd83c6eefbe" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>jack</seg>
+      </bo>
+      <position y="444.0"/>
+    </element>
+    <element uuid="631968cb-d8f1-4f13-8c80-00b3df27b45e" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>sense</seg>
+      </bo>
+      <position y="102.0"/>
+      <size width="60.0" height="44.0"/>
+    </element>
+    <element uuid="a7ed0dd5-762b-44d6-bbad-b0dda0ddec28" manual="true">
+      <element uuid="4fe54509-0f8c-4527-8673-cd0442f00767" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>act</seg>
+        </bo>
+        <position y="10.0"/>
+        <size width="43.0" height="44.0"/>
+      </element>
+      <element uuid="4cf66fb6-215d-43be-b67b-84f437cad4c2" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>connectors</seg>
+        </bo>
+        <position y="218.0"/>
+        <size width="93.0" height="44.0"/>
+      </element>
+      <element uuid="9eb5d5af-3d7c-430d-8cc6-301918984d6c" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ethernet</seg>
+        </bo>
+        <position y="118.0"/>
+      </element>
+      <element uuid="8571607f-d450-401d-92cb-c9d3ab640f24" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>maintenance_bus</seg>
+        </bo>
+        <position y="168.0"/>
+      </element>
+      <element uuid="75aee633-0292-4828-84b3-f82228a92a51" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>sense</seg>
+        </bo>
+        <position y="64.0"/>
+        <size width="60.0" height="44.0"/>
+      </element>
+      <element uuid="c196dabc-6d53-4a0d-aef4-ff661acf65a5" manual="true">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>drug_flow</seg>
+        </bo>
+      </element>
+      <element uuid="932efe2e-04d0-4ee0-b75b-de5dbf5b2e0e" manual="true">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>drug_in</seg>
+        </bo>
+      </element>
+      <element uuid="be34241e-1e16-4e66-8c48-599c6b7e6a23" manual="true">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>drug_out</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>board</seg>
+      </bo>
+      <position x="230.0" y="620.0"/>
+      <size width="1351.0" height="554.0"/>
+    </element>
+    <element uuid="b420a120-6c35-4a86-9736-002c085bd85c" manual="true">
+      <element uuid="d5eac3e3-66d6-4b1e-bbf7-7af60696ca4f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>act</seg>
+        </bo>
+        <position y="10.0"/>
+        <size width="43.0" height="44.0"/>
+      </element>
+      <element uuid="2ad57142-87f4-44f3-afc5-fe6753d3b649" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>sense</seg>
+        </bo>
+        <position y="64.0"/>
+        <size width="60.0" height="44.0"/>
+      </element>
+      <element uuid="94a0ef7c-6e19-40a2-81f8-865c7dfc4696" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>to_network</seg>
+        </bo>
+        <position y="118.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>func</seg>
+      </bo>
+      <position x="330.0" y="227.0"/>
+      <size width="1290.0" height="218.0"/>
+    </element>
+    <element uuid="210ab75f-37af-4ec5-8b80-b0746a1f1e40" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>kernel</seg>
+      </bo>
+      <position x="529.0" y="38.0"/>
+      <size width="98.0" height="35.0"/>
+    </element>
+    <element uuid="37dec6a0-2134-4ed3-8491-c202e7dcb36b" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>serv</seg>
+      </bo>
+      <position x="529.0" y="93.0"/>
+      <size width="87.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>pca_pump_system.i</seg>
+    </bo>
+    <position x="-50.0"/>
+    <size width="2169.0" height="1268.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>ipca_medical_device::pca_pump_system.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

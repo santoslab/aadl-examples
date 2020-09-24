@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="cb99b050-9792-49ae-865c-78ba713f335e" manual="true">
+    <element uuid="73dfdcf9-9536-4b96-ab27-4a92540d8f9b">
+      <bo>
+        <seg>connection</seg>
+        <seg>fo</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="f5f6d405-759f-4ad4-8d17-360835391cb1">
+      <bo>
+        <seg>connection</seg>
+        <seg>fs</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="c14afc2b-5f42-45cf-b62c-c8245a79546d">
+      <element uuid="703d2636-473d-47da-b038-c8245cf0e7a9">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>h</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="021c4628-05bb-4d65-9d0d-08d1fd520409">
+      <element uuid="28fce3e4-22f9-4e9e-b1b1-3db19667932e">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>m</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="3e1628cf-2576-4919-90c7-dea8d276b118" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_operation</seg>
+      </bo>
+      <position y="48.0"/>
+      <size width="110.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="308caf11-1bfd-4724-9c85-1d7d27042da9" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_safety</seg>
+      </bo>
+      <position y="152.0"/>
+      <size width="89.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="e8522433-3869-41cf-b533-750f50fc7133" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>halt</seg>
+      </bo>
+      <position y="102.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="cb7f8f7f-933e-4b0b-a783-41ea74551aa9" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>malfunction</seg>
+      </bo>
+      <position x="428.0" y="102.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="2c6fafc2-269c-4b99-b467-bcf7e19d134b">
+      <element uuid="cd58b919-0b00-466f-b08f-f64b565adbce" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>driver_control</seg>
+        </bo>
+        <position y="10.0"/>
+        <size width="101.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>button_driver</seg>
+      </bo>
+      <position x="53.0" y="294.0"/>
+      <size width="344.0" height="64.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="45dfe945-0eed-4e8b-90f2-6251b808f955">
+      <element uuid="bc4ff799-23f9-4aea-8990-b4225368504e" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>from_operation</seg>
+        </bo>
+        <position y="10.0"/>
+        <size width="110.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="3c3107fe-5ca5-4ee3-8cae-7f2f0c657012" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>from_safety</seg>
+        </bo>
+        <position y="114.0"/>
+        <size width="89.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="9ece07ed-411f-44ab-a920-b519d0fffa44" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>halt</seg>
+        </bo>
+        <position y="64.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="54a38803-741c-4181-86d8-89d9f84a3f2f" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>malfunction</seg>
+        </bo>
+        <position x="246.0" y="64.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mediator</seg>
+      </bo>
+      <position x="53.0" y="38.0"/>
+      <size width="336.0" height="168.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="9bfd5b55-50ee-410c-9188-dc752e9d20bc">
+      <element uuid="1e115c84-8376-4313-9813-6748c9805094" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>driver_control</seg>
+        </bo>
+        <position y="10.0"/>
+        <size width="101.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>pump_driver</seg>
+      </bo>
+      <position x="53.0" y="370.0"/>
+      <size width="339.0" height="64.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="b3db410d-1f95-475c-82f0-4f7f1c4ad3dc">
+      <element uuid="65292748-547e-415f-9ccf-d141b90ce05f" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>driver_control</seg>
+        </bo>
+        <position y="10.0"/>
+        <size width="101.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>upstream_driver</seg>
+      </bo>
+      <position x="53.0" y="218.0"/>
+      <size width="363.0" height="64.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>cpal_server_process.example</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="518.0" height="446.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>cpal::cpal_server_process.example</seg>
+    </context>
+  </config>
+</diagram:Diagram>

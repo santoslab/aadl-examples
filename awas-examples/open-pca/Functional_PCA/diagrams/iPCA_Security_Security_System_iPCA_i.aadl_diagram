@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="503192c9-624f-4949-a52d-823095972fb3" manual="true">
+    <element uuid="daf62bd3-b62c-4d5a-b5d5-e9652ab410db">
+      <bo>
+        <seg>connection</seg>
+        <seg>cont</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="681257ad-2bbe-44b9-90c9-b09d84f48bc7" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>crypto_control</seg>
+      </bo>
+      <position y="248.0"/>
+      <size width="112.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="5327810e-0612-4a65-a135-3684d8b8542a">
+      <element uuid="eed479c1-66ee-404f-b36b-e17da1daa8d4">
+        <bo>
+          <seg>connection</seg>
+          <seg>algo</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="eccc44fe-6fcd-4055-a1c9-ff8ab18cc947">
+        <bo>
+          <seg>connection</seg>
+          <seg>cont</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="39c08cb7-c7c7-4220-8169-30da0bdd6e26" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>crypto_control</seg>
+        </bo>
+        <position y="190.0"/>
+        <size width="112.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="acc5db13-fefe-4341-9a70-29c2d40a3574">
+        <element uuid="e486bea7-a23d-4a2f-a1d3-2c1eea4f2421" dockArea="bottom">
+          <bo>
+            <seg>feature</seg>
+            <seg>security_interface</seg>
+          </bo>
+          <position x="206.0" y="34.0"/>
+          <size width="166.0" height="30.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>algorithms</seg>
+        </bo>
+        <position x="111.0" y="40.0"/>
+        <size width="398.0" height="64.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="2dc9eba0-4c1f-4ecd-a557-21dce3568183">
+        <element uuid="b125545d-fa2f-4720-861d-50b21b113964" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>crypto_control</seg>
+          </bo>
+          <position y="64.0"/>
+          <size width="112.0" height="44.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="c398d6b0-4835-409c-8033-3747ad05090e" dockArea="top">
+          <bo>
+            <seg>feature</seg>
+            <seg>security_interface</seg>
+          </bo>
+          <position x="230.0"/>
+          <size width="166.0" height="30.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>controller</seg>
+        </bo>
+        <position x="127.0" y="130.0"/>
+        <size width="396.0" height="118.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>security_process</seg>
+      </bo>
+      <position x="111.0" y="48.0"/>
+      <size width="618.0" height="301.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+        <filter>subcomponents</filter>
+        <filter>processorFeatures</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>security_system_ipca.i</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="919.0" height="429.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>ipca_security::security_system_ipca.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

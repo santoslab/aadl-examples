@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="243eae60-2ba3-4ef3-8b8f-238bf1b06bb5" manual="true">
+    <bo>
+      <seg>classifier</seg>
+      <seg>cpal_server_process</seg>
+    </bo>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>flowSpecifications</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>cpal::cpal_server_process</seg>
+    </context>
+  </config>
+</diagram:Diagram>

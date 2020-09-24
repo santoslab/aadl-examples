@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="80dd771c-0eab-4320-9c5e-b50a7557a950" manual="true" background="#ffe5cc">
+    <element uuid="d762590e-ab90-42bd-af3f-5d80b6dbc275">
+      <bo>
+        <seg>connection</seg>
+        <seg>al</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="6942cbf7-c4aa-4841-bdbf-543584cc5ba2">
+      <bo>
+        <seg>connection</seg>
+        <seg>cpi</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="81412946-eeeb-42ef-a422-764f36ae553c">
+      <element uuid="dcff0016-3f9b-4cec-be71-fca4aa1357f3">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>inac</seg>
+      </bo>
+      <bendpoints>
+        <point x="408.0" y="82.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="803b9385-40e0-459e-8b16-94ea73c480ca">
+      <bo>
+        <seg>connection</seg>
+        <seg>op</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="37d92841-c91d-41b8-a44c-8da116fc9024">
+      <element uuid="ffc783e9-d3b6-474a-9927-a577a46a6013">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>user_interface_i_new_connection</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="ab8738a2-9c17-4c7c-af59-d90f33367696">
+      <element uuid="c5e4bc92-616a-40ae-898a-3fc5f1aa8792">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>user_interface_i_new_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="5532be4d-a14b-42b3-9a0e-4926e99d93ad">
+      <element uuid="41df11cc-d3a5-4573-b4b1-6a3088683479">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>user_interface_i_new_connection3</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="32718652-3978-466b-8813-ca72e518b842" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarm</seg>
+      </bo>
+      <position y="102.0"/>
+      <size width="59.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="6cacca64-06ea-4406-8805-9b35e55c3806" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarm_inactivation</seg>
+      </bo>
+      <position x="539.0" y="38.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="8c156890-ddd7-4718-8590-d0f72d3033e5" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_operation</seg>
+      </bo>
+      <position y="48.0"/>
+      <size width="110.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="d5562ecb-91fa-4a23-a1ad-c5ccc600932a" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>ui_image</seg>
+      </bo>
+      <position x="597.0" y="173.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="813bbb5d-80e1-47c3-8bfc-76df5ff34e17" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>ui_sound</seg>
+      </bo>
+      <position x="597.0" y="228.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="eb62794b-62e7-4abd-a35a-6467f8cd8ced" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ui_touch</seg>
+      </bo>
+      <position y="218.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="9605631f-4183-437c-bc6e-36927dd7b05e" background="#e0e0e0">
+      <element uuid="b058ff2f-b6dd-489a-8a37-1a705f812be6" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cp_int</seg>
+        </bo>
+        <position y="61.0"/>
+        <size width="54.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="7052e4b2-b1d6-43c7-a21a-e26352de0f03" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>ui_image</seg>
+        </bo>
+        <position x="89.0" y="63.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="64cdb897-28fc-43c7-a0ce-e7467bd5cae5" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>ui_sound</seg>
+        </bo>
+        <position x="89.0" y="111.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="ec42c031-0169-4f16-bd24-2d9d115bcee2" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ui_touch</seg>
+        </bo>
+        <position y="116.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="16f3babf-727d-405d-b9ad-cf3e26d485c7">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>control_panel</seg>
+      </bo>
+      <position x="398.0" y="107.0"/>
+      <size width="161.0" height="172.0"/>
+      <contentFilters>
+        <filter>internalFeatures</filter>
+        <filter>subcomponentType</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>features</filter>
+        <filter>processorFeatures</filter>
+      </contentFilters>
+    </element>
+    <element uuid="065e6fdc-a172-41d8-9c10-b0936645ad15" background="#e0e0e0">
+      <element uuid="dcb4aadf-dafb-4660-a22a-765ee127f60a" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm</seg>
+        </bo>
+        <position y="100.0"/>
+        <size width="59.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="e493e977-aa1f-494c-92ab-947c44a6147f" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm_inactivation</seg>
+        </bo>
+        <position x="108.0" y="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="b89e3c2e-94d1-4dc0-9d0a-a72a0e150c7e" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>cp_int</seg>
+        </bo>
+        <position x="184.0" y="110.0"/>
+        <size width="54.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="f3762bb0-53dd-4fbe-b54a-ce5ec3720d62" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>from_operation</seg>
+        </bo>
+        <position y="50.0"/>
+        <size width="110.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="cfce60bf-b098-439c-b872-9064b99268f2">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>gui</seg>
+      </bo>
+      <position x="118.0" y="38.0"/>
+      <size width="238.0" height="171.0"/>
+      <contentFilters>
+        <filter>internalFeatures</filter>
+        <filter>subcomponentType</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>features</filter>
+        <filter>processorFeatures</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>user_interface.i</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="669.0" height="309.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>services::user_interface.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

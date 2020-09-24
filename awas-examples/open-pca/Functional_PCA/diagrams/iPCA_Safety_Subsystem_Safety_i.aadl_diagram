@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="e808a69a-c062-4e57-9867-4e273881f092" manual="true" background="#ffcccc">
+    <element uuid="daafc362-2dc8-4029-8999-b18de2b8553b" manual="true">
+      <element uuid="26ee0f85-d834-4e7e-9938-4c15eb2b5409" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>fl</seg>
+      </bo>
+    </element>
+    <element uuid="d7f63b4f-6849-4afb-b45c-8e510091fc3b" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>fo</seg>
+      </bo>
+    </element>
+    <element uuid="70a55b9d-2025-4b32-8f78-35c2b4150d9b" manual="true">
+      <element uuid="5f724501-5e3a-41f9-b45f-de899cc360a5" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>hf</seg>
+      </bo>
+    </element>
+    <element uuid="9993f37b-b18e-4bc8-acd3-28c0b9f3d4c2" manual="true">
+      <element uuid="ef119d9b-5672-403d-9976-d32ee8d64735" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>i</seg>
+      </bo>
+    </element>
+    <element uuid="9e0ebc35-e0ea-4ca2-b162-b9b8c636edff" manual="true">
+      <element uuid="9cba6bba-623b-4a58-a876-ab1bdcd76b47" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>inac</seg>
+      </bo>
+    </element>
+    <element uuid="cfb6efef-e540-4c5e-bc08-99195dffe458" manual="true">
+      <element uuid="0ed7d2c9-7b1d-4d03-952f-474e9b6ecf7c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>new_connection</seg>
+      </bo>
+      <bendpoints>
+        <point x="456.0" y="270.0"/>
+        <point x="537.0" y="428.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="0f8b775c-4bbd-496b-9bf3-30c9d0161ab7" manual="true">
+      <element uuid="5626382a-9c02-4e7a-a1e9-baa5d74087aa" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pm</seg>
+      </bo>
+    </element>
+    <element uuid="b5f3d174-a93c-49a7-913f-46ca693401e3" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>po</seg>
+      </bo>
+    </element>
+    <element uuid="70573c3a-29db-438e-b0b9-ef3cc5d37bc0" manual="true">
+      <element uuid="6c6b60c0-23d2-4be7-899a-10515ffcc146" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>rh</seg>
+      </bo>
+    </element>
+    <element uuid="d6297ab2-05b6-46e8-a255-78e9cbbf739f" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>sa</seg>
+      </bo>
+    </element>
+    <element uuid="af0f62c7-0283-4194-b141-cb70a016674e" manual="true">
+      <element uuid="322e1b56-588f-4fcc-845c-72cb318cb56c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>stop</seg>
+      </bo>
+    </element>
+    <element uuid="762e7f0e-a120-4ef7-ad80-88502efc7e92" manual="true">
+      <element uuid="2ebc977f-7413-4288-b2e9-9b9bcd1a66f2" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>tl</seg>
+      </bo>
+    </element>
+    <element uuid="38770559-3f2a-412d-aad3-242efe24fbeb" manual="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>tp</seg>
+      </bo>
+    </element>
+    <element uuid="ce10764e-c7ba-436d-85b7-f3ca0a559e8b" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarm</seg>
+      </bo>
+      <position x="841.0" y="544.0"/>
+      <size width="58.0" height="44.0"/>
+    </element>
+    <element uuid="c1dc4c55-0640-4226-a390-1b50f08dc0f9" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarm_inactivation</seg>
+      </bo>
+      <position y="458.0"/>
+    </element>
+    <element uuid="11847bd7-9d9c-4e23-a5fc-23cd1dfa25b7" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_maintenance</seg>
+      </bo>
+      <position x="761.0" y="238.0"/>
+      <size width="138.0" height="44.0"/>
+    </element>
+    <element uuid="e28ae09d-4f24-45ba-840a-04a57e1d9bab" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_operation</seg>
+      </bo>
+      <position x="789.0" y="382.0"/>
+      <size width="110.0" height="44.0"/>
+    </element>
+    <element uuid="e69a5669-967f-4f58-8e7f-a7e170289adc" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_power</seg>
+      </bo>
+      <position x="809.0" y="490.0"/>
+      <size width="90.0" height="44.0"/>
+    </element>
+    <element uuid="c0831d4c-e187-404f-a300-4f48f31f320d" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>halt</seg>
+      </bo>
+      <position x="858.0" y="126.0"/>
+    </element>
+    <element uuid="c40fa110-3687-4fea-89ba-602590f5a9cd" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>peripheral_malfunction</seg>
+      </bo>
+      <position y="408.0"/>
+    </element>
+    <element uuid="0a6d76b2-ecc3-4eec-aba1-5228393ccc1d" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>to_peripherals</seg>
+      </bo>
+      <position x="794.0" y="436.0"/>
+      <size width="105.0" height="44.0"/>
+    </element>
+    <element uuid="76b0fb19-df83-4d16-adfa-56f855f9118e" manual="true">
+      <bo>
+        <seg>implementation_extension</seg>
+      </bo>
+    </element>
+    <element uuid="2c383777-374a-480b-817e-9895742fd6ef" manual="true" background="#ccffcc">
+      <element uuid="ebb7241b-64bc-4e3f-b596-57d444366a68" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm_inactivation</seg>
+        </bo>
+        <position y="163.0"/>
+      </element>
+      <element uuid="1a909053-7cad-4cca-84b0-2041d4552960" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>from_operation</seg>
+        </bo>
+        <position x="165.0" y="89.0"/>
+        <size width="116.0" height="44.0"/>
+      </element>
+      <element uuid="8b20049d-65b2-46df-a143-eed6f6884712" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>from_power</seg>
+        </bo>
+        <position x="185.0" y="190.0"/>
+        <size width="96.0" height="44.0"/>
+      </element>
+      <element uuid="d69c6d1b-2aa2-43f2-bd8f-0b766aa40a5e" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>peripheral_malfunction</seg>
+        </bo>
+        <position y="118.0"/>
+      </element>
+      <element uuid="d1f7cd8b-55ec-442c-bdcf-71b0b7336fe5" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>report_hazard</seg>
+        </bo>
+        <position x="178.0" y="44.0"/>
+      </element>
+      <element uuid="f484a58f-93e6-476b-b84e-2b64401d6f78" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>send_alarm</seg>
+        </bo>
+        <position x="188.0" y="240.0"/>
+        <size width="93.0" height="44.0"/>
+      </element>
+      <element uuid="5f533ce3-1385-417a-8bca-32ee5592b1a9" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>to_peripherals</seg>
+        </bo>
+        <position x="170.0" y="138.0"/>
+        <size width="111.0" height="44.0"/>
+      </element>
+      <element uuid="fec90fca-b98e-4971-ac31-482ada34c2ea" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>alarm_process</seg>
+      </bo>
+      <position x="158.0" y="298.0"/>
+      <size width="281.0" height="300.0"/>
+    </element>
+    <element uuid="736771d6-ff89-4b68-857b-7afbd1940c6d" manual="true" background="#e0e0e0">
+      <element uuid="3b5486ab-65bf-4196-854c-e879dc4a44b0" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>halt</seg>
+        </bo>
+        <position x="231.0" y="89.0"/>
+      </element>
+      <element uuid="cc3f420f-5d53-477d-957e-0777dad52c57" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hardware_fault</seg>
+        </bo>
+        <position x="165.0" y="134.0"/>
+      </element>
+      <element uuid="3a105798-a984-415a-855a-98e8f5ff745b" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>illuminate</seg>
+        </bo>
+        <position x="196.0" y="44.0"/>
+      </element>
+      <element uuid="1ec75cd6-8765-45f4-b9ad-927817d49f5a" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>error_detect</seg>
+      </bo>
+      <position x="118.0" y="38.0"/>
+      <size width="272.0" height="240.0"/>
+    </element>
+    <element uuid="bdced44a-300d-4f98-a360-e3a44bc19bf2" manual="true" background="#e0e0e0">
+      <element uuid="4a2a9154-87e5-4e67-aa23-942da678fb80" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>get_log</seg>
+        </bo>
+        <position x="170.0" y="39.0"/>
+      </element>
+      <element uuid="bfe4ed61-cb1b-451f-a4b3-6747b67fcd82" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>log_hard_fault</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="3d6e23c5-4095-44a1-a788-12e25b7e459c" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>log_soft_fault</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <element uuid="50b27d86-3be1-4521-b420-4d01c3ff17cd" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>the_log</seg>
+        </bo>
+        <position x="171.0" y="99.0"/>
+      </element>
+      <element uuid="02e790aa-460e-4a03-af96-1e1423362cf7" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>fault_log</seg>
+      </bo>
+      <position x="558.0" y="173.0"/>
+      <size width="233.0" height="210.0"/>
+    </element>
+    <element uuid="8a726f44-680f-4416-bc2e-e7e5941688f8" manual="true" background="#e0e0e0">
+      <element uuid="be447650-5ef7-4dd8-b41e-0fca3b762819" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>illuminate</seg>
+        </bo>
+        <position y="54.0"/>
+      </element>
+      <element uuid="5e0402e2-ac80-4150-b5e4-f597e5309607" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>light</seg>
+        </bo>
+        <position x="188.0" y="54.0"/>
+      </element>
+      <element uuid="c0fa8c47-09fe-45fe-8b16-1d8a37d73146" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>led</seg>
+      </bo>
+      <position x="568.0" y="24.0"/>
+      <size width="233.0" height="110.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>safety.i</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="899.0" height="610.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>ipca_safety_subsystem::safety.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

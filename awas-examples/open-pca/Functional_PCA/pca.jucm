@@ -1,0 +1,2098 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Brian Larson" created="October 21, 2013 9:33:20 AM CDT" modified="February 3, 2019 9:49:40 PM CST" specVersion="419" urnVersion="1.27" nextGlobalID="6369">
+  <ucmspec>
+    <scenarioGroups name="PCA Scenarios" id="5">
+      <scenarios name="Operate UC1.15" id="6" description="normal operation">
+        <preconditions label="" expression="true" description=""/>
+        <postconditions label="" expression="true" description=""/>
+        <initializations value="false" variable="689"/>
+        <initializations value="false" variable="724"/>
+        <initializations value="true" variable="1744"/>
+        <initializations value="true" variable="1745"/>
+        <initializations value="true" variable="1761"/>
+        <initializations value="true" variable="1770"/>
+        <initializations value="true" variable="1771"/>
+        <initializations value="Closed" variable="1773"/>
+        <initializations value="true" variable="1774"/>
+        <initializations value="true" variable="1785"/>
+        <initializations value="true" variable="1823"/>
+        <initializations value="Operating" variable="1825"/>
+        <initializations value="false" variable="1832"/>
+        <initializations value="Silence" variable="1851"/>
+        <initializations value="false" variable="1881"/>
+        <initializations value="false" variable="1890"/>
+        <initializations value="true" variable="1900"/>
+        <initializations value="true" variable="1901"/>
+        <initializations value="true" variable="1902"/>
+        <initializations value="false" variable="1927"/>
+        <initializations value="false" variable="1950"/>
+        <initializations value="false" variable="1953"/>
+        <initializations value="0" variable="1980"/>
+        <initializations value="5" variable="1981"/>
+        <initializations value="false" variable="1991"/>
+        <initializations value="false" variable="2000"/>
+        <initializations value="false" variable="2140"/>
+        <initializations value="basal" variable="2603"/>
+        <initializations value="On" variable="2605"/>
+        <initializations value="false" variable="3647"/>
+        <initializations value="false" variable="3660"/>
+        <initializations value="false" variable="3820"/>
+        <initializations value="normal" variable="4187"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="205"/>
+        <endPoints enabled="true" mandatory="true" endPoint="207"/>
+      </scenarios>
+      <scenarios name="Initialize UC1.2-14" id="2291" description="Steps 2 through 14">
+        <preconditions label="" expression="Power=On" description=""/>
+        <initializations value="false" variable="724"/>
+        <initializations value="false" variable="1927"/>
+        <initializations value="true" variable="1900"/>
+        <initializations value="Closed" variable="1773"/>
+        <initializations value="true" variable="1770"/>
+        <initializations value="false" variable="1823"/>
+        <initializations value="true" variable="1901"/>
+        <initializations value="Initializing" variable="1825"/>
+        <initializations value="true" variable="1881"/>
+        <initializations value="false" variable="689"/>
+        <initializations value="true" variable="1902"/>
+        <initializations value="true" variable="1890"/>
+        <initializations value="false" variable="2383"/>
+        <initializations value="false" variable="2396"/>
+        <initializations value="zero" variable="2603"/>
+        <initializations value="On" variable="2605"/>
+        <initializations value="false" variable="1785"/>
+        <initializations value="false" variable="3647"/>
+        <initializations value="false" variable="3660"/>
+        <initializations value="false" variable="3820"/>
+        <initializations value="normal" variable="4187"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="59"/>
+      </scenarios>
+      <scenarios name="POST fail EC4" id="2606" description="power-on self test failure, exception case 4">
+        <initializations value="false" variable="3647"/>
+        <initializations value="false" variable="3660"/>
+        <initializations value="false" variable="3820"/>
+        <initializations value="normal" variable="4187"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <endPoints enabled="true" mandatory="true" endPoint="785"/>
+      </scenarios>
+      <scenarios name="UC4-5" id="2607" description="ICE-detected hazard">
+        <preconditions label="" expression="pump_rate=basal" description=""/>
+        <postconditions label="" expression="!needle_in_vein and !tube_attached and pump_rate=zero and power=off" description=""/>
+        <initializations value="true" variable="1832"/>
+        <initializations value="basal" variable="2603"/>
+        <initializations value="false" variable="3536"/>
+        <initializations value="false" variable="3647"/>
+        <initializations value="true" variable="3660"/>
+        <initializations value="true" variable="3820"/>
+        <initializations value="normal" variable="4187"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="162"/>
+        <startPoints enabled="true" startPoint="3670"/>
+        <endPoints enabled="true" mandatory="true" endPoint="164"/>
+        <endPoints enabled="true" mandatory="true" endPoint="509"/>
+      </scenarios>
+      <scenarios name="UC1" id="2608" description="Normal Operation">
+        <preconditions label="" expression="Power=Off" description=""/>
+        <initializations value="false" variable="724"/>
+        <initializations value="false" variable="1927"/>
+        <initializations value="true" variable="1900"/>
+        <initializations value="Closed" variable="1773"/>
+        <initializations value="true" variable="1770"/>
+        <initializations value="false" variable="1823"/>
+        <initializations value="true" variable="1901"/>
+        <initializations value="Initializing" variable="1825"/>
+        <initializations value="true" variable="1881"/>
+        <initializations value="false" variable="689"/>
+        <initializations value="true" variable="1902"/>
+        <initializations value="true" variable="1890"/>
+        <initializations value="false" variable="2383"/>
+        <initializations value="false" variable="2396"/>
+        <initializations value="zero" variable="2603"/>
+        <initializations value="Off" variable="2605"/>
+        <initializations value="false" variable="1785"/>
+        <initializations value="0" variable="1980"/>
+        <initializations value="0" variable="1981"/>
+        <initializations value="false" variable="1950"/>
+        <initializations value="false" variable="3536"/>
+        <initializations value="false" variable="3647"/>
+        <initializations value="false" variable="3660"/>
+        <initializations value="false" variable="3820"/>
+        <initializations value="normal" variable="4187"/>
+        <initializations value="true" variable="1761"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="11"/>
+        <endPoints enabled="true" mandatory="true" endPoint="13"/>
+      </scenarios>
+      <scenarios name="UC2" id="3541">
+        <initializations value="0" variable="1980"/>
+        <initializations value="2" variable="1981"/>
+        <initializations value="true" variable="1991"/>
+        <initializations value="basal" variable="2603"/>
+        <initializations value="false" variable="1950"/>
+        <initializations value="On" variable="2605"/>
+        <initializations value="false" variable="1832"/>
+        <initializations value="false" variable="689"/>
+        <initializations value="false" variable="724"/>
+        <initializations value="false" variable="1927"/>
+        <initializations value="true" variable="1744"/>
+        <initializations value="Closed" variable="1773"/>
+        <initializations value="true" variable="1745"/>
+        <initializations value="true" variable="1761"/>
+        <initializations value="true" variable="1770"/>
+        <initializations value="true" variable="1823"/>
+        <initializations value="true" variable="1774"/>
+        <initializations value="true" variable="1771"/>
+        <initializations value="Operating" variable="1825"/>
+        <initializations value="true" variable="1785"/>
+        <initializations value="false" variable="2140"/>
+        <initializations value="false" variable="3647"/>
+        <initializations value="false" variable="3660"/>
+        <initializations value="false" variable="3820"/>
+        <initializations value="normal" variable="4187"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="205"/>
+        <endPoints enabled="true" mandatory="true" endPoint="207"/>
+      </scenarios>
+      <scenarios name="UC3" id="3546">
+        <initializations value="3" variable="1980"/>
+        <initializations value="4" variable="1981"/>
+        <initializations value="true" variable="1991"/>
+        <initializations value="basal" variable="2603"/>
+        <initializations value="false" variable="1950"/>
+        <initializations value="On" variable="2605"/>
+        <initializations value="false" variable="1832"/>
+        <initializations value="false" variable="689"/>
+        <initializations value="false" variable="724"/>
+        <initializations value="false" variable="1927"/>
+        <initializations value="true" variable="1744"/>
+        <initializations value="Closed" variable="1773"/>
+        <initializations value="true" variable="1745"/>
+        <initializations value="true" variable="1761"/>
+        <initializations value="true" variable="1770"/>
+        <initializations value="true" variable="1823"/>
+        <initializations value="true" variable="1774"/>
+        <initializations value="true" variable="1771"/>
+        <initializations value="Operating" variable="1825"/>
+        <initializations value="true" variable="1785"/>
+        <initializations value="false" variable="2140"/>
+        <initializations value="false" variable="3647"/>
+        <initializations value="false" variable="3660"/>
+        <initializations value="false" variable="3820"/>
+        <initializations value="normal" variable="4187"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="205"/>
+        <endPoints enabled="true" mandatory="true" endPoint="207"/>
+      </scenarios>
+      <scenarios name="UC6" id="4353" description="ICE alarm inactivation">
+        <postconditions label="" expression="alarm_inactivation=normal" description=""/>
+        <initializations value="normal" variable="3869"/>
+        <initializations value="suspended_alarm" variable="4187"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="3853"/>
+        <endPoints enabled="true" mandatory="true" endPoint="3855"/>
+      </scenarios>
+      <scenarios name="EC1" id="4391" description="Patient Button Too Soon">
+        <initializations value="true" variable="1991"/>
+        <initializations value="true" variable="2140"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="342"/>
+        <endPoints enabled="true" mandatory="true" endPoint="344"/>
+      </scenarios>
+      <scenarios name="EC2" id="4593" description="Soft Limit Violation">
+        <initializations value="true" variable="2383"/>
+        <initializations value="false" variable="2396"/>
+        <initializations value="true" variable="1770"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="652"/>
+        <endPoints enabled="true" mandatory="true" endPoint="942"/>
+      </scenarios>
+      <scenarios name="EC3" id="4885" description="Hard Limit">
+        <postconditions label="" expression="true"/>
+        <initializations value="true" variable="1770"/>
+        <initializations value="false" variable="6068"/>
+        <initializations value="false" variable="6075"/>
+        <startPoints enabled="true" startPoint="1012"/>
+        <endPoints enabled="true" mandatory="true" endPoint="1014"/>
+      </scenarios>
+    </scenarioGroups>
+    <variables name="POSTfail" id="689"/>
+    <variables name="AudioFail" id="724"/>
+    <variables name="message" id="761" type="enumeration" enumerationType="760"/>
+    <variables name="clinician_ok" id="1744"/>
+    <variables name="patient_ok" id="1745" description="Patient authenticated?"/>
+    <variables name="Rx_ok" id="1761"/>
+    <variables name="hard_ok" id="1770"/>
+    <variables name="vial_inserted" id="1771"/>
+    <variables name="door" id="1773" type="enumeration" enumerationType="1772"/>
+    <variables name="tube_attached" id="1774"/>
+    <variables name="primed" id="1785"/>
+    <variables name="needle_in_vein" id="1823"/>
+    <variables name="phase" id="1825" type="enumeration" enumerationType="1824"/>
+    <variables name="stop_button" id="1832"/>
+    <variables name="sound" id="1851" type="enumeration" enumerationType="1850"/>
+    <variables name="PingHeard" id="1881"/>
+    <variables name="sound_made" id="1890"/>
+    <variables name="clinician_authentic" id="1900"/>
+    <variables name="patient_authentic" id="1901"/>
+    <variables name="Rx_authentic" id="1902"/>
+    <variables name="bad_prime" id="1927"/>
+    <variables name="error_exists" id="1950"/>
+    <variables name="error_detected" id="1953"/>
+    <variables name="loop_count" id="1980" type="integer"/>
+    <variables name="loop_limit" id="1981" type="integer"/>
+    <variables name="patient_bolus_request" id="1991"/>
+    <variables name="clinician_bolus_request" id="2000"/>
+    <variables name="patient_bolus_request_too_soon" id="2140"/>
+    <variables name="soft_limit" id="2383"/>
+    <variables name="approve_soft_limit" id="2396"/>
+    <variables name="pump_rate" id="2603" type="enumeration" enumerationType="1826"/>
+    <variables name="power" id="2605" type="enumeration" enumerationType="2604"/>
+    <variables name="resume_infusion" id="3536"/>
+    <variables name="maximum_safe_dose" id="3647"/>
+    <variables name="ICE_detected_hazard" id="3660"/>
+    <variables name="safe_to_resume" id="3820"/>
+    <variables name="prior_pump_rate" id="3846" type="enumeration" enumerationType="1826"/>
+    <variables name="alarm_inactivation" id="3869" type="enumeration" enumerationType="3868"/>
+    <variables name="inactivation_choice" id="4187" type="enumeration" enumerationType="3868"/>
+    <variables name="flushed" id="6068"/>
+    <variables name="flushing_liquid" id="6075"/>
+    <enumerationTypes name="msg" id="760" values="Touch_Screen_After_Beep,Scan_Your_Badge,Clinician_Not_Authenticated,Scan_Patient_Wristband,Patient_Not_Authenticated,Scan_Drug_Label,Rx_Not_Authenticated,Rx_Exceeds_Hard_Limit,Rx_Exceeds_Soft_Limit,Use_Rx_Anyway,Rx_Approved,Prime_Pump,Prime_Failed,Infusing_Basal_Rate,Infusing_Patient_Bolus,Infusing_Clinician_Bolus,Infusing_KVO_Rate,Drug_Request_Too_Soon" instances="761"/>
+    <enumerationTypes name="door" id="1772" values="Open,Closed" instances="1773"/>
+    <enumerationTypes name="phases" id="1824" values="Initializing,Operating,Terminating" instances="1825"/>
+    <enumerationTypes name="Infusion_Rate" id="1826" values="zero,KVO,basal,square,bolus,WRONG" instances="2603 3846"/>
+    <enumerationTypes name="Sounds" id="1850" values="Silence,Ping,Squawk,Low_Priority,Medium_Priority,High_Priority" instances="1851"/>
+    <enumerationTypes name="OnOff" id="2604" values="On,Off" instances="2605"/>
+    <enumerationTypes name="Inactivations" id="3868" values="normal,no_alarm,suspended_alarm,no_sound,suspended_sound" instances="3869 4187"/>
+  </ucmspec>
+  <grlspec>
+    <groups name="StrategiesGroup3" id="3"/>
+    <indicatorGroup name="Time" id="7" isRedesignCategory="true"/>
+    <indicatorGroup name="Cost" id="8" isRedesignCategory="true"/>
+    <indicatorGroup name="Quality" id="9" isRedesignCategory="true"/>
+    <indicatorGroup name="Flexibility" id="10" isRedesignCategory="true"/>
+  </grlspec>
+  <urndef>
+    <responsibilities name="UC1.2 acknowledge audio" id="78" description="Clinician presses button when hearing audible alarm sound" expression="AudioFail:=!PingHeard;" respRefs="1880"/>
+    <responsibilities name="UC1.3 scan badge" id="82" description="Clinician scan own badge" expression="" respRefs="83"/>
+    <responsibilities name="UC1.4 authenticate clinician" id="90" description="Clinician is authenticated to operate PCA pump" expression="clinician_ok:=clinician_authentic;" respRefs="91"/>
+    <responsibilities name="UC1.5 scan wristband" id="96" description="Clinician scans patient information (wristband)" expression="" respRefs="97"/>
+    <responsibilities name="UC1.6 authenticate patient" id="102" description="Patient is authenticated to receive medical care" expression="patient_ok:=patient_authentic;" respRefs="103"/>
+    <responsibilities name="UC1.7 scan Rx" id="108" description="Clinician scans drug information and patient&#x2019;s prescription from drug container (vial)" expression="" respRefs="109"/>
+    <responsibilities name="UC1.8 authenticate Rx" id="112" description="Prescription is authenticated for the patient" expression="" respRefs="113"/>
+    <responsibilities name="UC1.10a insert vial" id="122" description="Clinician puts drug vial into the reservoir" expression="vial_inserted:=true;" respRefs="123"/>
+    <responsibilities name="UC1.10b close door" id="128" description="Clinician closes the door" expression="door:=Closed;" respRefs="129"/>
+    <responsibilities name="UC1.11 attach tube" id="132" description="Clinician attaches infusion tube and needle to pump" expression="tube_attached:=true;" respRefs="133"/>
+    <responsibilities name="UC1.13 insert needle" id="140" description="Clinician inserts infusion needle into patient&#x2019;s vein" expression="needle_in_vein:=true;" respRefs="141"/>
+    <responsibilities name="UC1.14 start button" id="144" description="Clinician presses Start button to begin basal-rate infusion" expression="phase:=Operating;message:=Infusing_Basal_Rate;&#xA;pump_rate:=basal;" respRefs="145"/>
+    <responsibilities name="UC1.16 stop button" id="186" description="Clinician presses Stop button to halt infusion" expression=""/>
+    <responsibilities name="UC1.17 remove needle" id="190" description="Clinician removes infusion needle from patient&#x2019;s vein, and tube from pump" expression="needle_in_vein:=false; tube_attached:=false;" respRefs="191"/>
+    <responsibilities name="UC8.3 Clinician replaces drug in reservoir with flushing liquid" id="196" description="Clinician removes drug vial, returning remaining drug to pharmacy" expression="vial_inserted:=false; flushing_liquid:=true;" respRefs="6015"/>
+    <responsibilities name="UC1.19 turn off" id="200" description="Clinician turns off PCA pump power (switch)." expression="Power:=Off;" respRefs="201"/>
+    <responsibilities name="UC1.15 continue basal" id="304" description="continue basal rate infusion" expression="" respRefs="305"/>
+    <responsibilities name="UC2.2 check time" id="357" description="Time since last bolus compared with prescribed minimum time between boluses" expression="" respRefs="358"/>
+    <responsibilities name="UC2.4 resume basal rate" id="365" description="After prescribed volume-to-be-infused (vtbi) has been infused, resume basal rate infusion" expression="" respRefs="366"/>
+    <responsibilities name="UC2.1 press button" id="382" description="Patient presses bolus request button" expression="patient_bolus_request:=(loop_count=2);" respRefs="1982"/>
+    <responsibilities name="UC3.1-2 &#xA;clinician &#xA;requested &#xA;bolus" id="393" description="" expression="clinician_bolus_request:=(loop_count=4);" respRefs="1987"/>
+    <responsibilities name="UC3.3 begin &#xA;clinician bolus" id="446" description="Begin clinician-commanded bolus" expression="pump_rate:=square;" respRefs="447"/>
+    <responsibilities name="UC3.4 resume basal rate" id="452" description="" expression="pump_rate:=basal;" respRefs="453"/>
+    <responsibilities name="EC1.2 announce" id="529" description="Control Panel and ICE supervisor user interface (if connected) issue audible warning and display visual warning" expression="message:=Drug_Request_Too_Soon;&#xA;sound:=Squawk;" respRefs="530"/>
+    <responsibilities name="EC1.3 log" id="585" description="Warning recorded in Fault Log" expression="" respRefs="586"/>
+    <responsibilities name="UC1.1 press power switch" id="668" description="Clinician presses power switch" expression="Power:=On; pump_rate:=zero;" respRefs="669"/>
+    <responsibilities name="UC1.2 make sound" id="716" description="makes sound if unbroken" expression="if sound_made sound:=Ping;" respRefs="1891"/>
+    <responsibilities name="Show:  &quot;Touch Screen After Beep&quot;" id="754" description="display helpful message R5.5.0(3)" expression="message:=Touch_Screen_After_Beep;" respRefs="755"/>
+    <responsibilities name="show: &quot;Scan Your Badge&quot;" id="766" description="" expression="message:=Scan_Your_Badge;" respRefs="767"/>
+    <responsibilities name="show: &quot;Scan Patient Wristband&quot;" id="768" description="" expression="message:=Scan_Patient_Wristband;&#xA;" respRefs="769"/>
+    <responsibilities name="EC14 show: &#xA;&quot;Clinician Not Authenticated&quot;" id="791" description="" expression="message:=Clinician_Not_Authenticated;" respRefs="792"/>
+    <responsibilities name="EC15 show:  &#xA;&quot;Patient Not Authenticated&quot;" id="839" description="" expression="message:=Patient_Not_Authenticated;" respRefs="840"/>
+    <responsibilities name="Show: &quot;Scan Drug Label&quot;" id="895" description="" expression="message:=Scan_Drug_Label;&#xA;" respRefs="896"/>
+    <responsibilities name="EC16 Show: &#xA;&quot;Rx Not Authenticated&quot;" id="911" description="" expression="" respRefs="912"/>
+    <responsibilities name="EC2.1 Check Soft Limit" id="925" description="" expression="" respRefs="926"/>
+    <responsibilities name="EC2.2 Show: Soft Limit Message" id="944" description="Include in the message what the offending parameter was and what the soft limit is" expression="message:=Rx_Exceeds_Soft_Limit;" respRefs="945"/>
+    <responsibilities name="EC2.4 Clinician decide &#xA;whether to approve &#xA;soft limit violation." id="959" description="" expression="" respRefs="960"/>
+    <responsibilities name="EC2.5 Log and Show:  &#xA;&quot;Soft Limit Approved&quot;" id="977" description="" expression="Rx_ok:=true;" respRefs="978"/>
+    <responsibilities name="Check Hard Limits" id="1020" description="" expression="" respRefs="1021"/>
+    <responsibilities name="Show:  &quot;Rx Exceeds Hard Limit&quot;" id="1722" description="" expression="" respRefs="1723"/>
+    <responsibilities name="Rx OK" id="1757" description="" expression="Rx_ok:=true;"/>
+    <responsibilities name="UC9.2 Clinican presses Start button" id="1781" description="Method of Priming left to designers" expression="primed:=!bad_prime;" respRefs="1782"/>
+    <responsibilities name="UC9.1 show: &quot;Prime Pump&quot;" id="1786" description="" expression="message:=Prime_Pump;" respRefs="1787"/>
+    <responsibilities name="EC6.2 issue: &quot;Priming Failure Alarm&quot;" id="1811" description="" expression="message:=Prime_Failed;" respRefs="6112"/>
+    <responsibilities name="Prime Success" id="1817" description="" expression="primed:=true;"/>
+    <responsibilities name="Stop Squawk" id="1855" description="" expression="sound:=Silence;" respRefs="1856"/>
+    <responsibilities name="Stop Ping" id="1859" description="" expression="sound:=Silence;" respRefs="1860"/>
+    <responsibilities name="detect error?" id="1946" description="" expression="error_detected:=error_exists;" respRefs="1947"/>
+    <responsibilities name="UC1.16 press stop button" id="1964" description="clinician presses button to stop infusion" expression="if loop_count&lt; loop_limit loop_count:= loop_count+1;&#xA;else stop_button:=true;" respRefs="1965"/>
+    <responsibilities name="EC4 show &#xA;&quot;Power-On &#xA;Self Test Failure&quot;" id="2197" description="" expression="" respRefs="2198"/>
+    <responsibilities name="EC17 show &#xA;&quot;sound failure&quot;" id="2234" description="" expression="" respRefs="2235"/>
+    <responsibilities name="EC6 Show &quot;Priming Failure&quot;" id="2250" description="" expression="" respRefs="2251"/>
+    <responsibilities name="turn off power" id="2260" description="" expression="Power:=Off;" respRefs="2261"/>
+    <responsibilities name="remove needle" id="2275" description="" expression="needle_in_vein:=false;" respRefs="2276"/>
+    <responsibilities name="EC2.5 Show: &#xA;&quot;Soft Limit Rejected&quot;" id="2403" description="" expression="Rx_ok:=false;" respRefs="2404"/>
+    <responsibilities name="Soft Limit Rejected" id="2544" description="" expression="" respRefs="2545"/>
+    <responsibilities name="Hard Limit Violated" id="2546" description="" expression="" respRefs="2547"/>
+    <responsibilities name="Hard or Soft Limit&#xA;or Drug not in library" id="2578" description="" expression="" respRefs="2579"/>
+    <responsibilities name="stop pumping" id="3383" description="" expression="pump_rate:=zero;" respRefs="3384"/>
+    <responsibilities name="UC7 Resume Infusion After Stop" id="3409" description="" expression="" respRefs="3410"/>
+    <responsibilities name="UC4.2 issue &#xA;Clinician Console  &#xA;alarm/warning" id="3695" description="" expression="" respRefs="3696"/>
+    <responsibilities name="U4.3 Control Application&#xA;signals PCA pump" id="3697" description="" expression="" respRefs="3698"/>
+    <responsibilities name="UC4.4 pump KVO rate" id="3701" description="" expression="prior_pump_rate:=pump_rate;&#xA;pump_rate:=KVO;" respRefs="3702"/>
+    <responsibilities name="U4.5 Signal Control&#xA;Application of KVO" id="3707" description="" expression="pump_rate:=KVO;" respRefs="3708"/>
+    <responsibilities name="UC4.6 Display &#xA;&quot;Hazard Detected &#xA;by Control Application, &#xA;pump rate=KVO&quot;" id="3711" description="" expression="" respRefs="3712"/>
+    <responsibilities name="UC5.1 Clinician Check Patient" id="3799" description="" expression="" respRefs="3800"/>
+    <responsibilities name="U5.2 Determine if Safe to Resume" id="3803" description="" expression="" respRefs="3804"/>
+    <responsibilities name="UC5.3 Clear Control&#xA;Application Alarm" id="3832" description="" expression="" respRefs="3833"/>
+    <responsibilities name="UC5.4 tell pump to resume" id="3836" description="" expression="" respRefs="3837"/>
+    <responsibilities name="U5.5 Resume Prescribed Infusion" id="3840" description="" expression="pump_rate:=prior_pump_rate;" respRefs="3841"/>
+    <responsibilities name="U5.6 Tell Control Application&#xA; infusion resumed" id="3842" description="" expression="" respRefs="3843"/>
+    <responsibilities name="U5.7 Indicate Normal &#xA;Operation&#xA;on Clinician Console" id="3847" description="" expression="" respRefs="3848"/>
+    <responsibilities name="UC6.1 Command Inactivation" id="3977" description="" expression="" respRefs="3978"/>
+    <responsibilities name="UC6.2 signal inactivation" id="4073" description="" expression="" respRefs="4074"/>
+    <responsibilities name="UC6.3 Inactivate Audible Alarms" id="4075" description="" expression="alarm_inactivation:=inactivation_choice;" respRefs="4076"/>
+    <responsibilities name="UC6.4 Display &quot;Audible Alarm Inactive&quot;" id="4188" description="" expression="" respRefs="4189"/>
+    <responsibilities name="UC6.5a Clinician Reactivates Alarm" id="4192" description="" expression="" respRefs="4193"/>
+    <responsibilities name="UC6.6 Pump Reactivates Alarm" id="4198" description="" expression="alarm_inactivation:=normal;" respRefs="4199"/>
+    <responsibilities name="UC6.5b signal reactivation" id="4245" description="" expression="" respRefs="4246"/>
+    <responsibilities name="EC2.3 Log Soft Limit Warning" id="4576" description="" expression="" respRefs="4577"/>
+    <responsibilities name="EC7.4 Record failure in Fault Log" id="5184" description="" expression="" respRefs="5185"/>
+    <responsibilities name="EC7.3 Pump KVO rate" id="5192" description="" expression="pump_rate:=zero;" respRefs="5193"/>
+    <responsibilities name="EC7.2 Alarm Sound and Display" id="5196" description="" expression="" respRefs="5197"/>
+    <responsibilities name="EC7.2cc Alarm Sound and Display" id="5218" description="" expression="" respRefs="5219"/>
+    <responsibilities name="EC7.1a Basal Above Tolerance&#xA;for 5 minutes" id="5226" description="" expression="" respRefs="5227"/>
+    <responsibilities name="Issue basal over-infusion alarm" id="5230" description="" expression="" respRefs="5231"/>
+    <responsibilities name="EC7.1b Basal Free-Flow" id="5283" description="" expression="" respRefs="5284"/>
+    <responsibilities name="EC7.1c Patient-Requested &#xA;Bolus above tolerance&#xA;for 10 seconds" id="5303" description="" expression="" respRefs="5304"/>
+    <responsibilities name="Issue bolus over-infusion alarm" id="5305" description="" expression="" respRefs="5306"/>
+    <responsibilities name="EC7.1d Patient-Requested&#xA;Bolus Free-Flow" id="5371" description="" expression="" respRefs="5372"/>
+    <responsibilities name="EC7.1e Clinician-Request Bolus&#xA;above tolerande for 1 minute" id="5403" description="" expression="" respRefs="5404"/>
+    <responsibilities name="Issue square-bolus over-infusion alarm" id="5407" description="" expression="" respRefs="5408"/>
+    <responsibilities name="EC7.1f Clinician-Requested&#xA;Bolus Free-Flow" id="5413" description="" expression="" respRefs="5414"/>
+    <responsibilities name="EC8.1b Patient-Requested&#xA;Bolus rate less than&#xA;tolerance for 10 seconds" id="5445" description="" expression="" respRefs="5446"/>
+    <responsibilities name="Issue bolus under-infusion warning" id="5447" description="" expression="" respRefs="5448"/>
+    <responsibilities name="EC8.2 Warning sounded &#xA;and displayed" id="5449" description="" expression="" respRefs="5450"/>
+    <responsibilities name="EC8.2 Warning sounded&#xA;and displayed" id="5451" description="" expression="" respRefs="5452"/>
+    <responsibilities name="EC8.1a Basal Flow Rate&#xA;Less than tolerance&#xA;for 1 minute" id="5605" description="" expression="" respRefs="5606"/>
+    <responsibilities name="Issue basal under-infusion warning" id="5607" description="" expression="" respRefs="5608"/>
+    <responsibilities name="EC8.1c Clinician-Requested&#xA;bolus flow rate less than &#xA;tolerance for 1 minute" id="5627" description="" expression="" respRefs="5628"/>
+    <responsibilities name="Issue square-bolus under-infusion warning" id="5631" description="" expression="" respRefs="5632"/>
+    <responsibilities name="EC8.1c Record Failure&#xA;in Fault Log" id="5637" description="" expression="" respRefs="5638"/>
+    <responsibilities name="EC9.1 Pump temp exceeds 55C" id="5643" description="" expression="" respRefs="5644"/>
+    <responsibilities name="Issue pump hot alarm" id="5645" description="" expression="" respRefs="5646"/>
+    <responsibilities name="EC9.2 Alarm sounded &#xA;and displayed" id="5649" description="" expression="" respRefs="5650"/>
+    <responsibilities name="EC9.2cc Alarm sounded &#xA;and displayed" id="5651" description="" expression="" respRefs="5652"/>
+    <responsibilities name="UC3.1 Clinician Chooses Duration" id="5918" description="" expression="" respRefs="5919"/>
+    <responsibilities name="UC3.2 Clinician &#xA;Requests Bolus" id="5932" description="" expression="" respRefs="5933"/>
+    <responsibilities name="UC1.9 check drug in library" id="5942" description="" expression="" respRefs="5943"/>
+    <responsibilities name="Display:  &quot;drug not in library&quot;" id="5972" description="" expression="" respRefs="5973"/>
+    <responsibilities name="show: &quot;Press start to resume infusion&quot;" id="6008" description="" expression="" respRefs="6009"/>
+    <responsibilities name="UC8.1 Press Stop Button Again" id="6040" description="" expression="" respRefs="6041"/>
+    <responsibilities name="UC8.2 show &quot;replace drug vial with flushing liquid&quot;" id="6046" description="" expression="" respRefs="6047"/>
+    <responsibilities name="UC8.4 Clinician presses Flush Button" id="6050" description="" expression="" respRefs="6051"/>
+    <responsibilities name="UC8.5 pump flushing liquid until clinician presses Stop Button" id="6056" description="" expression="" respRefs="6057"/>
+    <responsibilities name="UC8.5a Clinician presses Stop Button" id="6060" description="" expression="" respRefs="6061"/>
+    <responsibilities name="UC8.6 show &quot;remove flushing liquid and turn off power&quot;" id="6064" description="" expression="flushed:=true;" respRefs="6065"/>
+    <responsibilities name="UC8.7 Clinician removes flushing liquid" id="6071" description="" expression="flushing_liquid:=false;" respRefs="6072"/>
+    <responsibilities name="UC9.4 Clinician Presses stop button" id="6105" respRefs="6106"/>
+    <responsibilities name="Responsibility6107" id="6107"/>
+    <responsibilities name="UC9.5 Stop Priming" id="6125" respRefs="6126"/>
+    <responsibilities name="EC6.3 record priming failure in log" id="6131" respRefs="6132"/>
+    <responsibilities name="EC6.4 Prohibit Infusion" id="6135" respRefs="6136"/>
+    <responsibilities name="UC9.6 show &quot;Priming Successful&quot;" id="6142" respRefs="6143"/>
+    <responsibilities name="EC10.1 Downstream occlusion detected" id="6193" respRefs="6194"/>
+    <responsibilities name="issue downstream occlusion alarm" id="6197" respRefs="6198"/>
+    <responsibilities name="EC10.2 Alarm sounded and&#xA;displayed on control panel" id="6231" respRefs="6232"/>
+    <responsibilities name="EC10.2 Alarm sounded and&#xA;displayed on clinician console" id="6239" respRefs="6240"/>
+    <responsibilities name="EC11.1 Upstream occlusion detected" id="6260" respRefs="6261"/>
+    <responsibilities name="Issue upstream occlusion alarm" id="6262" respRefs="6263"/>
+    <responsibilities name="EC11.2 Alarm sounded and &#xA;displayed on control panel" id="6312" respRefs="6313"/>
+    <responsibilities name="EC11.2 Alarm sonded and&#xA;displayed on clinician console" id="6318" respRefs="6319"/>
+    <responsibilities name="EC12.1 Air-in-line&#xA;embolism detected" id="6327" respRefs="6328"/>
+    <responsibilities name="Issue air-in-line&#xA;embolism alarm" id="6331" respRefs="6332"/>
+    <responsibilities name="EC12.2 Alarm sounded and&#xA;displayed on clinician console" id="6357" respRefs="6358"/>
+    <responsibilities name="EC12.2 Alarm sounded and&#xA;displayed on control panel" id="6363" respRefs="6364"/>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UC1" id="2" description="Normal Operation of PCA Pump (UC1)">
+      <nodes xsi:type="ucm.map:StartPoint" name="power-off" id="11" description="precondition of use case 1" x="85" y="194" succ="//@urndef/@specDiagrams.0/@connections.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.4/@startPoints.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="Power Off" expression="Power=Off" description="pluged-in, but turned-off"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="power-down" id="13" description="postcondition of UC1" x="631" y="269" pred="//@urndef/@specDiagrams.0/@connections.3" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.4/@endPoints.0">
+        <label/>
+        <postcondition deltaX="-28" deltaY="-44" label="" expression="Power=off and !needle_in_vein and !vial_inserted and !tube_attached" description="Plugged-in, but switched off."/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="initialize&#xA;UC1.2-14" id="31" description="Initialization, steps 1 to 14 of use case 1" x="385" y="204" succ="//@urndef/@specDiagrams.0/@connections.1 //@urndef/@specDiagrams.0/@connections.5" pred="//@urndef/@specDiagrams.0/@connections.4 //@urndef/@specDiagrams.0/@connections.17">
+        <label deltaX="-19" deltaY="2"/>
+        <bindings plugin="38">
+          <in startPoint="59" stubEntry="//@urndef/@specDiagrams.0/@connections.4"/>
+          <out endPoint="61" stubExit="//@urndef/@specDiagrams.0/@connections.1"/>
+          <out endPoint="785" stubExit="//@urndef/@specDiagrams.0/@connections.5"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="operate&#xA;UC1.15-16" id="33" description="normal operation, use case 1, step 15" x="505" y="238" succ="//@urndef/@specDiagrams.0/@connections.2 //@urndef/@specDiagrams.0/@connections.12" pred="//@urndef/@specDiagrams.0/@connections.10">
+        <label deltaX="1" deltaY="-69"/>
+        <bindings plugin="204">
+          <in startPoint="205" stubEntry="//@urndef/@specDiagrams.0/@connections.10"/>
+          <out endPoint="207" stubExit="//@urndef/@specDiagrams.0/@connections.2"/>
+          <out endPoint="2615" stubExit="//@urndef/@specDiagrams.0/@connections.12"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="terminate&#xA;UC1.17-19" id="35" description="termination; use case 1 steps 17 to 19" x="605" y="184" succ="//@urndef/@specDiagrams.0/@connections.3 //@urndef/@specDiagrams.0/@connections.18" pred="//@urndef/@specDiagrams.0/@connections.11">
+        <label deltaX="-42" deltaY="-7"/>
+        <bindings plugin="39">
+          <in startPoint="162" stubEntry="//@urndef/@specDiagrams.0/@connections.11"/>
+          <out endPoint="164" stubExit="//@urndef/@specDiagrams.0/@connections.3"/>
+          <out endPoint="3518" stubExit="//@urndef/@specDiagrams.0/@connections.18"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef669" id="669" x="217" y="205" contRef="667" succ="//@urndef/@specDiagrams.0/@connections.4" pred="//@urndef/@specDiagrams.0/@connections.0" respDef="668">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="error power-down" id="2171" x="96" y="304" pred="//@urndef/@specDiagrams.0/@connections.6">
+        <label deltaX="-12" deltaY="-42"/>
+        <postcondition deltaX="31" deltaY="10" label="Power Off" expression="Power=Off" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2261" id="2261" x="162" y="272" contRef="667" succ="//@urndef/@specDiagrams.0/@connections.6" pred="//@urndef/@specDiagrams.0/@connections.19" respDef="2260">
+        <label deltaX="-40" deltaY="-35"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2276" id="2276" x="280" y="239" contRef="667" succ="//@urndef/@specDiagrams.0/@connections.7" pred="//@urndef/@specDiagrams.0/@connections.9" respDef="2275">
+        <label deltaX="21" deltaY="-6"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2281" id="2281" x="389" y="258" succ="//@urndef/@specDiagrams.0/@connections.8" pred="//@urndef/@specDiagrams.0/@connections.5"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2284" id="2284" x="333" y="296" succ="//@urndef/@specDiagrams.0/@connections.9" pred="//@urndef/@specDiagrams.0/@connections.13"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2286" id="2286" x="478" y="188" succ="//@urndef/@specDiagrams.0/@connections.10" pred="//@urndef/@specDiagrams.0/@connections.1"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2287" id="2287" x="577" y="262" succ="//@urndef/@specDiagrams.0/@connections.11" pred="//@urndef/@specDiagrams.0/@connections.2"/>
+      <nodes xsi:type="ucm.map:OrJoin" name="Exception Cases" id="2681" x="392" y="284" succ="//@urndef/@specDiagrams.0/@connections.13" pred="//@urndef/@specDiagrams.0/@connections.8 //@urndef/@specDiagrams.0/@connections.14"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2682" id="2682" x="444" y="271" succ="//@urndef/@specDiagrams.0/@connections.14" pred="//@urndef/@specDiagrams.0/@connections.12"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow3405" id="3405" x="405" y="96" succ="//@urndef/@specDiagrams.0/@connections.15" pred="//@urndef/@specDiagrams.0/@connections.16"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow3407" id="3407" x="484" y="143" succ="//@urndef/@specDiagrams.0/@connections.16" pred="//@urndef/@specDiagrams.0/@connections.18"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3410" id="3410" x="290" y="115" contRef="667" succ="//@urndef/@specDiagrams.0/@connections.17" pred="//@urndef/@specDiagrams.0/@connections.15" respDef="3409">
+        <label deltaX="-22" deltaY="-37"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="UC8 Flush" id="6146" x="195" y="253" contRef="667" succ="//@urndef/@specDiagrams.0/@connections.19" pred="//@urndef/@specDiagrams.0/@connections.7">
+        <label deltaX="31" deltaY="1"/>
+        <bindings plugin="6014">
+          <in startPoint="6016" stubEntry="//@urndef/@specDiagrams.0/@connections.7"/>
+          <out endPoint="6017" stubExit="//@urndef/@specDiagrams.0/@connections.19"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef667" id="667" x="128" y="99" width="187" height="201" contDef="40" nodes="669 2261 2276 3410 6146">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="11" target="669"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="31" target="2286" outBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="33" target="2287" outBindings="//@urndef/@specDiagrams.0/@nodes.3/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="35" target="13" outBindings="//@urndef/@specDiagrams.0/@nodes.4/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="669" target="31" inBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="31" target="2281" outBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2261" target="2171"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2276" target="6146" inBindings="//@urndef/@specDiagrams.0/@nodes.18/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2281" target="2681"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2284" target="2276"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2286" target="33" inBindings="//@urndef/@specDiagrams.0/@nodes.3/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2287" target="35" inBindings="//@urndef/@specDiagrams.0/@nodes.4/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="33" target="2682" outBindings="//@urndef/@specDiagrams.0/@nodes.3/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2681" target="2284"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2682" target="2681"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3405" target="3410"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3407" target="3405"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3410" target="31"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="35" target="3407" outBindings="//@urndef/@specDiagrams.0/@nodes.4/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6146" target="2261" outBindings="//@urndef/@specDiagrams.0/@nodes.18/@bindings.0/@out.0"/>
+      <comments description="This depicts Use Case 1.  Steps 1-14 are &#xA;initialization.  Step 15 is normal operation &#xA;which ends with Step16, stop button.&#xA;Steps 17-19 are termination.  " x="491" y="72" width="207" height="62" fillColor="255,255,200"/>
+      <comments description="Exception cases requiring therapy cessation" x="308" y="306" width="151" height="42" fillColor="255,255,200"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="initialize" id="38" description="use case 1 steps 1 to 14 " parentStub="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="UC1.2-14 start" id="59" description="begining of initialization process" x="281" y="26" succ="//@urndef/@specDiagrams.1/@connections.0" inBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@in.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.1/@startPoints.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="power on" expression="Power=On and pump_rate=zero" description="power turned on"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="UC1.2-14 end" id="61" description="end of initialization" x="325" y="688" pred="//@urndef/@specDiagrams.1/@connections.13" outBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@out.0">
+        <label deltaX="-58" deltaY="-25"/>
+        <postcondition deltaX="-18" deltaY="-47" label="finish initialization" expression="Power=On and not POSTfail and not AudioFail and Rx_ok and &#xA;clinician_ok and door=Closed and hard_ok and needle_in_vein and&#xA;patient_ok and phase=operating and primed and tube_attached and &#xA;vial_inserted and pump_rate=basal" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="POST" id="76" description="Power-On Self-Test" x="806" y="94" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.1 //@urndef/@specDiagrams.1/@connections.40" pred="//@urndef/@specDiagrams.1/@connections.30">
+        <label deltaX="3" deltaY="1"/>
+        <bindings plugin="674">
+          <in startPoint="675" stubEntry="//@urndef/@specDiagrams.1/@connections.30"/>
+          <out endPoint="677" stubExit="//@urndef/@specDiagrams.1/@connections.1"/>
+          <out endPoint="698" stubExit="//@urndef/@specDiagrams.1/@connections.40"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef83" id="83" x="159" y="193" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.2" pred="//@urndef/@specDiagrams.1/@connections.16" respDef="82">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef91" id="91" x="848" y="241" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.3" pred="//@urndef/@specDiagrams.1/@connections.27" respDef="90">
+        <label deltaX="34" deltaY="6"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef97" id="97" x="131" y="266" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.4" pred="//@urndef/@specDiagrams.1/@connections.29" respDef="96">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef103" id="103" x="863" y="330" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.5" pred="//@urndef/@specDiagrams.1/@connections.28" respDef="102">
+        <label deltaX="3" deltaY="3"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef109" id="109" x="142" y="352" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.6" pred="//@urndef/@specDiagrams.1/@connections.36" respDef="108">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef113" id="113" x="805" y="397" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.7" pred="//@urndef/@specDiagrams.1/@connections.39" respDef="112">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef123" id="123" x="168" y="429" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.8" pred="//@urndef/@specDiagrams.1/@connections.37" respDef="122">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef129" id="129" x="71" y="489" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.9" pred="//@urndef/@specDiagrams.1/@connections.8" respDef="128">
+        <label deltaX="-78" deltaY="-18"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef133" id="133" x="169" y="530" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.10" pred="//@urndef/@specDiagrams.1/@connections.9" respDef="132">
+        <label deltaX="18" deltaY="-45"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="UC1.12 prime" id="136" description="Clinician primes pump" x="695" y="568" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.11 //@urndef/@specDiagrams.1/@connections.45" pred="//@urndef/@specDiagrams.1/@connections.38">
+        <label deltaX="75" deltaY="-20"/>
+        <bindings plugin="1775">
+          <in startPoint="1776" stubEntry="//@urndef/@specDiagrams.1/@connections.38"/>
+          <out endPoint="1778" stubExit="//@urndef/@specDiagrams.1/@connections.11"/>
+          <out endPoint="1808" stubExit="//@urndef/@specDiagrams.1/@connections.45"/>
+          <precondition label="UC1.12" expression="true" description=""/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef141" id="141" x="169" y="602" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.12" pred="//@urndef/@specDiagrams.1/@connections.11" respDef="140">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef145" id="145" x="186" y="689" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.13" pred="//@urndef/@specDiagrams.1/@connections.53" respDef="144">
+        <label deltaX="30" deltaY="-34"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="UC1.9 drug library check" id="639" x="688" y="457" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.14 //@urndef/@specDiagrams.1/@connections.44" pred="//@urndef/@specDiagrams.1/@connections.32">
+        <label/>
+        <bindings plugin="632">
+          <in startPoint="634" stubEntry="//@urndef/@specDiagrams.1/@connections.32"/>
+          <out endPoint="635" stubExit="//@urndef/@specDiagrams.1/@connections.14"/>
+          <out endPoint="2374" stubExit="//@urndef/@specDiagrams.1/@connections.44"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="UC1.2 confirm audio" id="707" x="833" y="183" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.15 //@urndef/@specDiagrams.1/@connections.42" pred="//@urndef/@specDiagrams.1/@connections.47">
+        <label/>
+        <bindings plugin="700">
+          <in startPoint="702" stubEntry="//@urndef/@specDiagrams.1/@connections.47"/>
+          <out endPoint="703" stubExit="//@urndef/@specDiagrams.1/@connections.15"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef767" id="767" x="655" y="188" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.16" pred="//@urndef/@specDiagrams.1/@connections.15" respDef="766">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef769" id="769" x="649" y="271" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.17" pred="//@urndef/@specDiagrams.1/@connections.26" respDef="768">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="Clinician Authenticated?" id="783" x="911" y="262" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.18 //@urndef/@specDiagrams.1/@connections.19" pred="//@urndef/@specDiagrams.1/@connections.3"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="Initialization Failure" id="785" x="1305" y="192" pred="//@urndef/@specDiagrams.1/@connections.24" outBindings="//@urndef/@specDiagrams.0/@nodes.2/@bindings.0/@out.1" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.2/@endPoints.0">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="!clinician_authentic or !patient_authentic or !Rx_authentic or !hard_ok&#xA;or (soft_limit and !approve_soft_limit) or POSTfail or AudioFail or !primed" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef792" id="792" x="1038" y="247" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.20" pred="//@urndef/@specDiagrams.1/@connections.19" respDef="791">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork815" id="815" x="880" y="347" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.21 //@urndef/@specDiagrams.1/@connections.22" pred="//@urndef/@specDiagrams.1/@connections.5"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef840" id="840" x="1006" y="339" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.23" pred="//@urndef/@specDiagrams.1/@connections.22" respDef="839">
+        <label deltaX="-45" deltaY="-52"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="AuthenticationFailureJoin" id="879" x="1213" y="203" succ="//@urndef/@specDiagrams.1/@connections.24" pred="//@urndef/@specDiagrams.1/@connections.20 //@urndef/@specDiagrams.1/@connections.25 //@urndef/@specDiagrams.1/@connections.35 //@urndef/@specDiagrams.1/@connections.48 //@urndef/@specDiagrams.1/@connections.43 //@urndef/@specDiagrams.1/@connections.41 //@urndef/@specDiagrams.1/@connections.49"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow881" id="881" x="1111" y="298" contRef="49" succ="//@urndef/@specDiagrams.1/@connections.25" pred="//@urndef/@specDiagrams.1/@connections.23"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow886" id="886" x="865" y="282" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.26" pred="//@urndef/@specDiagrams.1/@connections.18"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow888" id="888" x="432" y="219" succ="//@urndef/@specDiagrams.1/@connections.27" pred="//@urndef/@specDiagrams.1/@connections.2"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow891" id="891" x="457" y="300" succ="//@urndef/@specDiagrams.1/@connections.28" pred="//@urndef/@specDiagrams.1/@connections.4"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow892" id="892" x="444" y="265" succ="//@urndef/@specDiagrams.1/@connections.29" pred="//@urndef/@specDiagrams.1/@connections.17"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow893" id="893" x="429" y="85" succ="//@urndef/@specDiagrams.1/@connections.30" pred="//@urndef/@specDiagrams.1/@connections.0"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef896" id="896" x="643" y="357" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.31" pred="//@urndef/@specDiagrams.1/@connections.21" respDef="895">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork907" id="907" x="900" y="427" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.32 //@urndef/@specDiagrams.1/@connections.33" pred="//@urndef/@specDiagrams.1/@connections.7"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef912" id="912" x="989" y="455" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.34" pred="//@urndef/@specDiagrams.1/@connections.33" respDef="911">
+        <label deltaX="-32" deltaY="-52"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow917" id="917" x="1199" y="389" succ="//@urndef/@specDiagrams.1/@connections.35" pred="//@urndef/@specDiagrams.1/@connections.34"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow1735" id="1735" x="433" y="353" succ="//@urndef/@specDiagrams.1/@connections.36" pred="//@urndef/@specDiagrams.1/@connections.31"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow1736" id="1736" x="428" y="440" succ="//@urndef/@specDiagrams.1/@connections.37" pred="//@urndef/@specDiagrams.1/@connections.14"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow1738" id="1738" x="433" y="523" succ="//@urndef/@specDiagrams.1/@connections.38" pred="//@urndef/@specDiagrams.1/@connections.10"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow1739" id="1739" x="442" y="373" succ="//@urndef/@specDiagrams.1/@connections.39" pred="//@urndef/@specDiagrams.1/@connections.6"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2198" id="2198" x="962" y="115" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.41" pred="//@urndef/@specDiagrams.1/@connections.40" respDef="2197">
+        <label deltaX="-65" deltaY="-4"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2235" id="2235" x="989" y="182" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.43" pred="//@urndef/@specDiagrams.1/@connections.42" respDef="2234">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2251" id="2251" x="819" y="609" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.46" pred="//@urndef/@specDiagrams.1/@connections.45" respDef="2250">
+        <label deltaX="-101" deltaY="-10"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2300" id="2300" x="798" y="144" contRef="53" succ="//@urndef/@specDiagrams.1/@connections.47" pred="//@urndef/@specDiagrams.1/@connections.1"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2579" id="2579" x="1241" y="541" succ="//@urndef/@specDiagrams.1/@connections.48" pred="//@urndef/@specDiagrams.1/@connections.44" respDef="2578">
+        <label deltaX="51" deltaY="-54"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2583" id="2583" x="1306" y="601" succ="//@urndef/@specDiagrams.1/@connections.49" pred="//@urndef/@specDiagrams.1/@connections.46"/>
+      <nodes xsi:type="ucm.map:StartPoint" name="UC1.20 resume after stop" id="3413" x="343" y="632" succ="//@urndef/@specDiagrams.1/@connections.50">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin3434" id="3434" x="93" y="658" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.51" pred="//@urndef/@specDiagrams.1/@connections.12 //@urndef/@specDiagrams.1/@connections.52"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow3436" id="3436" x="210" y="632" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.52" pred="//@urndef/@specDiagrams.1/@connections.50"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow3439" id="3439" x="139" y="677" contRef="41" succ="//@urndef/@specDiagrams.1/@connections.53" pred="//@urndef/@specDiagrams.1/@connections.51"/>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef41" id="41" x="50" y="44" width="186" height="680" contDef="40" nodes="83 97 109 123 129 133 145 141 3434 3436 3439">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef49" id="49" x="488" y="27" width="690" height="699" contDef="48" nodes="881" children="53">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef53" id="53" x="547" y="55" width="531" height="607" contDef="52" nodes="76 91 103 113 136 639 707 767 769 783 792 815 840 886 896 907 912 2198 2235 2251 2300" parent="49">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="59" target="893"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="76" target="2300" outBindings="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="83" target="888"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="91" target="783"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="97" target="891"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="103" target="815"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="109" target="1739"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="113" target="907"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="123" target="129"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="129" target="133"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="133" target="1738"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="136" target="141" outBindings="//@urndef/@specDiagrams.1/@nodes.12/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="141" target="3434"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="145" target="61"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="639" target="1736" outBindings="//@urndef/@specDiagrams.1/@nodes.15/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="707" target="767" outBindings="//@urndef/@specDiagrams.1/@nodes.16/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="767" target="83"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="769" target="892"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="783" target="886">
+        <condition label="" expression="clinician_authentic" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="783" target="792">
+        <condition label="fail" expression="!clinician_authentic" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="792" target="879"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="815" target="896">
+        <condition label="" expression="patient_authentic" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="815" target="840">
+        <condition deltaX="14" deltaY="26" label="fail" expression="!patient_authentic" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="840" target="881"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="879" target="785"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="881" target="879"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="886" target="769"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="888" target="91"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="891" target="103"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="892" target="97"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="893" target="76" inBindings="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="896" target="1735"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="907" target="639" inBindings="//@urndef/@specDiagrams.1/@nodes.15/@bindings.0/@in.0">
+        <condition label="" expression="Rx_authentic" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="907" target="912">
+        <condition deltaX="7" deltaY="26" label="fail" expression="!Rx_authentic" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="912" target="917"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="917" target="879"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1735" target="109"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1736" target="123"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1738" target="136" inBindings="//@urndef/@specDiagrams.1/@nodes.12/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1739" target="113"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="76" target="2198" outBindings="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2198" target="879"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="707" target="2235"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2235" target="879"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="639" target="2579" outBindings="//@urndef/@specDiagrams.1/@nodes.15/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="136" target="2251" outBindings="//@urndef/@specDiagrams.1/@nodes.12/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2251" target="2583"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2300" target="707" inBindings="//@urndef/@specDiagrams.1/@nodes.16/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2579" target="879"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2583" target="879"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3413" target="3436"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3434" target="3439"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3436" target="3434"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3439" target="145"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="terminate" id="39" description="use case 1 normal termination" parentStub="//@urndef/@specDiagrams.0/@nodes.4/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="from UC1.16" id="162" description="normal termination" x="257" y="228" succ="//@urndef/@specDiagrams.2/@connections.0" inBindings="//@urndef/@specDiagrams.0/@nodes.4/@bindings.0/@in.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.3/@startPoints.0">
+        <label deltaX="-57" deltaY="-44"/>
+        <precondition deltaX="105" deltaY="-17" label="" expression="stop_button" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="end UC1" id="164" x="515" y="231" pred="//@urndef/@specDiagrams.2/@connections.2" outBindings="//@urndef/@specDiagrams.0/@nodes.4/@bindings.0/@out.0" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.3/@endPoints.0">
+        <label deltaX="-17" deltaY="-41"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="Power=off and !needle_in_vein and !vial_inserted and !tube_attached&#xA;and pump_rate=zero" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef191" id="191" x="718" y="97" contRef="3382" succ="//@urndef/@specDiagrams.2/@connections.1" pred="//@urndef/@specDiagrams.2/@connections.4" respDef="190">
+        <label deltaX="-48" deltaY="-5"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef201" id="201" x="734" y="221" contRef="3382" succ="//@urndef/@specDiagrams.2/@connections.2" pred="//@urndef/@specDiagrams.2/@connections.8" respDef="200">
+        <label deltaX="48" deltaY="2"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3384" id="3384" x="204" y="147" contRef="155" succ="//@urndef/@specDiagrams.2/@connections.3" pred="//@urndef/@specDiagrams.2/@connections.0" respDef="3383">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork3516" id="3516" x="612" y="85" succ="//@urndef/@specDiagrams.2/@connections.4 //@urndef/@specDiagrams.2/@connections.5" pred="//@urndef/@specDiagrams.2/@connections.7"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="UC7 Resume After Stop" id="3518" x="729" y="29" pred="//@urndef/@specDiagrams.2/@connections.6" outBindings="//@urndef/@specDiagrams.0/@nodes.4/@bindings.0/@out.1">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="pump_rate=zero" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow3519" id="3519" x="623" y="26" succ="//@urndef/@specDiagrams.2/@connections.6" pred="//@urndef/@specDiagrams.2/@connections.5"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6009" id="6009" x="366" y="76" contRef="155" succ="//@urndef/@specDiagrams.2/@connections.7" pred="//@urndef/@specDiagrams.2/@connections.3" respDef="6008">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="UC1.18 Flush" id="6021" x="802" y="160" contRef="3382" succ="//@urndef/@specDiagrams.2/@connections.8" pred="//@urndef/@specDiagrams.2/@connections.1">
+        <label deltaX="76" deltaY="-5"/>
+        <bindings plugin="6014">
+          <in startPoint="6016" stubEntry="//@urndef/@specDiagrams.2/@connections.1"/>
+          <out endPoint="6017" stubExit="//@urndef/@specDiagrams.2/@connections.8"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef155" id="155" x="122" y="32" width="454" height="155" contDef="48" nodes="3384 6009">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef3382" id="3382" x="633" y="68" width="212" height="191" contDef="40" nodes="201 191 6021">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="162" target="3384"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="191" target="6021" inBindings="//@urndef/@specDiagrams.2/@nodes.9/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="201" target="164"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3384" target="6009"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3516" target="191">
+        <condition label="" expression="!resume_infusion" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="3516" target="3519">
+        <condition label="" expression="resume_infusion" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="3519" target="3518"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6009" target="3516"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6021" target="201" outBindings="//@urndef/@specDiagrams.2/@nodes.9/@bindings.0/@out.0"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="operate" id="204" description="use case 1 step 15" parentStub="//@urndef/@specDiagrams.0/@nodes.3/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="initialize finished" id="205" description="Begin basal-rate infusion" x="-49" y="275" succ="//@urndef/@specDiagrams.3/@connections.0" inBindings="//@urndef/@specDiagrams.0/@nodes.3/@bindings.0/@in.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.0/@startPoints.0 //@ucmspec/@scenarioGroups.0/@scenarios.5/@startPoints.0 //@ucmspec/@scenarioGroups.0/@scenarios.6/@startPoints.0">
+        <label/>
+        <precondition deltaX="21" deltaY="-49" label="begin operating" expression="Power=On and not POSTfail and not AudioFail and Rx_ok and &#xA;clinician_ok and door=Closed and hard_ok and needle_in_vein and&#xA;patient_ok and phase=Operating and primed and tube_attached and &#xA;vial_inserted and pump_rate=basal" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="UC1.16-19" id="207" description="stop button pressed" x="429" y="248" pred="//@urndef/@specDiagrams.3/@connections.1" outBindings="//@urndef/@specDiagrams.0/@nodes.3/@bindings.0/@out.0" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.0/@endPoints.0 //@ucmspec/@scenarioGroups.0/@scenarios.5/@endPoints.0 //@ucmspec/@scenarioGroups.0/@scenarios.6/@endPoints.0">
+        <label deltaX="31" deltaY="-2"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="stop_button" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="press stop button" id="217" description="Clinician presses Stop button to halt infusion" x="462" y="342" succ="//@urndef/@specDiagrams.3/@connections.1 //@urndef/@specDiagrams.3/@connections.2" pred="//@urndef/@specDiagrams.3/@connections.26"/>
+      <nodes xsi:type="ucm.map:OrFork" name="press patient button" id="229" x="551" y="104" succ="//@urndef/@specDiagrams.3/@connections.3 //@urndef/@specDiagrams.3/@connections.4" pred="//@urndef/@specDiagrams.3/@connections.27"/>
+      <nodes xsi:type="ucm.map:Stub" name="UC2 patient bolus" id="240" description="Patient-Requested Bolus (UC2)" x="144" y="140" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.5 //@urndef/@specDiagrams.3/@connections.35" pred="//@urndef/@specDiagrams.3/@connections.28">
+        <label/>
+        <bindings plugin="341">
+          <in startPoint="342" stubEntry="//@urndef/@specDiagrams.3/@connections.28"/>
+          <out endPoint="344" stubExit="//@urndef/@specDiagrams.3/@connections.5"/>
+          <out endPoint="3550" stubExit="//@urndef/@specDiagrams.3/@connections.35"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin254" id="254" x="50" y="270" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.6" pred="//@urndef/@specDiagrams.3/@connections.32 //@urndef/@specDiagrams.3/@connections.11 //@urndef/@specDiagrams.3/@connections.10 //@urndef/@specDiagrams.3/@connections.19 //@urndef/@specDiagrams.3/@connections.16"/>
+      <nodes xsi:type="ucm.map:OrFork" name="clinician bolus" id="263" description="May be button on control panel, or authenticated transaction" x="650" y="380" succ="//@urndef/@specDiagrams.3/@connections.7 //@urndef/@specDiagrams.3/@connections.8" pred="//@urndef/@specDiagrams.3/@connections.29"/>
+      <nodes xsi:type="ucm.map:Stub" name="UC3 clinician bolus" id="275" description="Clinician-Requested Bolus (UC3)" x="149" y="427" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.9 //@urndef/@specDiagrams.3/@connections.33" pred="//@urndef/@specDiagrams.3/@connections.20">
+        <label deltaX="35" deltaY="-42"/>
+        <bindings plugin="377">
+          <in startPoint="432" stubEntry="//@urndef/@specDiagrams.3/@connections.20"/>
+          <out endPoint="434" stubExit="//@urndef/@specDiagrams.3/@connections.9"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow278" id="278" x="58" y="392" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.10" pred="//@urndef/@specDiagrams.3/@connections.9"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow279" id="279" x="71" y="176" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.11" pred="//@urndef/@specDiagrams.3/@connections.5"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef305" id="305" x="144" y="81" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.12" pred="//@urndef/@specDiagrams.3/@connections.18" respDef="304">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="error occurs" id="313" x="304" y="267" contRef="399" succ="//@urndef/@specDiagrams.3/@connections.13 //@urndef/@specDiagrams.3/@connections.14" pred="//@urndef/@specDiagrams.3/@connections.25"/>
+      <nodes xsi:type="ucm.map:Stub" name="exception" id="327" x="143" y="298" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.15 //@urndef/@specDiagrams.3/@connections.31" pred="//@urndef/@specDiagrams.3/@connections.34">
+        <label deltaX="-1" deltaY="4"/>
+        <bindings plugin="4888">
+          <in startPoint="4889" stubEntry="//@urndef/@specDiagrams.3/@connections.34"/>
+          <out endPoint="4891" stubExit="//@urndef/@specDiagrams.3/@connections.15"/>
+          <out endPoint="4915" stubExit="//@urndef/@specDiagrams.3/@connections.31"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow329" id="329" x="84" y="299" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.16" pred="//@urndef/@specDiagrams.3/@connections.15"/>
+      <nodes xsi:type="ucm.map:WaitingPlace" name="pump basal rate" id="339" description="PCA pumps usually flow at basal rate.  Change if:  patient button, clinician bolus request, stop button, or detected error." x="134" y="236" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.17" pred="//@urndef/@specDiagrams.3/@connections.6">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow405" id="405" x="609" y="82" succ="//@urndef/@specDiagrams.3/@connections.18" pred="//@urndef/@specDiagrams.3/@connections.7"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow411" id="411" x="47" y="141" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.19" pred="//@urndef/@specDiagrams.3/@connections.12"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="xyz" id="420" description="ccc" x="506" y="573" succ="//@urndef/@specDiagrams.3/@connections.20" pred="//@urndef/@specDiagrams.3/@connections.22"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow424" id="424" x="239" y="316" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.21" pred="//@urndef/@specDiagrams.3/@connections.14"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow426" id="426" x="682" y="446" succ="//@urndef/@specDiagrams.3/@connections.22" pred="//@urndef/@specDiagrams.3/@connections.8"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow746" id="746" x="355" y="319" succ="//@urndef/@specDiagrams.3/@connections.23" pred="//@urndef/@specDiagrams.3/@connections.13"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow747" id="747" x="487" y="295" succ="//@urndef/@specDiagrams.3/@connections.24" pred="//@urndef/@specDiagrams.3/@connections.2"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1947" id="1947" x="256" y="227" contRef="399" succ="//@urndef/@specDiagrams.3/@connections.25" pred="//@urndef/@specDiagrams.3/@connections.17" respDef="1946">
+        <label deltaX="-9" deltaY="2"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1965" id="1965" x="401" y="470" contRef="392" succ="//@urndef/@specDiagrams.3/@connections.26" pred="//@urndef/@specDiagrams.3/@connections.23" respDef="1964">
+        <label deltaX="-35" deltaY="-48"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1982" id="1982" x="461" y="182" contRef="379" succ="//@urndef/@specDiagrams.3/@connections.27" pred="//@urndef/@specDiagrams.3/@connections.24" respDef="382">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow1983" id="1983" x="355" y="98" succ="//@urndef/@specDiagrams.3/@connections.28" pred="//@urndef/@specDiagrams.3/@connections.4"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1987" id="1987" x="545" y="408" contRef="392" succ="//@urndef/@specDiagrams.3/@connections.29" pred="//@urndef/@specDiagrams.3/@connections.30" respDef="393">
+        <label deltaX="48" deltaY="-71"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow1988" id="1988" x="608" y="271" succ="//@urndef/@specDiagrams.3/@connections.30" pred="//@urndef/@specDiagrams.3/@connections.3"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="Error Stop" id="2615" x="138" y="336" contRef="1835" pred="//@urndef/@specDiagrams.3/@connections.31" outBindings="//@urndef/@specDiagrams.0/@nodes.3/@bindings.0/@out.1">
+        <label deltaX="1" deltaY="-42"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2624" id="2624" x="-7" y="272" succ="//@urndef/@specDiagrams.3/@connections.32" pred="//@urndef/@specDiagrams.3/@connections.0"/>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin3613" id="3613" x="169" y="303" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.34" pred="//@urndef/@specDiagrams.3/@connections.21 //@urndef/@specDiagrams.3/@connections.36 //@urndef/@specDiagrams.3/@connections.37"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow3648" id="3648" x="184" y="361" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.36" pred="//@urndef/@specDiagrams.3/@connections.33"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow3650" id="3650" x="199" y="258" contRef="1835" succ="//@urndef/@specDiagrams.3/@connections.37" pred="//@urndef/@specDiagrams.3/@connections.35"/>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef379" id="379" x="366" y="142" width="171" height="64" contDef="44" nodes="1982">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef392" id="392" x="348" y="380" width="279" height="137" contDef="40" nodes="1965 1987">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef399" id="399" x="23" y="25" width="294" height="459" contDef="48" nodes="313 1947" children="1835">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1835" id="1835" x="40" y="49" width="201" height="409" contDef="1834" nodes="327 305 329 279 240 275 254 339 411 424 278 2615 3613 3648 3650" parent="399">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="205" target="2624"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="217" target="207">
+        <condition deltaX="65" deltaY="18" label="stop button" expression="stop_button" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="217" target="747">
+        <condition label="" expression="!stop_button" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="229" target="1988">
+        <condition label="" expression="!patient_bolus_request" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="229" target="1983">
+        <condition deltaX="24" deltaY="20" label="patient button" expression="patient_bolus_request" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="240" target="279" outBindings="//@urndef/@specDiagrams.3/@nodes.4/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="254" target="339"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="263" target="405">
+        <condition deltaX="135" deltaY="188" label="continue basal" expression="!clinician_bolus_request" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="263" target="426">
+        <condition deltaX="225" deltaY="-121" label="clinician bolus request" expression="clinician_bolus_request" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="275" target="278" outBindings="//@urndef/@specDiagrams.3/@nodes.7/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="278" target="254"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="279" target="254"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="305" target="411"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="313" target="746">
+        <condition deltaX="5" deltaY="14" label="no error" expression="!error_detected" description="no error"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="313" target="424">
+        <condition deltaX="47" deltaY="-21" label="detected error" expression="error_detected" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="327" target="329" outBindings="//@urndef/@specDiagrams.3/@nodes.12/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="329" target="254"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="339" target="1947">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="405" target="305"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="411" target="254"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="420" target="275" inBindings="//@urndef/@specDiagrams.3/@nodes.7/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="424" target="3613"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="426" target="420"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="746" target="1965"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="747" target="1982"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1947" target="313"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1965" target="217"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1982" target="229"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1983" target="240" inBindings="//@urndef/@specDiagrams.3/@nodes.4/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1987" target="263"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1988" target="1987"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="327" target="2615" outBindings="//@urndef/@specDiagrams.3/@nodes.12/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2624" target="254"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="275" target="3648"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3613" target="327" inBindings="//@urndef/@specDiagrams.3/@nodes.12/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="240" target="3650" outBindings="//@urndef/@specDiagrams.3/@nodes.4/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3648" target="3613"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3650" target="3613"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="exception" id="4888" parentStub="//@urndef/@specDiagrams.3/@nodes.12/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="error detected" id="4889" x="37" y="247" succ="//@urndef/@specDiagrams.4/@connections.0" inBindings="//@urndef/@specDiagrams.3/@nodes.12/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Resume Infusion" id="4891" x="990" y="466" pred="//@urndef/@specDiagrams.4/@connections.9" outBindings="//@urndef/@specDiagrams.3/@nodes.12/@bindings.0/@out.0">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="UC4-5 Externally-Detected Hazard" id="4911" x="427" y="319" succ="//@urndef/@specDiagrams.4/@connections.1 //@urndef/@specDiagrams.4/@connections.2" pred="//@urndef/@specDiagrams.4/@connections.3">
+        <label deltaX="-17" deltaY="9"/>
+        <bindings plugin="491">
+          <in startPoint="3670" stubEntry="//@urndef/@specDiagrams.4/@connections.3"/>
+          <out endPoint="509" stubExit="//@urndef/@specDiagrams.4/@connections.1"/>
+          <out endPoint="2628" stubExit="//@urndef/@specDiagrams.4/@connections.2"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="error halt" id="4915" x="1084" y="331" pred="//@urndef/@specDiagrams.4/@connections.6" outBindings="//@urndef/@specDiagrams.3/@nodes.12/@bindings.0/@out.1">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork4916" id="4916" x="204" y="251" succ="//@urndef/@specDiagrams.4/@connections.3 //@urndef/@specDiagrams.4/@connections.4 //@urndef/@specDiagrams.4/@connections.7 //@urndef/@specDiagrams.4/@connections.10 //@urndef/@specDiagrams.4/@connections.12 //@urndef/@specDiagrams.4/@connections.14 //@urndef/@specDiagrams.4/@connections.16 //@urndef/@specDiagrams.4/@connections.18 //@urndef/@specDiagrams.4/@connections.20 //@urndef/@specDiagrams.4/@connections.22" pred="//@urndef/@specDiagrams.4/@connections.0"/>
+      <nodes xsi:type="ucm.map:Stub" name="EC7 Over-Flow Rate" id="4920" x="581" y="253" succ="//@urndef/@specDiagrams.4/@connections.5" pred="//@urndef/@specDiagrams.4/@connections.4">
+        <label/>
+        <bindings plugin="4990">
+          <in startPoint="4992" stubEntry="//@urndef/@specDiagrams.4/@connections.4"/>
+          <out endPoint="4993" stubExit="//@urndef/@specDiagrams.4/@connections.5"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin4978" id="4978" x="900" y="269" succ="//@urndef/@specDiagrams.4/@connections.6" pred="//@urndef/@specDiagrams.4/@connections.2 //@urndef/@specDiagrams.4/@connections.5 //@urndef/@specDiagrams.4/@connections.11 //@urndef/@specDiagrams.4/@connections.13 //@urndef/@specDiagrams.4/@connections.15 //@urndef/@specDiagrams.4/@connections.17 //@urndef/@specDiagrams.4/@connections.23"/>
+      <nodes xsi:type="ucm.map:Stub" name="EC8 Under-Flow Rate" id="4997" x="310" y="375" succ="//@urndef/@specDiagrams.4/@connections.8" pred="//@urndef/@specDiagrams.4/@connections.7">
+        <label deltaX="-34" deltaY="8"/>
+        <bindings plugin="5056">
+          <in startPoint="5058" stubEntry="//@urndef/@specDiagrams.4/@connections.7"/>
+          <out endPoint="5059" stubExit="//@urndef/@specDiagrams.4/@connections.8"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin5053" id="5053" x="811" y="389" succ="//@urndef/@specDiagrams.4/@connections.9" pred="//@urndef/@specDiagrams.4/@connections.1 //@urndef/@specDiagrams.4/@connections.8 //@urndef/@specDiagrams.4/@connections.19 //@urndef/@specDiagrams.4/@connections.21"/>
+      <nodes xsi:type="ucm.map:Stub" name="EC9 Pump Overheating" id="5063" x="489" y="200" succ="//@urndef/@specDiagrams.4/@connections.11" pred="//@urndef/@specDiagrams.4/@connections.10">
+        <label/>
+        <bindings plugin="5056">
+          <in startPoint="5058" stubEntry="//@urndef/@specDiagrams.4/@connections.10"/>
+          <out endPoint="5059" stubExit="//@urndef/@specDiagrams.4/@connections.11"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="EC10 Downstream Occlusion" id="5079" x="461" y="145" succ="//@urndef/@specDiagrams.4/@connections.13" pred="//@urndef/@specDiagrams.4/@connections.12">
+        <label/>
+        <bindings plugin="5072">
+          <in startPoint="5074" stubEntry="//@urndef/@specDiagrams.4/@connections.12"/>
+          <out endPoint="5075" stubExit="//@urndef/@specDiagrams.4/@connections.13"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="EC11 Upstream Occlusion" id="5095" x="448" y="78" succ="//@urndef/@specDiagrams.4/@connections.15" pred="//@urndef/@specDiagrams.4/@connections.14">
+        <label/>
+        <bindings plugin="5088">
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="EC12 Air-in-line" id="5113" x="430" y="8" succ="//@urndef/@specDiagrams.4/@connections.17" pred="//@urndef/@specDiagrams.4/@connections.16">
+        <label/>
+        <bindings plugin="5106">
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="EC18 Network Failure" id="5131" x="289" y="525" succ="//@urndef/@specDiagrams.4/@connections.19" pred="//@urndef/@specDiagrams.4/@connections.18">
+        <label deltaX="-31" deltaY="9"/>
+        <bindings plugin="5124">
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="EC20 Reservoir Low" id="5157" x="297" y="457" succ="//@urndef/@specDiagrams.4/@connections.21" pred="//@urndef/@specDiagrams.4/@connections.20">
+        <label deltaX="-53" deltaY="8"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="EC21 Reservoir Empty" id="5175" x="433" y="-55" succ="//@urndef/@specDiagrams.4/@connections.23" pred="//@urndef/@specDiagrams.4/@connections.22">
+        <label/>
+      </nodes>
+      <connections xsi:type="ucm.map:NodeConnection" source="4889" target="4916"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4911" target="5053" outBindings="//@urndef/@specDiagrams.4/@nodes.2/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4911" target="4978" outBindings="//@urndef/@specDiagrams.4/@nodes.2/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="4911" inBindings="//@urndef/@specDiagrams.4/@nodes.2/@bindings.0/@in.0">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="4920" inBindings="//@urndef/@specDiagrams.4/@nodes.5/@bindings.0/@in.0">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="4920" target="4978" outBindings="//@urndef/@specDiagrams.4/@nodes.5/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4978" target="4915"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="4997" inBindings="//@urndef/@specDiagrams.4/@nodes.7/@bindings.0/@in.0">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="4997" target="5053" outBindings="//@urndef/@specDiagrams.4/@nodes.7/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5053" target="4891"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="5063" inBindings="//@urndef/@specDiagrams.4/@nodes.9/@bindings.0/@in.0">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5063" target="4978" outBindings="//@urndef/@specDiagrams.4/@nodes.9/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="5079" inBindings="//@urndef/@specDiagrams.4/@nodes.10/@bindings.0/@in.0">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5079" target="4978" outBindings="//@urndef/@specDiagrams.4/@nodes.10/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="5095">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5095" target="4978"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="5113">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5113" target="4978"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="5131">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5131" target="5053"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="5157">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5157" target="5053"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4916" target="5175">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5175" target="4978"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UC1.2" id="700" description="confirm audio" parentStub="//@urndef/@specDiagrams.1/@nodes.16/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="UC1.2start" id="702" x="81" y="96" succ="//@urndef/@specDiagrams.5/@connections.0" inBindings="//@urndef/@specDiagrams.1/@nodes.16/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="14" deltaY="-49" label="POST passed" expression="not POSTfail and Power=On and pump_rate=zero" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="UC1.2end" id="703" description="audio test passed" x="711" y="247" pred="//@urndef/@specDiagrams.5/@connections.1" outBindings="//@urndef/@specDiagrams.1/@nodes.16/@bindings.0/@out.0">
+        <label deltaX="-49" deltaY="-24"/>
+        <postcondition deltaX="-29" deltaY="-56" label="audio test passed" expression="not AudioFail and not POSTfail and Power=On and &#xA;pump_rate=zero" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork728" id="728" x="769" y="121" succ="//@urndef/@specDiagrams.5/@connections.1 //@urndef/@specDiagrams.5/@connections.2" pred="//@urndef/@specDiagrams.5/@connections.9"/>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork740" id="740" x="365" y="93" succ="//@urndef/@specDiagrams.5/@connections.3 //@urndef/@specDiagrams.5/@connections.4" pred="//@urndef/@specDiagrams.5/@connections.10"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="Sound Failure" id="742" x="426" y="328" pred="//@urndef/@specDiagrams.5/@connections.11">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow744" id="744" x="420" y="227" succ="//@urndef/@specDiagrams.5/@connections.5" pred="//@urndef/@specDiagrams.5/@connections.4"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef755" id="755" x="190" y="139" succ="//@urndef/@specDiagrams.5/@connections.6" pred="//@urndef/@specDiagrams.5/@connections.0" respDef="754">
+        <label deltaX="-4" deltaY="-48"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1860" id="1860" x="606" y="116" succ="//@urndef/@specDiagrams.5/@connections.7" pred="//@urndef/@specDiagrams.5/@connections.8" respDef="1859">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Timer" name="wait half-second" id="1863" x="524" y="118" succ="//@urndef/@specDiagrams.5/@connections.8" pred="//@urndef/@specDiagrams.5/@connections.3">
+        <label deltaX="-1" deltaY="-42"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1880" id="1880" x="724" y="74" succ="//@urndef/@specDiagrams.5/@connections.9" pred="//@urndef/@specDiagrams.5/@connections.7" respDef="78">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1891" id="1891" x="280" y="115" succ="//@urndef/@specDiagrams.5/@connections.10" pred="//@urndef/@specDiagrams.5/@connections.6" respDef="716">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin2330" id="2330" x="424" y="245" succ="//@urndef/@specDiagrams.5/@connections.11" pred="//@urndef/@specDiagrams.5/@connections.5 //@urndef/@specDiagrams.5/@connections.12"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2331" id="2331" x="596" y="181" succ="//@urndef/@specDiagrams.5/@connections.12" pred="//@urndef/@specDiagrams.5/@connections.2"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="702" target="755"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="728" target="703">
+        <condition label="ping heard and acknowledged" expression="PingHeard" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="728" target="2331">
+        <condition deltaX="-7" deltaY="45" label="not heard" expression="AudioFail" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="740" target="1863">
+        <condition deltaX="52" deltaY="28" label="make ping" expression="sound_made" description="pump made ping sound"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="740" target="744">
+        <condition deltaX="69" label="no sound" expression="!sound_made" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="744" target="2330"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="755" target="1891"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1860" target="1880"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1863" target="1860">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="1880" target="728"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1891" target="740"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2330" target="742"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2331" target="2330"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UC1.9" id="632" description="PCA pump compares prescription with its drug library (Exception Cases: Drug Library Soft Limit and Drug Library Hard Limit)" parentStub="//@urndef/@specDiagrams.1/@nodes.15/@bindings.0">
+      <nodes xsi:type="ucm.map:EndPoint" name="Rx okay" id="635" x="705" y="444" pred="//@urndef/@specDiagrams.6/@connections.19" outBindings="//@urndef/@specDiagrams.1/@nodes.15/@bindings.0/@out.0">
+        <label deltaX="48" deltaY="2"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:StartPoint" name="UC1.9 check library" id="634" x="448" y="229" succ="//@urndef/@specDiagrams.6/@connections.0" inBindings="//@urndef/@specDiagrams.1/@nodes.15/@bindings.0/@in.0">
+        <label deltaX="-1" deltaY="-39"/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="EC2 soft limit" id="646" x="744" y="340" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.1 //@urndef/@specDiagrams.6/@connections.4" pred="//@urndef/@specDiagrams.6/@connections.17">
+        <label deltaX="-60" deltaY="-35"/>
+        <bindings plugin="650">
+          <in startPoint="652" stubEntry="//@urndef/@specDiagrams.6/@connections.17"/>
+          <out endPoint="654" stubExit="//@urndef/@specDiagrams.6/@connections.1"/>
+          <out endPoint="942" stubExit="//@urndef/@specDiagrams.6/@connections.4"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="EC3 hard limit" id="648" x="658" y="304" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.2 //@urndef/@specDiagrams.6/@connections.3" pred="//@urndef/@specDiagrams.6/@connections.14">
+        <label deltaX="-63" deltaY="-26"/>
+        <bindings plugin="651">
+          <in startPoint="1012" stubEntry="//@urndef/@specDiagrams.6/@connections.14"/>
+          <out endPoint="1014" stubExit="//@urndef/@specDiagrams.6/@connections.2"/>
+          <out endPoint="1720" stubExit="//@urndef/@specDiagrams.6/@connections.3"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Hard or Soft Limit or Drug not in  Library" id="2374" x="816" y="117" pred="//@urndef/@specDiagrams.6/@connections.20" outBindings="//@urndef/@specDiagrams.1/@nodes.15/@bindings.0/@out.1">
+        <label deltaX="4" deltaY="-3"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="(!hard_ok or (soft_limit and !approve_soft_limit)) and !Rx_ok" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2545" id="2545" x="818" y="274" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.5" pred="//@urndef/@specDiagrams.6/@connections.18" respDef="2544">
+        <label deltaX="-53" deltaY="-39"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2547" id="2547" x="750" y="221" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.6" pred="//@urndef/@specDiagrams.6/@connections.16" respDef="2546">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin2573" id="2573" x="791" y="218" succ="//@urndef/@specDiagrams.6/@connections.7" pred="//@urndef/@specDiagrams.6/@connections.6 //@urndef/@specDiagrams.6/@connections.5"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5943" id="5943" x="568" y="302" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.8" pred="//@urndef/@specDiagrams.6/@connections.0" respDef="5942">
+        <label deltaX="17" deltaY="-39"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork5966" id="5966" x="653" y="202" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.9 //@urndef/@specDiagrams.6/@connections.10" pred="//@urndef/@specDiagrams.6/@connections.13"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5973" id="5973" x="690" y="178" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.11" pred="//@urndef/@specDiagrams.6/@connections.10" respDef="5972">
+        <label deltaX="7" deltaY="-5"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin5991" id="5991" x="802" y="182" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.12" pred="//@urndef/@specDiagrams.6/@connections.7 //@urndef/@specDiagrams.6/@connections.15"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow5992" id="5992" x="610" y="259" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.13" pred="//@urndef/@specDiagrams.6/@connections.8"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow5994" id="5994" x="648" y="250" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.14" pred="//@urndef/@specDiagrams.6/@connections.9"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow5995" id="5995" x="729" y="178" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.15" pred="//@urndef/@specDiagrams.6/@connections.11"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow5997" id="5997" x="708" y="254" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.16" pred="//@urndef/@specDiagrams.6/@connections.3"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow5998" id="5998" x="703" y="319" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.17" pred="//@urndef/@specDiagrams.6/@connections.2"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow5999" id="5999" x="790" y="302" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.18" pred="//@urndef/@specDiagrams.6/@connections.4"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow6000" id="6000" x="722" y="397" succ="//@urndef/@specDiagrams.6/@connections.19" pred="//@urndef/@specDiagrams.6/@connections.1"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow6001" id="6001" x="807" y="158" contRef="4884" succ="//@urndef/@specDiagrams.6/@connections.20" pred="//@urndef/@specDiagrams.6/@connections.12"/>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef4884" id="4884" x="489" y="142" width="452" height="237" contDef="48" nodes="646 648 5943 5966 5973 2545 2547 5991 5992 5994 5995 5997 5998 5999 6001">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="634" target="5943"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="646" target="6000" outBindings="//@urndef/@specDiagrams.6/@nodes.2/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="648" target="5998" outBindings="//@urndef/@specDiagrams.6/@nodes.3/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="648" target="5997" outBindings="//@urndef/@specDiagrams.6/@nodes.3/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="646" target="5999" outBindings="//@urndef/@specDiagrams.6/@nodes.2/@bindings.0/@out.1"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2545" target="2573"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2547" target="2573"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2573" target="5991"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5943" target="5992"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5966" target="5994">
+        <condition label="" expression="true" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5966" target="5973">
+        <condition label="" expression="false" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5973" target="5995"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5991" target="6001"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5992" target="5966"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5994" target="648" inBindings="//@urndef/@specDiagrams.6/@nodes.3/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5995" target="5991"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5997" target="2547"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5998" target="646" inBindings="//@urndef/@specDiagrams.6/@nodes.2/@bindings.0/@in.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5999" target="2545"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6000" target="635"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6001" target="2374"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UC2" id="341" description="Patient-Requested Bolus (UC2)" parentStub="//@urndef/@specDiagrams.3/@nodes.4/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="patent presses button" id="342" description="Patient requested " x="146" y="198" contRef="2135" succ="//@urndef/@specDiagrams.7/@connections.0" inBindings="//@urndef/@specDiagrams.3/@nodes.4/@bindings.0/@in.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.8/@startPoints.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="resume basal rate" id="344" x="601" y="201" contRef="2135" pred="//@urndef/@specDiagrams.7/@connections.6" outBindings="//@urndef/@specDiagrams.3/@nodes.4/@bindings.0/@out.0" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.8/@endPoints.0">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef358" id="358" x="187" y="142" contRef="2135" succ="//@urndef/@specDiagrams.7/@connections.1" pred="//@urndef/@specDiagrams.7/@connections.0" respDef="357">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Timer" name="U2.3 infuse vtbi" id="362" description="If not Exception Case: Bolus Request Too Soon, begin infusing bolus" x="361" y="134" contRef="2135" succ="//@urndef/@specDiagrams.7/@connections.2 //@urndef/@specDiagrams.7/@connections.8" pred="//@urndef/@specDiagrams.7/@connections.4">
+        <label deltaX="-30" deltaY="-38"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef366" id="366" x="552" y="143" contRef="2135" succ="//@urndef/@specDiagrams.7/@connections.3" pred="//@urndef/@specDiagrams.7/@connections.2" respDef="365">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork604" id="604" x="233" y="141" contRef="2135" succ="//@urndef/@specDiagrams.7/@connections.4 //@urndef/@specDiagrams.7/@connections.5" pred="//@urndef/@specDiagrams.7/@connections.1"/>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin619" id="619" x="555" y="191" contRef="2135" succ="//@urndef/@specDiagrams.7/@connections.6" pred="//@urndef/@specDiagrams.7/@connections.3 //@urndef/@specDiagrams.7/@connections.7"/>
+      <nodes xsi:type="ucm.map:Stub" name="EC1 too soon" id="620" x="359" y="197" contRef="2135" succ="//@urndef/@specDiagrams.7/@connections.7" pred="//@urndef/@specDiagrams.7/@connections.5">
+        <label deltaX="-54" deltaY="-40"/>
+        <bindings plugin="523">
+          <in startPoint="524" stubEntry="//@urndef/@specDiagrams.7/@connections.5"/>
+          <out endPoint="526" stubExit="//@urndef/@specDiagrams.7/@connections.7"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="EC13 Maximum Safe Dose" id="3550" x="361" y="80" contRef="429" pred="//@urndef/@specDiagrams.7/@connections.8" outBindings="//@urndef/@specDiagrams.3/@nodes.4/@bindings.0/@out.1">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef429" id="429" x="23" y="47" width="705" height="219" contDef="48" nodes="3550" children="2135">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef2135" id="2135" x="97" y="94" width="545" height="147" contDef="1834" nodes="358 362 366 604 619 620 342 344" parent="429">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="342" target="358"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="358" target="604"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="362" target="366">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="366" target="619"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="604" target="362">
+        <condition deltaX="49" deltaY="20" label="not too soon" expression="!patient_bolus_request_too_soon" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="604" target="620" inBindings="//@urndef/@specDiagrams.7/@nodes.7/@bindings.0/@in.0">
+        <condition deltaX="75" deltaY="10" label="too soon" expression="patient_bolus_request_too_soon" description="patient pressed button before minimum time elapsed"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="619" target="344"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="620" target="619" outBindings="//@urndef/@specDiagrams.7/@nodes.7/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="362" target="3550">
+        <condition label="" expression="false"/>
+      </connections>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UC3" id="377" description="Clinician-Requested Bolus (UC3)" parentStub="//@urndef/@specDiagrams.3/@nodes.7/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="UC3" id="432" description="Clinician requests bolus infusion on Control Panel or ICE supervisor user interface" x="193" y="208" contRef="430" succ="//@urndef/@specDiagrams.8/@connections.0" inBindings="//@urndef/@specDiagrams.3/@nodes.7/@bindings.0/@in.0">
+        <label deltaX="16" deltaY="-45"/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="pump basal rate" id="434" x="688" y="257" contRef="430" pred="//@urndef/@specDiagrams.8/@connections.3" outBindings="//@urndef/@specDiagrams.3/@nodes.7/@bindings.0/@out.0">
+        <label deltaX="9" deltaY="-36"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef447" id="447" x="395" y="194" contRef="430" succ="//@urndef/@specDiagrams.8/@connections.1" pred="//@urndef/@specDiagrams.8/@connections.9" respDef="446">
+        <label deltaX="-10" deltaY="-58"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Timer" name="U3.3 infuse   vtbi over   clinician-selected    duration" id="450" description="begin infusing bolus" x="459" y="144" contRef="430" succ="//@urndef/@specDiagrams.8/@connections.2 //@urndef/@specDiagrams.8/@connections.4" pred="//@urndef/@specDiagrams.8/@connections.1">
+        <label deltaX="-57" deltaY="10"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef453" id="453" x="596" y="224" succ="//@urndef/@specDiagrams.8/@connections.3" pred="//@urndef/@specDiagrams.8/@connections.2" respDef="452">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="EC13 Maximum Safe Dose" id="3548" x="504" y="280" contRef="430" pred="//@urndef/@specDiagrams.8/@connections.4">
+        <label deltaX="7" deltaY="-41"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork5914" id="5914" x="229" y="205" contRef="430" succ="//@urndef/@specDiagrams.8/@connections.5 //@urndef/@specDiagrams.8/@connections.6" pred="//@urndef/@specDiagrams.8/@connections.0"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5919" id="5919" x="253" y="270" contRef="430" succ="//@urndef/@specDiagrams.8/@connections.7" pred="//@urndef/@specDiagrams.8/@connections.6" respDef="5918">
+        <label deltaX="-31" deltaY="-42"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin5931" id="5931" x="291" y="200" contRef="430" succ="//@urndef/@specDiagrams.8/@connections.8" pred="//@urndef/@specDiagrams.8/@connections.5 //@urndef/@specDiagrams.8/@connections.7"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5933" id="5933" x="315" y="198" contRef="430" succ="//@urndef/@specDiagrams.8/@connections.9" pred="//@urndef/@specDiagrams.8/@connections.8" respDef="5932">
+        <label/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef430" id="430" x="155" y="94" width="584" height="232" contDef="48" nodes="434 447 432 3548 5914 5919 5931 5933 450">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="432" target="5914"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="447" target="450"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="450" target="453">
+        <condition label="" expression="true" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="453" target="434"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="450" target="3548">
+        <condition label="max drug in hour" expression="maximum_safe_dose" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5914" target="5931">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5914" target="5919">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5919" target="5931"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5931" target="5933"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5933" target="447"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UC4-5" id="491" description="ICE app detected hazard" parentStub="//@urndef/@specDiagrams.4/@nodes.2/@bindings.0">
+      <nodes xsi:type="ucm.map:EndPoint" name="normal operation" id="509" description="continue or resume normal operation" x="244" y="519" pred="//@urndef/@specDiagrams.9/@connections.15" outBindings="//@urndef/@specDiagrams.4/@nodes.2/@bindings.0/@out.0" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.3/@endPoints.1">
+        <label deltaX="76" deltaY="-9"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="error stop" id="2628" x="854" y="231" pred="//@urndef/@specDiagrams.9/@connections.10" outBindings="//@urndef/@specDiagrams.4/@nodes.2/@bindings.0/@out.1">
+        <label deltaX="-7" deltaY="-45"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:StartPoint" name="UC4.1 detect hazard" id="3670" x="71" y="104" contRef="3666" succ="//@urndef/@specDiagrams.9/@connections.0" inBindings="//@urndef/@specDiagrams.4/@nodes.2/@bindings.0/@in.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.3/@startPoints.1">
+        <label deltaX="-25" deltaY="13"/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3696" id="3696" x="64" y="149" contRef="3666" succ="//@urndef/@specDiagrams.9/@connections.1" pred="//@urndef/@specDiagrams.9/@connections.0" respDef="3695">
+        <label deltaX="-69" deltaY="-33"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3698" id="3698" x="90" y="216" contRef="3666" succ="//@urndef/@specDiagrams.9/@connections.2" pred="//@urndef/@specDiagrams.9/@connections.1" respDef="3697">
+        <label deltaX="-16" deltaY="-53"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3702" id="3702" x="348" y="104" contRef="494" succ="//@urndef/@specDiagrams.9/@connections.3" pred="//@urndef/@specDiagrams.9/@connections.2" respDef="3701">
+        <label deltaX="-49" deltaY="7"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3708" id="3708" x="422" y="156" contRef="494" succ="//@urndef/@specDiagrams.9/@connections.4" pred="//@urndef/@specDiagrams.9/@connections.3" respDef="3707">
+        <label deltaX="-53" deltaY="6"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3712" id="3712" x="450" y="249" contRef="494" succ="//@urndef/@specDiagrams.9/@connections.5" pred="//@urndef/@specDiagrams.9/@connections.4" respDef="3711">
+        <label deltaX="63" deltaY="-12"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:WaitingPlace" name="pump KVO rate" id="3717" description="pump at KVO rate" x="448" y="319" contRef="494" succ="//@urndef/@specDiagrams.9/@connections.6" pred="//@urndef/@specDiagrams.9/@connections.5">
+        <label deltaX="76" deltaY="-5"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3800" id="3800" x="665" y="160" contRef="3796" succ="//@urndef/@specDiagrams.9/@connections.7" pred="//@urndef/@specDiagrams.9/@connections.6" respDef="3799">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3804" id="3804" x="767" y="114" contRef="3796" succ="//@urndef/@specDiagrams.9/@connections.8" pred="//@urndef/@specDiagrams.9/@connections.7" respDef="3803">
+        <label deltaX="44" deltaY="6"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork3814" id="3814" x="775" y="219" contRef="3796" succ="//@urndef/@specDiagrams.9/@connections.9 //@urndef/@specDiagrams.9/@connections.10" pred="//@urndef/@specDiagrams.9/@connections.8"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3833" id="3833" x="700" y="355" contRef="3796" succ="//@urndef/@specDiagrams.9/@connections.11" pred="//@urndef/@specDiagrams.9/@connections.9" respDef="3832">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3837" id="3837" x="90" y="316" contRef="3666" succ="//@urndef/@specDiagrams.9/@connections.12" pred="//@urndef/@specDiagrams.9/@connections.11" respDef="3836">
+        <label deltaX="-23" deltaY="5"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3841" id="3841" x="390" y="402" contRef="494" succ="//@urndef/@specDiagrams.9/@connections.13" pred="//@urndef/@specDiagrams.9/@connections.12" respDef="3840">
+        <label deltaX="-12" deltaY="13"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3843" id="3843" x="352" y="420" contRef="494" succ="//@urndef/@specDiagrams.9/@connections.14" pred="//@urndef/@specDiagrams.9/@connections.13" respDef="3842">
+        <label deltaX="-34" deltaY="-55"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3848" id="3848" x="123" y="429" contRef="3666" succ="//@urndef/@specDiagrams.9/@connections.15" pred="//@urndef/@specDiagrams.9/@connections.14" respDef="3847">
+        <label/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef492" id="492" x="265" y="37" width="311" height="459" contDef="48" children="494">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef494" id="494" x="279" y="57" width="252" height="418" contDef="493" nodes="3702 3708 3712 3717 3841 3843" parent="492">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef3666" id="3666" x="17" y="42" width="184" height="446" contDef="3665" nodes="3670 3696 3698 3837 3848">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef3796" id="3796" x="614" y="38" width="217" height="380" contDef="40" nodes="3800 3804 3814 3833">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="3670" target="3696"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3696" target="3698"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3698" target="3702"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3702" target="3708"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3708" target="3712"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3712" target="3717"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3717" target="3800">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="3800" target="3804"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3804" target="3814"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3814" target="3833">
+        <condition deltaX="71" deltaY="36" label="is safe" expression="safe_to_resume" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="3814" target="2628">
+        <condition deltaX="39" deltaY="28" label="is not safe" expression="!safe_to_resume" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="3833" target="3837"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3837" target="3841"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3841" target="3843"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3843" target="3848"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3848" target="509"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UC6" id="3852" description="ICE-Initiated Audible Alarm Inactivation">
+      <nodes xsi:type="ucm.map:StartPoint" name="Active Alarm" id="3853" x="166" y="151" succ="//@urndef/@specDiagrams.10/@connections.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.7/@startPoints.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="alarm_inactivation=normal" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Alarm Re-activated" id="3855" x="1070" y="402" pred="//@urndef/@specDiagrams.10/@connections.19" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.7/@endPoints.0">
+        <label deltaX="-75" deltaY="-16"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="alarm_inactivation=normal" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef3978" id="3978" x="326" y="153" contRef="3976" succ="//@urndef/@specDiagrams.10/@connections.1" pred="//@urndef/@specDiagrams.10/@connections.0" respDef="3977">
+        <label deltaX="4" deltaY="-39"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef4074" id="4074" x="593" y="171" contRef="4072" succ="//@urndef/@specDiagrams.10/@connections.2" pred="//@urndef/@specDiagrams.10/@connections.1" respDef="4073">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef4076" id="4076" x="873" y="173" contRef="4186" succ="//@urndef/@specDiagrams.10/@connections.3" pred="//@urndef/@specDiagrams.10/@connections.2" respDef="4075">
+        <label deltaX="-25" deltaY="12"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef4189" id="4189" x="906" y="230" contRef="4186" succ="//@urndef/@specDiagrams.10/@connections.4" pred="//@urndef/@specDiagrams.10/@connections.3" respDef="4188">
+        <label deltaX="-10" deltaY="4"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef4193" id="4193" x="293" y="315" contRef="3976" succ="//@urndef/@specDiagrams.10/@connections.5" pred="//@urndef/@specDiagrams.10/@connections.12" respDef="4192">
+        <label deltaX="-34" deltaY="30"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef4199" id="4199" x="911" y="418" contRef="4186" succ="//@urndef/@specDiagrams.10/@connections.6" pred="//@urndef/@specDiagrams.10/@connections.17" respDef="4198">
+        <label deltaX="30" deltaY="-38"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork4216" id="4216" x="825" y="278" contRef="4186" succ="//@urndef/@specDiagrams.10/@connections.7 //@urndef/@specDiagrams.10/@connections.8" pred="//@urndef/@specDiagrams.10/@connections.4"/>
+      <nodes xsi:type="ucm.map:Timer" name="reactivation timer" id="4220" x="973" y="338" contRef="4186" succ="//@urndef/@specDiagrams.10/@connections.9 //@urndef/@specDiagrams.10/@connections.10" pred="//@urndef/@specDiagrams.10/@connections.14">
+        <label deltaX="18" deltaY="-36"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef4246" id="4246" x="603" y="371" contRef="4072" succ="//@urndef/@specDiagrams.10/@connections.11" pred="//@urndef/@specDiagrams.10/@connections.5" respDef="4245">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin4272" id="4272" x="430" y="293" contRef="3976" succ="//@urndef/@specDiagrams.10/@connections.12" pred="//@urndef/@specDiagrams.10/@connections.13 //@urndef/@specDiagrams.10/@connections.15"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow4312" id="4312" x="662" y="295" succ="//@urndef/@specDiagrams.10/@connections.13" pred="//@urndef/@specDiagrams.10/@connections.7"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow4313" id="4313" x="888" y="302" contRef="4186" succ="//@urndef/@specDiagrams.10/@connections.14" pred="//@urndef/@specDiagrams.10/@connections.8"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow4314" id="4314" x="718" y="327" succ="//@urndef/@specDiagrams.10/@connections.15" pred="//@urndef/@specDiagrams.10/@connections.9"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow4315" id="4315" x="908" y="369" contRef="4186" succ="//@urndef/@specDiagrams.10/@connections.16" pred="//@urndef/@specDiagrams.10/@connections.10"/>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin4348" id="4348" x="853" y="378" contRef="4186" succ="//@urndef/@specDiagrams.10/@connections.17" pred="//@urndef/@specDiagrams.10/@connections.18 //@urndef/@specDiagrams.10/@connections.16"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow4349" id="4349" x="794" y="373" succ="//@urndef/@specDiagrams.10/@connections.18" pred="//@urndef/@specDiagrams.10/@connections.11"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow4350" id="4350" x="1004" y="411" contRef="4186" succ="//@urndef/@specDiagrams.10/@connections.19" pred="//@urndef/@specDiagrams.10/@connections.6"/>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef3976" id="3976" x="213" y="119" width="237" height="295" contDef="40" nodes="3978 4193 4272">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef4072" id="4072" x="479" y="121" width="228" height="288" contDef="3665" nodes="4074 4246">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef4186" id="4186" x="780" y="115" width="261" height="341" contDef="48" nodes="4076 4189 4216 4220 4199 4313 4315 4348 4350">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="3853" target="3978"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3978" target="4074"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4074" target="4076"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4076" target="4189"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4189" target="4216"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4193" target="4246"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4199" target="4350"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4216" target="4312">
+        <condition deltaX="69" deltaY="29" label="no audible alarms" expression="not (alarm_inactivation=suspended_sound)" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="4216" target="4313">
+        <condition deltaX="-16" deltaY="13" label="audible alarms suspended" expression="alarm_inactivation=suspended_sound" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="4220" target="4314">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="4220" target="4315">
+        <condition label="" expression="false"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="4246" target="4349"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4272" target="4193"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4312" target="4272"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4313" target="4220"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4314" target="4272"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4315" target="4348"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4348" target="4199"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4349" target="4348"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4350" target="3855"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UC8" id="6014" description="Flush drug from pump after infusion" parentStub="//@urndef/@specDiagrams.2/@nodes.9/@bindings.0 //@urndef/@specDiagrams.0/@nodes.18/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="Start UC1.18 Flush" id="6016" x="79" y="66" succ="//@urndef/@specDiagrams.11/@connections.1" inBindings="//@urndef/@specDiagrams.2/@nodes.9/@bindings.0/@in.0 //@urndef/@specDiagrams.0/@nodes.18/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="!needle_in_vein and !tube_attached" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef197" id="6015" x="434" y="140" contRef="6038" succ="//@urndef/@specDiagrams.11/@connections.0" pred="//@urndef/@specDiagrams.11/@connections.3" respDef="196">
+        <label deltaX="66" deltaY="14"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Finish UC1.18 Flush" id="6017" x="140" y="322" pred="//@urndef/@specDiagrams.11/@connections.8" outBindings="//@urndef/@specDiagrams.2/@nodes.9/@bindings.0/@out.0 //@urndef/@specDiagrams.0/@nodes.18/@bindings.0/@out.0">
+        <label deltaX="-17" deltaY="-41"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="!needle_in_vein and !vial_inserted and !tube_attached&#xA;and pump_rate=zero and flushed and !flushing_liquid" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6041" id="6041" x="395" y="72" contRef="6038" succ="//@urndef/@specDiagrams.11/@connections.2" pred="//@urndef/@specDiagrams.11/@connections.1" respDef="6040">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6047" id="6047" x="939" y="87" contRef="6039" succ="//@urndef/@specDiagrams.11/@connections.3" pred="//@urndef/@specDiagrams.11/@connections.2" respDef="6046">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6051" id="6051" x="469" y="209" contRef="6038" succ="//@urndef/@specDiagrams.11/@connections.4" pred="//@urndef/@specDiagrams.11/@connections.0" respDef="6050">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6057" id="6057" x="955" y="187" contRef="6039" succ="//@urndef/@specDiagrams.11/@connections.5" pred="//@urndef/@specDiagrams.11/@connections.4" respDef="6056">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6061" id="6061" x="459" y="277" contRef="6038" succ="//@urndef/@specDiagrams.11/@connections.6" pred="//@urndef/@specDiagrams.11/@connections.5" respDef="6060">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6065" id="6065" x="940" y="268" contRef="6039" succ="//@urndef/@specDiagrams.11/@connections.7" pred="//@urndef/@specDiagrams.11/@connections.6" respDef="6064">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6072" id="6072" x="500" y="344" contRef="6038" succ="//@urndef/@specDiagrams.11/@connections.8" pred="//@urndef/@specDiagrams.11/@connections.7" respDef="6071">
+        <label/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef6038" id="6038" x="263" y="22" width="301" height="374" contDef="40" nodes="6041 6015 6051 6061 6072">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef6039" id="6039" x="727" y="19" width="454" height="360" contDef="48" nodes="6047 6057 6065">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="6015" target="6051"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6016" target="6041"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6041" target="6047"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6047" target="6015"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6051" target="6057"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6057" target="6061"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6061" target="6065"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6065" target="6072"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6072" target="6017"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UC9" id="1775" description="Prime the pump" parentStub="//@urndef/@specDiagrams.1/@nodes.12/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="UC1.12start" id="1776" description="Beginning of Priming Process" x="80" y="193" succ="//@urndef/@specDiagrams.12/@connections.0" inBindings="//@urndef/@specDiagrams.1/@nodes.12/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="UC1.12end" id="1778" description="done priming" x="105" y="374" pred="//@urndef/@specDiagrams.12/@connections.8" outBindings="//@urndef/@specDiagrams.1/@nodes.12/@bindings.0/@out.0">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="primed" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1782" id="1782" x="808" y="230" contRef="6076" succ="//@urndef/@specDiagrams.12/@connections.1" pred="//@urndef/@specDiagrams.12/@connections.2" respDef="1781">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1787" id="1787" x="371" y="238" contRef="6077" succ="//@urndef/@specDiagrams.12/@connections.2" pred="//@urndef/@specDiagrams.12/@connections.0" respDef="1786">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Prime Failed" id="1808" x="105" y="270" pred="//@urndef/@specDiagrams.12/@connections.6" outBindings="//@urndef/@specDiagrams.1/@nodes.12/@bindings.0/@out.1">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="!primed" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Timer" name="UC9.3 Pump drug until stop button" id="6078" x="524" y="305" contRef="6077" succ="//@urndef/@specDiagrams.12/@connections.3 //@urndef/@specDiagrams.12/@connections.4" pred="//@urndef/@specDiagrams.12/@connections.1">
+        <label deltaX="91" deltaY="11"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6106" id="6106" x="781" y="321" contRef="6076" succ="//@urndef/@specDiagrams.12/@connections.5" pred="//@urndef/@specDiagrams.12/@connections.3" respDef="6105">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="EC6 Pump Priming Failure" id="6118" x="251" y="335" contRef="6077" succ="//@urndef/@specDiagrams.12/@connections.6" pred="//@urndef/@specDiagrams.12/@connections.4">
+        <label deltaX="-24" deltaY="8"/>
+        <bindings plugin="6111">
+          <in startPoint="6113" stubEntry="//@urndef/@specDiagrams.12/@connections.4"/>
+          <out endPoint="6114" stubExit="//@urndef/@specDiagrams.12/@connections.6"/>
+          <precondition label="" expression="true"/>
+        </bindings>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6126" id="6126" x="541" y="372" contRef="6077" succ="//@urndef/@specDiagrams.12/@connections.7" pred="//@urndef/@specDiagrams.12/@connections.5" respDef="6125">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6143" id="6143" x="409" y="392" contRef="6077" succ="//@urndef/@specDiagrams.12/@connections.8" pred="//@urndef/@specDiagrams.12/@connections.7" respDef="6142">
+        <label/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef6076" id="6076" x="734" y="166" width="187" height="201" contDef="40" nodes="1782 6106">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef6077" id="6077" x="171" y="183" width="454" height="228" contDef="48" nodes="1787 6078 6118 6126 6143">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="1776" target="1787"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1782" target="6078"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1787" target="1782"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6078" target="6106">
+        <condition label="" expression="!bad_prime" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="6078" target="6118" inBindings="//@urndef/@specDiagrams.12/@nodes.7/@bindings.0/@in.0">
+        <condition label="priming timeout" expression="bad_prime" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="6106" target="6126"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6118" target="1808" outBindings="//@urndef/@specDiagrams.12/@nodes.7/@bindings.0/@out.0"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6126" target="6143"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6143" target="1778"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC1" id="523" description="Patient Bolus Request Too Soon (EC1)" parentStub="//@urndef/@specDiagrams.7/@nodes.7/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="EC1.1" id="524" description="Check of minimum time between boluses fails (Use Cases: Patient-Requested Bolus or Clinician-Requested Bolus)" x="247" y="149" contRef="1849" succ="//@urndef/@specDiagrams.13/@connections.0" inBindings="//@urndef/@specDiagrams.7/@nodes.7/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="EC1 done" id="526" x="676" y="138" contRef="1849" pred="//@urndef/@specDiagrams.13/@connections.4" outBindings="//@urndef/@specDiagrams.7/@nodes.7/@bindings.0/@out.0">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef530" id="530" x="369" y="115" contRef="1849" succ="//@urndef/@specDiagrams.13/@connections.1" pred="//@urndef/@specDiagrams.13/@connections.2" respDef="529">
+        <label deltaX="3" deltaY="2"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef586" id="586" x="433" y="197" contRef="1849" succ="//@urndef/@specDiagrams.13/@connections.5" pred="//@urndef/@specDiagrams.13/@connections.3" respDef="585">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:AndFork" name="AndFork1840" id="1840" x="308" y="149" contRef="1849" succ="//@urndef/@specDiagrams.13/@connections.2 //@urndef/@specDiagrams.13/@connections.3" pred="//@urndef/@specDiagrams.13/@connections.0"/>
+      <nodes xsi:type="ucm.map:AndJoin" name="AndJoin1841" id="1841" x="611" y="138" contRef="1849" succ="//@urndef/@specDiagrams.13/@connections.4" pred="//@urndef/@specDiagrams.13/@connections.7 //@urndef/@specDiagrams.13/@connections.5"/>
+      <nodes xsi:type="ucm.map:Timer" name="Half-Second" id="1853" description="Let the Squawk run 1/2 sec." x="439" y="94" contRef="1849" succ="//@urndef/@specDiagrams.13/@connections.6" pred="//@urndef/@specDiagrams.13/@connections.1">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1856" id="1856" x="535" y="105" contRef="1849" succ="//@urndef/@specDiagrams.13/@connections.7" pred="//@urndef/@specDiagrams.13/@connections.6" respDef="1855">
+        <label/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1848" id="1848" x="138" y="29" width="620" height="219" contDef="48" children="1849">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1849" id="1849" x="209" y="61" width="504" height="161" contDef="1834" nodes="530 1853 1841 1856 1840 586 524 526" parent="1848">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="524" target="1840"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="530" target="1853"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1840" target="530"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1840" target="586"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1841" target="526"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="586" target="1841"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1853" target="1856">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="1856" target="1841"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC2" id="650" description="Drug Library Soft Limit (EC2)" parentStub="//@urndef/@specDiagrams.6/@nodes.2/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="EC2 Soft Limit" id="652" x="53" y="63" succ="//@urndef/@specDiagrams.14/@connections.0" inBindings="//@urndef/@specDiagrams.6/@nodes.2/@bindings.0/@in.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.9/@startPoints.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="hard_ok" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Rx okay" id="654" x="128" y="466" pred="//@urndef/@specDiagrams.14/@connections.15" outBindings="//@urndef/@specDiagrams.6/@nodes.2/@bindings.0/@out.0">
+        <label deltaX="35" deltaY="1"/>
+        <postcondition deltaX="-6" deltaY="-41" label="" expression="Rx_ok" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef926" id="926" x="94" y="163" succ="//@urndef/@specDiagrams.14/@connections.1" pred="//@urndef/@specDiagrams.14/@connections.0" respDef="925">
+        <label deltaX="-58" deltaY="13"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork940" id="940" x="114" y="190" contRef="4575" succ="//@urndef/@specDiagrams.14/@connections.2 //@urndef/@specDiagrams.14/@connections.3" pred="//@urndef/@specDiagrams.14/@connections.1"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="Soft Limit Rejected" id="942" x="400" y="454" pred="//@urndef/@specDiagrams.14/@connections.12" outBindings="//@urndef/@specDiagrams.6/@nodes.2/@bindings.0/@out.1" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.9/@endPoints.0">
+        <label deltaX="-10" deltaY="-39"/>
+        <postcondition deltaX="-86" deltaY="14" label="" expression="!Rx_ok and soft_limit and !approve_soft_limit" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef945" id="945" x="345" y="121" contRef="4575" succ="//@urndef/@specDiagrams.14/@connections.4" pred="//@urndef/@specDiagrams.14/@connections.10" respDef="944">
+        <label deltaX="10" deltaY="4"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef960" id="960" x="659" y="223" contRef="2540" succ="//@urndef/@specDiagrams.14/@connections.5" pred="//@urndef/@specDiagrams.14/@connections.13" respDef="959">
+        <label deltaX="-3" deltaY="38"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork973" id="973" x="498" y="256" contRef="4575" succ="//@urndef/@specDiagrams.14/@connections.6 //@urndef/@specDiagrams.14/@connections.7" pred="//@urndef/@specDiagrams.14/@connections.5"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef978" id="978" x="284" y="316" contRef="4575" succ="//@urndef/@specDiagrams.14/@connections.8" pred="//@urndef/@specDiagrams.14/@connections.11" respDef="977">
+        <label deltaX="25" deltaY="3"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin1006" id="1006" x="157" y="316" succ="//@urndef/@specDiagrams.14/@connections.9" pred="//@urndef/@specDiagrams.14/@connections.14 //@urndef/@specDiagrams.14/@connections.8"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow1007" id="1007" x="251" y="149" contRef="4575" succ="//@urndef/@specDiagrams.14/@connections.10" pred="//@urndef/@specDiagrams.14/@connections.3"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow1009" id="1009" x="408" y="295" contRef="4575" succ="//@urndef/@specDiagrams.14/@connections.11" pred="//@urndef/@specDiagrams.14/@connections.7"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2404" id="2404" x="461" y="363" succ="//@urndef/@specDiagrams.14/@connections.12" pred="//@urndef/@specDiagrams.14/@connections.6" respDef="2403">
+        <label deltaX="82" deltaY="-36"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef4577" id="4577" x="473" y="137" contRef="4575" succ="//@urndef/@specDiagrams.14/@connections.13" pred="//@urndef/@specDiagrams.14/@connections.4" respDef="4576">
+        <label deltaX="30" deltaY="-51"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow4590" id="4590" x="143" y="260" contRef="4575" succ="//@urndef/@specDiagrams.14/@connections.14" pred="//@urndef/@specDiagrams.14/@connections.2"/>
+      <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow4591" id="4591" x="146" y="368" contRef="4575" succ="//@urndef/@specDiagrams.14/@connections.15" pred="//@urndef/@specDiagrams.14/@connections.9"/>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef2540" id="2540" x="557" y="68" width="184" height="189" contDef="40" nodes="960">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef4575" id="4575" x="62" y="77" width="477" height="339" contDef="48" nodes="973 945 1007 4577 940 4590 4591 1009 978">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="652" target="926"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="926" target="940"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="940" target="4590">
+        <condition deltaX="1" deltaY="21" label="soft limits okay" expression="!soft_limit" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="940" target="1007">
+        <condition deltaX="38" deltaY="-13" label="soft limit violation" expression="soft_limit" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="945" target="4577"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="960" target="973"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="973" target="2404">
+        <condition deltaY="25" label="soft limit not approved" expression="!approve_soft_limit" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="973" target="1009">
+        <condition deltaX="100" deltaY="38" label="soft limit approved" expression="approve_soft_limit" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="978" target="1006"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1006" target="4591"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1007" target="945"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1009" target="978"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2404" target="942"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4577" target="960"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4590" target="1006"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="4591" target="654"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC3" id="651" description="Drug Library Hard Limit (EC3)" parentStub="//@urndef/@specDiagrams.6/@nodes.3/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="EC3 Hard Limit" id="1012" x="88" y="37" succ="//@urndef/@specDiagrams.15/@connections.0" inBindings="//@urndef/@specDiagrams.6/@nodes.3/@bindings.0/@in.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.10/@startPoints.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="to EC2, Soft Limit" id="1014" x="446" y="109" pred="//@urndef/@specDiagrams.15/@connections.2" outBindings="//@urndef/@specDiagrams.6/@nodes.3/@bindings.0/@out.0" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.10/@endPoints.0">
+        <label deltaX="-41" deltaY="6"/>
+        <postcondition deltaX="-36" deltaY="-42" label="Hard Limit Passed" expression="hard_ok" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1021" id="1021" x="212" y="36" succ="//@urndef/@specDiagrams.15/@connections.1" pred="//@urndef/@specDiagrams.15/@connections.0" respDef="1020">
+        <label deltaX="5" deltaY="-41"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork1718" id="1718" x="313" y="51" succ="//@urndef/@specDiagrams.15/@connections.2 //@urndef/@specDiagrams.15/@connections.3" pred="//@urndef/@specDiagrams.15/@connections.1"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="Hard Limit Violated" id="1720" x="102" y="167" pred="//@urndef/@specDiagrams.15/@connections.4" outBindings="//@urndef/@specDiagrams.6/@nodes.3/@bindings.0/@out.1">
+        <label deltaX="28" deltaY="17"/>
+        <postcondition deltaX="14" deltaY="-46" label="" expression="!hard_ok" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1723" id="1723" x="161" y="147" succ="//@urndef/@specDiagrams.15/@connections.4" pred="//@urndef/@specDiagrams.15/@connections.3" respDef="1722">
+        <label deltaX="-123" deltaY="-21"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef4717" id="4717" x="146" y="10" width="265" height="180" contDef="48">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="1012" target="1021"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1021" target="1718"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1718" target="1014">
+        <condition deltaX="17" deltaY="35" label="pass" expression="hard_ok" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="1718" target="1723">
+        <condition deltaX="-33" deltaY="20" label="fail" expression="!hard_ok" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="1723" target="1720"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC4" id="674" description="Power-On Self-test" parentStub="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="EC4start" id="675" x="174" y="209" succ="//@urndef/@specDiagrams.16/@connections.0" inBindings="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="71" deltaY="-32" label="start POST" expression="Power=On and pump_rate=zero" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="EC4end" id="677" x="417" y="204" pred="//@urndef/@specDiagrams.16/@connections.1" outBindings="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0/@out.0">
+        <label/>
+        <postcondition deltaX="-22" deltaY="-50" label="passed POST" expression="!POSTfail" description="power-on self-test passed"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork696" id="696" x="253" y="205" succ="//@urndef/@specDiagrams.16/@connections.1 //@urndef/@specDiagrams.16/@connections.2" pred="//@urndef/@specDiagrams.16/@connections.0"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="POST failed" id="698" description="power-on self-test failed" x="345" y="77" pred="//@urndef/@specDiagrams.16/@connections.2" outBindings="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0/@out.1">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="POST fail" expression="POSTfail" description=""/>
+      </nodes>
+      <connections xsi:type="ucm.map:NodeConnection" source="675" target="696"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="696" target="677">
+        <condition label="" expression="!POSTfail" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="696" target="698">
+        <condition label="" expression="POSTfail" description=""/>
+      </connections>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC6" id="6111" description="Pump Priming Failure" parentStub="//@urndef/@specDiagrams.12/@nodes.7/@bindings.0">
+      <nodes xsi:type="ucm.map:EndPoint" name="Prime Failed" id="6114" x="61" y="142" pred="//@urndef/@specDiagrams.17/@connections.3" outBindings="//@urndef/@specDiagrams.12/@nodes.7/@bindings.0/@out.0">
+        <label deltaX="-50" deltaY="2"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="!primed" description=""/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef1812" id="6112" x="319" y="68" contRef="6141" succ="//@urndef/@specDiagrams.17/@connections.1" pred="//@urndef/@specDiagrams.17/@connections.0" respDef="1811">
+        <label deltaX="-23" deltaY="5"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:StartPoint" name="EC6.1 Priming Time Out" id="6113" x="99" y="89" succ="//@urndef/@specDiagrams.17/@connections.0" inBindings="//@urndef/@specDiagrams.12/@nodes.7/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6132" id="6132" x="290" y="114" contRef="6141" succ="//@urndef/@specDiagrams.17/@connections.2" pred="//@urndef/@specDiagrams.17/@connections.1" respDef="6131">
+        <label deltaX="-136" deltaY="-14"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6136" id="6136" x="169" y="146" succ="//@urndef/@specDiagrams.17/@connections.3" pred="//@urndef/@specDiagrams.17/@connections.2" respDef="6135">
+        <label deltaX="-93" deltaY="-34"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef6141" id="6141" x="130" y="32" width="425" height="155" contDef="48" nodes="6112 6132">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="6113" target="6112"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6112" target="6132"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6132" target="6136"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6136" target="6114"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC7" id="4990" parentStub="//@urndef/@specDiagrams.4/@nodes.5/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="Over-Flow Hazards" id="4992" x="603" y="36" succ="//@urndef/@specDiagrams.18/@connections.0" inBindings="//@urndef/@specDiagrams.4/@nodes.5/@bindings.0/@in.0">
+        <label deltaX="-38" deltaY="10"/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Halt Pumping" id="4993" x="644" y="577" pred="//@urndef/@specDiagrams.18/@connections.1" outBindings="//@urndef/@specDiagrams.4/@nodes.5/@bindings.0/@out.0">
+        <label deltaX="99" deltaY="-23"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5185" id="5185" x="648" y="527" succ="//@urndef/@specDiagrams.18/@connections.1" pred="//@urndef/@specDiagrams.18/@connections.2" respDef="5184">
+        <label deltaX="130" deltaY="-22"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5193" id="5193" x="651" y="476" succ="//@urndef/@specDiagrams.18/@connections.2" pred="//@urndef/@specDiagrams.18/@connections.26" respDef="5192">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5197" id="5197" x="590" y="364" contRef="5205" succ="//@urndef/@specDiagrams.18/@connections.3" pred="//@urndef/@specDiagrams.18/@connections.25" respDef="5196">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5219" id="5219" x="956" y="375" contRef="5223" succ="//@urndef/@specDiagrams.18/@connections.5" pred="//@urndef/@specDiagrams.18/@connections.4" respDef="5218">
+        <label deltaX="7" deltaY="22"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5227" id="5227" x="181" y="74" succ="//@urndef/@specDiagrams.18/@connections.6" pred="//@urndef/@specDiagrams.18/@connections.8" respDef="5226">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5231" id="5231" x="346" y="264" succ="//@urndef/@specDiagrams.18/@connections.7" pred="//@urndef/@specDiagrams.18/@connections.14" respDef="5230">
+        <label deltaX="60" deltaY="-66"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork5267" id="5267" x="605" y="66" succ="//@urndef/@specDiagrams.18/@connections.8 //@urndef/@specDiagrams.18/@connections.9 //@urndef/@specDiagrams.18/@connections.11 //@urndef/@specDiagrams.18/@connections.16 //@urndef/@specDiagrams.18/@connections.19 //@urndef/@specDiagrams.18/@connections.22" pred="//@urndef/@specDiagrams.18/@connections.0"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5284" id="5284" x="310" y="109" succ="//@urndef/@specDiagrams.18/@connections.10" pred="//@urndef/@specDiagrams.18/@connections.9" respDef="5283">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5304" id="5304" x="481" y="148" succ="//@urndef/@specDiagrams.18/@connections.12" pred="//@urndef/@specDiagrams.18/@connections.11" respDef="5303">
+        <label deltaX="90" deltaY="-44"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5306" id="5306" x="635" y="242" succ="//@urndef/@specDiagrams.18/@connections.13" pred="//@urndef/@specDiagrams.18/@connections.18" respDef="5305">
+        <label deltaX="117" deltaY="-14"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin5362" id="5362" x="213" y="184" succ="//@urndef/@specDiagrams.18/@connections.14" pred="//@urndef/@specDiagrams.18/@connections.6 //@urndef/@specDiagrams.18/@connections.10"/>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin5368" id="5368" x="661" y="277" succ="//@urndef/@specDiagrams.18/@connections.15" pred="//@urndef/@specDiagrams.18/@connections.7 //@urndef/@specDiagrams.18/@connections.13 //@urndef/@specDiagrams.18/@connections.21"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5372" id="5372" x="748" y="142" succ="//@urndef/@specDiagrams.18/@connections.17" pred="//@urndef/@specDiagrams.18/@connections.16" respDef="5371">
+        <label deltaX="108" deltaY="-25"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin5398" id="5398" x="630" y="201" succ="//@urndef/@specDiagrams.18/@connections.18" pred="//@urndef/@specDiagrams.18/@connections.12 //@urndef/@specDiagrams.18/@connections.17"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5404" id="5404" x="808" y="143" succ="//@urndef/@specDiagrams.18/@connections.20" pred="//@urndef/@specDiagrams.18/@connections.19" respDef="5403">
+        <label deltaX="-107" deltaY="-12"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5408" id="5408" x="876" y="257" succ="//@urndef/@specDiagrams.18/@connections.21" pred="//@urndef/@specDiagrams.18/@connections.24" respDef="5407">
+        <label deltaX="-51" deltaY="-39"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5414" id="5414" x="1080" y="116" succ="//@urndef/@specDiagrams.18/@connections.23" pred="//@urndef/@specDiagrams.18/@connections.22" respDef="5413">
+        <label deltaX="45" deltaY="29"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin5444" id="5444" x="883" y="219" succ="//@urndef/@specDiagrams.18/@connections.24" pred="//@urndef/@specDiagrams.18/@connections.20 //@urndef/@specDiagrams.18/@connections.23"/>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork6167" id="6167" x="678" y="295" succ="//@urndef/@specDiagrams.18/@connections.25 //@urndef/@specDiagrams.18/@connections.4" pred="//@urndef/@specDiagrams.18/@connections.15"/>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin6188" id="6188" x="663" y="424" succ="//@urndef/@specDiagrams.18/@connections.26" pred="//@urndef/@specDiagrams.18/@connections.3 //@urndef/@specDiagrams.18/@connections.5"/>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5205" id="5205" x="485" y="307" width="210" height="100" contDef="5204" nodes="5197">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5223" id="5223" x="830" y="311" width="250" height="110" contDef="5222" nodes="5219">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="4992" target="5267"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5185" target="4993"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5193" target="5185"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5197" target="6188"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6167" target="5219">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5219" target="6188"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5227" target="5362"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5231" target="5368"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5267" target="5227">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5267" target="5284">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5284" target="5362"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5267" target="5304">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5304" target="5398"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5306" target="5368"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5362" target="5231"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5368" target="6167"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5267" target="5372">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5372" target="5398"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5398" target="5306"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5267" target="5404">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5404" target="5444"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5408" target="5368"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5267" target="5414">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5414" target="5444"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5444" target="5408"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6167" target="5197">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="6188" target="5193"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC8" id="5056" parentStub="//@urndef/@specDiagrams.4/@nodes.9/@bindings.0 //@urndef/@specDiagrams.4/@nodes.7/@bindings.0">
+      <nodes xsi:type="ucm.map:EndPoint" name="Continue Infusion" id="5059" x="405" y="426" pred="//@urndef/@specDiagrams.19/@connections.13" outBindings="//@urndef/@specDiagrams.4/@nodes.9/@bindings.0/@out.0 //@urndef/@specDiagrams.4/@nodes.7/@bindings.0/@out.0">
+        <label deltaX="-89" deltaY="-10"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:StartPoint" name="Under-Flow Rate" id="5058" x="591" y="45" succ="//@urndef/@specDiagrams.19/@connections.0" inBindings="//@urndef/@specDiagrams.4/@nodes.9/@bindings.0/@in.0 //@urndef/@specDiagrams.4/@nodes.7/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5446" id="5446" x="584" y="125" succ="//@urndef/@specDiagrams.19/@connections.1" pred="//@urndef/@specDiagrams.19/@connections.5" respDef="5445">
+        <label deltaX="98" deltaY="-35"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5448" id="5448" x="571" y="196" succ="//@urndef/@specDiagrams.19/@connections.2" pred="//@urndef/@specDiagrams.19/@connections.1" respDef="5447">
+        <label deltaX="-83" deltaY="2"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5450" id="5450" x="562" y="363" succ="//@urndef/@specDiagrams.19/@connections.3" pred="//@urndef/@specDiagrams.19/@connections.9" respDef="5449">
+        <label deltaX="13" deltaY="11"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5452" id="5452" x="747" y="384" succ="//@urndef/@specDiagrams.19/@connections.4" pred="//@urndef/@specDiagrams.19/@connections.3" respDef="5451">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork5601" id="5601" x="587" y="77" succ="//@urndef/@specDiagrams.19/@connections.5 //@urndef/@specDiagrams.19/@connections.6 //@urndef/@specDiagrams.19/@connections.10" pred="//@urndef/@specDiagrams.19/@connections.0"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5606" id="5606" x="349" y="92" succ="//@urndef/@specDiagrams.19/@connections.7" pred="//@urndef/@specDiagrams.19/@connections.6" respDef="5605">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5608" id="5608" x="351" y="192" succ="//@urndef/@specDiagrams.19/@connections.8" pred="//@urndef/@specDiagrams.19/@connections.7" respDef="5607">
+        <label deltaX="20" deltaY="-61"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:OrJoin" name="OrJoin5624" id="5624" x="570" y="233" succ="//@urndef/@specDiagrams.19/@connections.9" pred="//@urndef/@specDiagrams.19/@connections.2 //@urndef/@specDiagrams.19/@connections.8 //@urndef/@specDiagrams.19/@connections.12"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5628" id="5628" x="808" y="115" succ="//@urndef/@specDiagrams.19/@connections.11" pred="//@urndef/@specDiagrams.19/@connections.10" respDef="5627">
+        <label deltaX="-30" deltaY="17"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5632" id="5632" x="815" y="204" succ="//@urndef/@specDiagrams.19/@connections.12" pred="//@urndef/@specDiagrams.19/@connections.11" respDef="5631">
+        <label deltaX="-14" deltaY="-50"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5638" id="5638" x="580" y="437" succ="//@urndef/@specDiagrams.19/@connections.13" pred="//@urndef/@specDiagrams.19/@connections.4" respDef="5637">
+        <label deltaX="26" deltaY="-55"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5519" id="5519" x="660" y="268" width="192" height="182" contDef="5222">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5581" id="5581" x="468" y="267" width="165" height="133" contDef="5204">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="5058" target="5601"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5446" target="5448"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5448" target="5624"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5450" target="5452"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5452" target="5638"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5601" target="5446">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5601" target="5606">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5606" target="5608"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5608" target="5624"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5624" target="5450"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5601" target="5628">
+        <condition label="" expression="true"/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="5628" target="5632"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5632" target="5624"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5638" target="5059"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC9" id="5072" parentStub="//@urndef/@specDiagrams.4/@nodes.10/@bindings.0">
+      <nodes xsi:type="ucm.map:EndPoint" name="Halt Infusion" id="5075" x="410" y="352" pred="//@urndef/@specDiagrams.20/@connections.4" outBindings="//@urndef/@specDiagrams.4/@nodes.10/@bindings.0/@out.0">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:StartPoint" name="Pump Hot" id="5074" x="703" y="161" succ="//@urndef/@specDiagrams.20/@connections.0" inBindings="//@urndef/@specDiagrams.4/@nodes.10/@bindings.0/@in.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5644" id="5644" x="495" y="161" succ="//@urndef/@specDiagrams.20/@connections.1" pred="//@urndef/@specDiagrams.20/@connections.0" respDef="5643">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5646" id="5646" x="545" y="205" succ="//@urndef/@specDiagrams.20/@connections.2" pred="//@urndef/@specDiagrams.20/@connections.1" respDef="5645">
+        <label deltaX="-110" deltaY="-8"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5650" id="5650" x="566" y="267" contRef="5878" succ="//@urndef/@specDiagrams.20/@connections.3" pred="//@urndef/@specDiagrams.20/@connections.2" respDef="5649">
+        <label deltaX="58" deltaY="-53"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef5652" id="5652" x="709" y="326" contRef="5792" succ="//@urndef/@specDiagrams.20/@connections.4" pred="//@urndef/@specDiagrams.20/@connections.3" respDef="5651">
+        <label deltaX="-45" deltaY="9"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5792" id="5792" x="662" y="243" width="186" height="125" contDef="5222" nodes="5652">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5878" id="5878" x="422" y="247" width="169" height="78" contDef="5204" nodes="5650">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="5074" target="5644"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5644" target="5646"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5646" target="5650"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5650" target="5652"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="5652" target="5075"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC10" id="5088" parentStub="//@urndef/@specDiagrams.4/@nodes.11/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="Downstrean Occlusion" id="5881" x="523" y="232" succ="//@urndef/@specDiagrams.21/@connections.0">
+        <label deltaX="-26" deltaY="10"/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Halt Infusion" id="5884" x="428" y="457" pred="//@urndef/@specDiagrams.21/@connections.5">
+        <label deltaX="71" deltaY="-13"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6194" id="6194" x="385" y="194" succ="//@urndef/@specDiagrams.21/@connections.1" pred="//@urndef/@specDiagrams.21/@connections.0" respDef="6193">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6198" id="6198" x="392" y="233" succ="//@urndef/@specDiagrams.21/@connections.2" pred="//@urndef/@specDiagrams.21/@connections.1" respDef="6197">
+        <label deltaX="134" deltaY="-19"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:AndFork" name="AndFork6216" id="6216" x="419" y="265" succ="//@urndef/@specDiagrams.21/@connections.3 //@urndef/@specDiagrams.21/@connections.4" pred="//@urndef/@specDiagrams.21/@connections.2"/>
+      <nodes xsi:type="ucm.map:AndJoin" name="AndJoin6227" id="6227" x="422" y="414" succ="//@urndef/@specDiagrams.21/@connections.5" pred="//@urndef/@specDiagrams.21/@connections.6 //@urndef/@specDiagrams.21/@connections.7"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6232" id="6232" x="379" y="333" contRef="5885" succ="//@urndef/@specDiagrams.21/@connections.6" pred="//@urndef/@specDiagrams.21/@connections.3" respDef="6231">
+        <label deltaX="100" deltaY="-22"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6240" id="6240" x="484" y="333" contRef="5886" succ="//@urndef/@specDiagrams.21/@connections.7" pred="//@urndef/@specDiagrams.21/@connections.4" respDef="6239">
+        <label deltaX="-106" deltaY="-32"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5885" id="5885" x="171" y="286" width="235" height="90" contDef="5204" nodes="6232">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5886" id="5886" x="460" y="294" width="282" height="105" contDef="5222" nodes="6240">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="5881" target="6194"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6194" target="6198"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6198" target="6216"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6216" target="6232"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6216" target="6240"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6227" target="5884"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6232" target="6227"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6240" target="6227"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC11" id="5106" parentStub="//@urndef/@specDiagrams.4/@nodes.12/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="Upstream Occlusion" id="6246" x="373" y="66" succ="//@urndef/@specDiagrams.22/@connections.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Halt Infusion" id="6248" x="231" y="333" pred="//@urndef/@specDiagrams.22/@connections.5">
+        <label deltaX="63" deltaY="9"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6261" id="6261" x="182" y="67" succ="//@urndef/@specDiagrams.22/@connections.1" pred="//@urndef/@specDiagrams.22/@connections.0" respDef="6260">
+        <label/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6263" id="6263" x="241" y="120" succ="//@urndef/@specDiagrams.22/@connections.2" pred="//@urndef/@specDiagrams.22/@connections.1" respDef="6262">
+        <label deltaX="-106" deltaY="-2"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:AndFork" name="AndFork6289" id="6289" x="247" y="162" succ="//@urndef/@specDiagrams.22/@connections.3 //@urndef/@specDiagrams.22/@connections.4" pred="//@urndef/@specDiagrams.22/@connections.2"/>
+      <nodes xsi:type="ucm.map:AndJoin" name="AndJoin6308" id="6308" x="232" y="273" succ="//@urndef/@specDiagrams.22/@connections.5" pred="//@urndef/@specDiagrams.22/@connections.6 //@urndef/@specDiagrams.22/@connections.7"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6313" id="6313" x="199" y="223" contRef="5893" succ="//@urndef/@specDiagrams.22/@connections.6" pred="//@urndef/@specDiagrams.22/@connections.3" respDef="6312">
+        <label deltaX="98" deltaY="-26"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6319" id="6319" x="299" y="222" contRef="5894" succ="//@urndef/@specDiagrams.22/@connections.7" pred="//@urndef/@specDiagrams.22/@connections.4" respDef="6318">
+        <label deltaX="-105" deltaY="-26"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5893" id="5893" x="11" y="181" width="206" height="78" contDef="5204" nodes="6313">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5894" id="5894" x="271" y="177" width="244" height="95" contDef="5222" nodes="6319">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="6246" target="6261"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6261" target="6263"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6263" target="6289"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6289" target="6313"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6289" target="6319"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6308" target="6248"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6313" target="6308"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6319" target="6308"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="EC12" id="5124" parentStub="//@urndef/@specDiagrams.4/@nodes.13/@bindings.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="Air-in-line" id="5896" x="367" y="116" succ="//@urndef/@specDiagrams.23/@connections.0">
+        <label/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="Halt Infusion" id="5900" x="220" y="329" pred="//@urndef/@specDiagrams.23/@connections.5">
+        <label deltaX="60" deltaY="1"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6328" id="6328" x="263" y="109" succ="//@urndef/@specDiagrams.23/@connections.1" pred="//@urndef/@specDiagrams.23/@connections.0" respDef="6327">
+        <label deltaX="30" deltaY="5"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6332" id="6332" x="228" y="139" succ="//@urndef/@specDiagrams.23/@connections.2" pred="//@urndef/@specDiagrams.23/@connections.1" respDef="6331">
+        <label deltaX="75" deltaY="-25"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:AndFork" name="AndFork6342" id="6342" x="217" y="173" succ="//@urndef/@specDiagrams.23/@connections.3 //@urndef/@specDiagrams.23/@connections.4" pred="//@urndef/@specDiagrams.23/@connections.2"/>
+      <nodes xsi:type="ucm.map:AndJoin" name="AndJoin6353" id="6353" x="217" y="277" succ="//@urndef/@specDiagrams.23/@connections.5" pred="//@urndef/@specDiagrams.23/@connections.7 //@urndef/@specDiagrams.23/@connections.6"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6358" id="6358" x="253" y="212" contRef="5901" succ="//@urndef/@specDiagrams.23/@connections.6" pred="//@urndef/@specDiagrams.23/@connections.4" respDef="6357">
+        <label deltaX="-108" deltaY="-28"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef6364" id="6364" x="201" y="220" contRef="5902" succ="//@urndef/@specDiagrams.23/@connections.7" pred="//@urndef/@specDiagrams.23/@connections.3" respDef="6363">
+        <label deltaX="98" deltaY="-20"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5901" id="5901" x="233" y="171" width="231" height="87" contDef="5222" nodes="6358">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef5902" id="5902" x="10" y="175" width="207" height="78" contDef="5204" nodes="6364">
+        <label/>
+      </contRefs>
+      <connections xsi:type="ucm.map:NodeConnection" source="5896" target="6328"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6328" target="6332"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6332" target="6342"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6342" target="6364"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6342" target="6358"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6353" target="5900"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6358" target="6353"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="6364" target="6353"/>
+    </specDiagrams>
+    <components name="Clinician" id="40" fillColor="160,160,255" filled="true" contRefs="41 392 667 2540 3382 3796 3976 6038 6076" kind="Actor"/>
+    <components name="Patient" id="44" fillColor="160,255,255" filled="true" contRefs="379" kind="Actor"/>
+    <components name="PCA Pump" id="48" fillColor="255,160,160" filled="true" contRefs="49 155 399 429 430 492 1848 4186 4575 4717 4884 6039 6077 6141" kind="Object"/>
+    <components name="initialize" id="52" fillColor="160,255,160" filled="true" contRefs="53" kind="Process"/>
+    <components name="ICE Handler" id="493" description="handle ICE-detected hazards  UC4 and UC5" fillColor="160,255,160" filled="true" contRefs="494" kind="Process"/>
+    <components name="operate" id="1834" fillColor="160,255,160" filled="true" contRefs="1835 1849 2135" kind="Process"/>
+    <components name="Component1842" id="1842" kind="Object"/>
+    <components name="Control Application" id="3665" description="software running on external Integrated Clinical Environment" fillColor="255,160,255" filled="true" contRefs="3666 4072" kind="Agent"/>
+    <components name="Control Panel" id="5204" fillColor="255,255,160" filled="true" contRefs="5205 5581 5878 5885 5893 5902" kind="Object"/>
+    <components name="Clinician Console" id="5222" fillColor="160,160,255" filled="true" contRefs="5223 5519 5792 5886 5894 5901" kind="Object"/>
+  </urndef>
+  <metadata name="_Use0to100EvaluationRange" value="false"/>
+</urn:URNspec>

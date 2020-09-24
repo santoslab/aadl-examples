@@ -1,0 +1,6 @@
+#ifndef SIREUM_TYPE_H_hamr_SW_Impl_Instance_FC_UART_UARTDriver_App
+#define SIREUM_TYPE_H_hamr_SW_Impl_Instance_FC_UART_UARTDriver_App
+#include <misc.h>
+
+
+#endif

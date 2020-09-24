@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="5250cc8b-567d-4ae4-8d91-523d0410e3af" manual="true" background="#ffffff">
+    <element uuid="ecb52acc-3a29-4c1f-aac1-783184b8d2bc">
+      <bo>
+        <seg>connection</seg>
+        <seg>e</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="aa049690-e72f-4f57-b3d9-fc694ed13aa5">
+      <element uuid="b2cd241c-5ef4-433a-b89b-bc09b9e4f33f">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>eb</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="36e6caf5-8bdb-4e9c-94a2-24c0851fb98d">
+      <element uuid="9f436159-7bac-489a-8850-1ae8d18178cb">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>fb</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="de18a96a-ed39-48fd-9306-4a419c0e38e8">
+      <element uuid="fda5e7ab-760a-4915-a39e-9240fee05923">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>hdmi</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="be2d3675-e7fc-42f5-9911-38753a806001">
+      <element uuid="47ba9950-78cc-40ab-bec9-9b67317aabd8">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>hmib</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="459accda-01fe-4ef5-ab26-559ef081dd3a">
+      <element uuid="996d1959-10b7-41f5-8de5-3ef511583350">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>img</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="7ed93223-caa9-4df6-b3e7-d864d69c8b4f">
+      <element uuid="394bde0c-faf7-4d3b-90e7-abfd9d33bda0">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>lvds</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="5cbd3c4f-f018-4d54-b674-336708a256db">
+      <element uuid="32fd005d-727b-475e-941a-58f2b98ccca8">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>mb</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="f55d8be8-2047-4014-98e0-278bc92aae35">
+      <element uuid="50f0f20d-4abb-40be-812c-a081bf931928">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>mc</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="772e049b-76d1-4ea7-9ed1-f8e77a5e0269">
+      <element uuid="0e00461e-79f7-4eca-abd1-eb7a9b4e4e3a">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>mpb</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="fdd4275d-08ec-43cd-8a98-44d89605c419">
+      <element uuid="36e61384-3c54-489f-90dc-57df0b5f5b71">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>nb</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="18c5f531-02cf-4ed4-bcfa-05fdacd1ce7a">
+      <element uuid="cc793d9b-df61-46e5-a8a2-67ffb519ef98">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pb</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="1c0b020f-d8dc-4c4d-9c14-2ddb961e1745">
+      <element uuid="8a474f67-f4bd-4730-918f-ca85bd0d9886">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>sb</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="d01c83cb-e09c-46d0-a6c1-d97e7c4f1069">
+      <element uuid="e7e1718c-af61-4f0c-b4c0-3c698d79fcea">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>serial</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="af4bb375-938e-4c8b-92d4-474e3d8fdd46">
+      <element uuid="74f03c73-17af-4d7d-b2a9-fdd34b687494">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>snd</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="5a0c076e-137a-4df1-b4de-e3e40dc2b75c">
+      <element uuid="8f808fdd-5b78-462e-af80-9db96d8d2147">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>tch</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="a1cedcb8-ddff-4923-b899-0c6a09397bf9">
+      <element uuid="f48ca4bb-6b67-4351-820a-1e350bcbc3b5">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>usb</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="0683c36c-d6c2-43bc-ad94-1636b6c67d2f">
+      <element uuid="40ceadf3-97c5-4f92-8de6-c084612d0068">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>vga</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="029834ad-232e-4cf0-ba17-7b14a87ffeb9" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>act</seg>
+      </bo>
+      <position x="1337.0" y="170.0"/>
+      <size width="44.0" height="50.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="6483b8d3-d30f-4193-9eee-41fa0c2661e5" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>connectors</seg>
+      </bo>
+      <position x="1288.0" y="330.0"/>
+      <size width="93.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="4efcce73-83c7-4d89-9f63-b00c78e999f5" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ethernet</seg>
+      </bo>
+      <position y="190.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="c6d2ab76-acd1-419e-a7fe-1144c40151c1" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>maintenance_bus</seg>
+      </bo>
+      <position x="1257.0" y="840.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="c083968e-d5f9-4efb-9757-e7a3e361138e" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>sense</seg>
+      </bo>
+      <position x="1320.0" y="50.0"/>
+      <size width="61.0" height="50.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="28a288eb-d052-48fe-a042-2bd826ea921e">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+      </contentFilters>
+    </element>
+    <element uuid="dc4792c6-877e-4243-a2b0-b97608507c34">
+      <element uuid="c11994b1-2ab0-4925-91af-bba8003e7dd7">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>b</seg>
+      </bo>
+      <position x="413.0" y="437.0"/>
+      <size width="546.0" height="151.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <element uuid="3ece5dd8-073a-46e7-aadc-4cc0f95742a9">
+      <element uuid="1f1f3e01-b6bb-47bf-828b-f378e954ca64" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>lvds_bus</seg>
+        </bo>
+        <position x="149.0" y="130.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="b871ee6a-6a50-48c4-aa74-82c6ae8d8787" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_supply</seg>
+        </bo>
+        <position y="143.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="286ad6a4-d487-48f6-8713-cb8e518d16f5" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>serial_bus</seg>
+        </bo>
+        <position x="141.0" y="40.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="47a0dd41-fdc0-4e5d-91fb-7cb341b3fbe3" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_bus</seg>
+        </bo>
+        <position y="83.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="99a23ec2-0fc7-4fad-978d-297729741d4b" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>usb_bus</seg>
+        </bo>
+        <position x="152.0" y="85.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="90cd606a-5cff-4ab6-9ec2-d87ac5db8337">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>ebc</seg>
+      </bo>
+      <position x="1060.0" y="410.0"/>
+      <size width="220.0" height="221.0"/>
+      <contentFilters>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>internalFeatures</filter>
+        <filter>subcomponentType</filter>
+        <filter>features</filter>
+        <filter>processorFeatures</filter>
+      </contentFilters>
+    </element>
+    <element uuid="5929caa5-bdc0-449d-b261-fb7fe4ece7fa">
+      <element uuid="fb753990-580a-4a13-9132-57789e00a7e1" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>mtm_bus</seg>
+        </bo>
+        <position x="117.0" y="142.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="d3a732ca-966c-4307-8d27-f4c15cf4a910" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_supply</seg>
+        </bo>
+        <position x="90.0" y="93.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="52496ce9-7c55-4f3c-af9e-fe19c874301d" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_bus</seg>
+        </bo>
+        <position x="101.0" y="44.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="d07fcf84-5513-4c08-837b-19eb918df050">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>f</seg>
+      </bo>
+      <position x="110.0" y="420.0"/>
+      <size width="191.0" height="186.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <element uuid="eae2258c-509c-41c0-805e-1e76697fe835">
+      <element uuid="4e11829c-b147-4a29-8331-51e58c1b030e" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>dc_clock</seg>
+        </bo>
+        <position y="190.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="b892cab4-61a1-481a-b65e-7a966ae2f873" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hdmi_bus</seg>
+        </bo>
+        <position x="333.0" y="179.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="ade7e4b9-7257-44cb-a96e-2b781cf601ab" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mtm_bus</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="cc233b87-34d6-4bd5-b8b2-25a8cce2a0a5" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_supply</seg>
+        </bo>
+        <position y="240.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="9a2d66fe-da14-48ac-af2d-e51211307ade" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>sc_clock</seg>
+        </bo>
+        <position y="140.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="5a486d86-f2cf-4a88-83f7-a503980e083b" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_bus</seg>
+        </bo>
+        <position x="93.0" y="276.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="02d35bcf-8491-418b-a344-2302e84c8c9f" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>ui_image</seg>
+        </bo>
+        <position x="337.0" y="60.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="9112722d-4b8b-49f6-a370-67ec5477298f" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>ui_sound</seg>
+        </bo>
+        <position x="337.0" y="120.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="054bf6be-8824-486a-acc7-709a3918c735" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>ui_touch</seg>
+        </bo>
+        <position x="340.0" y="15.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="a732aa91-1761-45d9-a43e-c8759941e167" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>vga_bus</seg>
+        </bo>
+        <position x="341.0" y="229.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="7af0f83e-9d5a-4382-9c26-7a3cc1d5feea">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>hmi</seg>
+      </bo>
+      <position x="695.0" y="50.0"/>
+      <size width="409.0" height="300.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <element uuid="48cb258b-e840-4188-ba8c-d7108f9e451d">
+      <element uuid="23a4af4e-a056-4f19-a56f-5457b504363a" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>mtm_bus</seg>
+        </bo>
+        <position x="177.0" y="150.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="e32c7b5c-75a8-4bc8-9f09-bd0f8d47148a" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_supply</seg>
+        </bo>
+        <position x="150.0" y="56.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="8c534acd-a5f4-4db0-bbc4-1c03aaaf54a0" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_bus</seg>
+        </bo>
+        <position x="61.0" y="170.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="4920a409-080a-453c-9caa-661965924303">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>m</seg>
+      </bo>
+      <position x="390.0" y="50.0"/>
+      <size width="251.0" height="194.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <element uuid="a76f23c6-b59c-499b-b328-900b06a66d6e">
+      <element uuid="a1bc92de-773e-47f3-a740-c03fde0b7251" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>maintenance_bus</seg>
+        </bo>
+        <position x="123.0" y="99.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="a4e78404-5642-431d-8505-35999b79f539" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mp_clock</seg>
+        </bo>
+        <position y="190.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="21dcd1df-6eda-4d9a-be8e-09fec1bdb0fe" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mtm_bus</seg>
+        </bo>
+        <position y="40.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="f6f6598e-c558-46ad-beca-c70747195925" dockArea="top">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_supply</seg>
+        </bo>
+        <position x="100.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="64fbd3b6-2663-4aba-824a-3852734b4d91" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>provision_bus</seg>
+        </bo>
+        <position y="138.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="7f6a0b0f-7206-43d5-8c35-b9d69092535e" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_bus</seg>
+        </bo>
+        <position y="89.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="7e541444-6956-4a8c-bd9e-5f64eb1cea33">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mp</seg>
+      </bo>
+      <position x="930.0" y="675.0"/>
+      <size width="247.0" height="251.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <element uuid="dbe28a81-aa04-411a-9fb2-4e03b7dfea11">
+      <element uuid="12f00265-e8f6-4248-9336-9060f334b4b3" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ethernet</seg>
+        </bo>
+        <position y="114.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="1e8a4c97-8b85-471f-ac12-4e36ee4e6625" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>mtm_bus</seg>
+        </bo>
+        <position x="117.0" y="114.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="f97a1ba7-2a61-438a-8d68-f039df46d817" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>nic_clock</seg>
+        </bo>
+        <position x="10.0" y="218.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="8c34ae6a-79b1-4b3d-99e5-a6858dd93e46" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_supply</seg>
+        </bo>
+        <position x="90.0" y="50.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="950032ed-3e8f-4c10-b7ca-eca6d79eff03" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_bus</seg>
+        </bo>
+        <position x="101.0" y="175.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="ec448f15-69b3-4adc-8dd1-ce814b7e329d">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>n</seg>
+      </bo>
+      <position x="120.0" y="50.0"/>
+      <size width="191.0" height="242.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <element uuid="9c0f2976-a93c-4c32-9f7f-149bcad4f754">
+      <element uuid="dc159cf7-f8cf-49ea-8436-e48d293523a6" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cpu_clock</seg>
+        </bo>
+        <position y="126.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="b1259bb4-f7a1-4c1b-85b5-4fd1c5ed48bf" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>gpio</seg>
+        </bo>
+        <position x="135.0" y="50.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="5fcffb33-9048-49b9-a996-ae974e32f77a" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>mtm_bus</seg>
+        </bo>
+        <position x="106.0" y="178.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="482bcb8f-b697-4b58-aeb3-959db46d7f19" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_supply</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="2018d769-f4c3-4f77-9a98-ab3edc3e7af9" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_bus</seg>
+        </bo>
+        <position y="36.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="08b17f58-c4c2-44c2-a1c3-5b6abdad7a9f">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>p</seg>
+      </bo>
+      <position x="596.0" y="670.0"/>
+      <size width="180.0" height="242.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <element uuid="d183bdb7-ee9e-4660-a855-fb78f7b0cb40">
+      <element uuid="441889b6-cae1-40e4-aaa6-61ce10504492" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>peripheral_power</seg>
+        </bo>
+        <position y="55.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="24637a2c-a8b6-4062-90eb-b556c0fa5e40" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_bus</seg>
+        </bo>
+        <position x="171.0" y="24.0"/>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <element uuid="938b6868-3510-4183-aa75-e859cac67e16">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters>
+          <filter>generalizations</filter>
+          <filter>subprogramCallOrders</filter>
+          <filter>calledSubprogram</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>t</seg>
+      </bo>
+      <position x="170.0" y="680.0"/>
+      <size width="261.0" height="125.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>subprogramCallOrders</filter>
+        <filter>calledSubprogram</filter>
+        <filter>features</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modes</filter>
+        <filter>modeTransitions</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>pcb.i</seg>
+    </bo>
+    <position x="20.0"/>
+    <size width="1381.0" height="971.0"/>
+    <contentFilters>
+      <filter>generalizations</filter>
+      <filter>subprogramCallOrders</filter>
+      <filter>calledSubprogram</filter>
+      <filter>features</filter>
+      <filter>flowSpecifications</filter>
+      <filter>modes</filter>
+      <filter>modeTransitions</filter>
+      <filter>subcomponentType</filter>
+      <filter>classifiers</filter>
+      <filter>connections</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>modeTransitionTriggerNames</filter>
+      <filter>subcomponents</filter>
+      <filter>subprogramCalls</filter>
+      <filter>subprogramCallSequences</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>hardware::pcb.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

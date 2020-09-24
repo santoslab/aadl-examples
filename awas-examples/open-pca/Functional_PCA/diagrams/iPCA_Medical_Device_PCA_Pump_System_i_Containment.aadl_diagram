@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="015c1bdd-ebc6-49a4-a914-a631802f40dc" manual="true">
+    <element uuid="7f560941-6f44-43cf-8d71-7e066c571834" manual="true" background="#ccffcc">
+      <element uuid="1ed42ff3-0aff-425e-8005-d1c9dfff9ef5" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>button</seg>
+        </bo>
+        <position x="366.0" y="93.0"/>
+        <size width="101.0" height="35.0"/>
+      </element>
+      <element uuid="e16be95b-3082-4c4c-91b7-92723ef76cdd" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>clock_controller</seg>
+        </bo>
+        <position x="90.0" y="93.0"/>
+        <size width="159.0" height="35.0"/>
+      </element>
+      <element uuid="62a35af5-6c12-4a11-8acb-8648b2072fee" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>cpu</seg>
+        </bo>
+        <position x="214.0" y="38.0"/>
+        <size width="84.0" height="35.0"/>
+      </element>
+      <element uuid="02d35aa3-6e8f-4358-92b4-11f7d54cab6b" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>downstream_monitor</seg>
+        </bo>
+        <position x="988.0" y="93.0"/>
+        <size width="192.0" height="35.0"/>
+      </element>
+      <element uuid="0a893746-e38b-426d-9ef8-44b2f111d343" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>drug_reservoir</seg>
+        </bo>
+        <position x="650.0" y="93.0"/>
+        <size width="149.0" height="35.0"/>
+      </element>
+      <element uuid="5bf8061d-c18f-4c34-bbe7-b57bfa776566" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>ebc</seg>
+        </bo>
+        <position x="318.0" y="38.0"/>
+        <size width="84.0" height="35.0"/>
+      </element>
+      <element uuid="0287d918-04d8-4416-9d7d-a1aa20ffac0b" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>hmi</seg>
+        </bo>
+        <position x="111.0" y="38.0"/>
+        <size width="83.0" height="35.0"/>
+      </element>
+      <element uuid="6d8af276-fefb-4432-8f2c-598adbea74c1" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>internal_maintenance_bus</seg>
+        </bo>
+        <position x="755.0" y="30.0"/>
+        <size width="228.0" height="35.0"/>
+      </element>
+      <element uuid="613ccb25-1045-4cee-a02b-00c4b6bf761b" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>main_bus</seg>
+        </bo>
+        <position x="419.0" y="38.0"/>
+        <size width="118.0" height="35.0"/>
+      </element>
+      <element uuid="127d3add-69b1-4a76-b99d-dd538456d259" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>maintenance</seg>
+        </bo>
+        <position x="1190.0" y="93.0"/>
+        <size width="139.0" height="35.0"/>
+      </element>
+      <element uuid="c24d21af-094a-48f0-bbbd-f06c5dcc5942" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>nic</seg>
+        </bo>
+        <position x="12.0" y="38.0"/>
+        <size width="79.0" height="35.0"/>
+      </element>
+      <element uuid="f93e60ce-f665-40b3-ac70-97d381ed7b19" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>perpheral_power_bus</seg>
+        </bo>
+        <position x="995.0" y="30.0"/>
+        <size width="196.0" height="35.0"/>
+      </element>
+      <element uuid="5b11c6db-058e-4eee-8c89-d5726c4ae1a0" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>power</seg>
+        </bo>
+        <position x="1225.0" y="30.0"/>
+        <size width="99.0" height="35.0"/>
+      </element>
+      <element uuid="cbdd1e96-5f3e-4cc9-9e83-19bc85d55204" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>power_bus</seg>
+        </bo>
+        <position x="570.0" y="44.0"/>
+        <size width="126.0" height="35.0"/>
+      </element>
+      <element uuid="ff6d5ea5-96a0-4e4b-8e41-a90af83adb57" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>pump</seg>
+        </bo>
+        <position x="12.0" y="93.0"/>
+        <size width="79.0" height="35.0"/>
+      </element>
+      <element uuid="f57183bf-80ae-49a3-9628-e0362097a7b3" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>timers</seg>
+        </bo>
+        <position x="260.0" y="93.0"/>
+        <size width="99.0" height="35.0"/>
+      </element>
+      <element uuid="6a2ce95a-bd48-4b16-b23b-c5a767370409" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>tube_connector</seg>
+        </bo>
+        <position x="480.0" y="93.0"/>
+        <size width="156.0" height="35.0"/>
+      </element>
+      <element uuid="e4a94eab-ba90-4e75-8519-da4120edddab" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>upstream_monitor</seg>
+        </bo>
+        <position x="810.0" y="93.0"/>
+        <size width="173.0" height="35.0"/>
+      </element>
+      <element uuid="320cf5cd-74e7-425e-82f4-1f84bd84b7c5" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>board</seg>
+      </bo>
+      <position x="10.0" y="630.0"/>
+      <size width="1331.0" height="141.0"/>
+    </element>
+    <element uuid="6869d07c-5031-46ef-b0dd-c9a9d4d71133" manual="true" background="#ccccff">
+      <element uuid="314d6e82-619e-41df-91c0-b4c57effc4f9" manual="true">
+        <element uuid="daaeb92f-407a-43da-82bc-4070f9416419" manual="true">
+          <element uuid="191a45b9-3372-4a6b-8386-7f97557530a1" manual="true">
+            <bo>
+              <seg>subcomponent</seg>
+              <seg>drug_library</seg>
+            </bo>
+            <position x="27.0" y="38.0"/>
+            <size width="134.0" height="35.0"/>
+          </element>
+          <element uuid="bf8171c6-4e44-4dc5-887c-154af7db271c" manual="true">
+            <bo>
+              <seg>subcomponent</seg>
+              <seg>event_logger</seg>
+            </bo>
+            <position x="166.0" y="38.0"/>
+            <size width="139.0" height="35.0"/>
+          </element>
+          <element uuid="483bb785-1e7e-47bb-8965-726ecb3446bf" manual="true">
+            <element uuid="e7e7a2ef-7a4b-4cd3-8cd5-54eaa8437dc2" manual="true">
+              <bo>
+                <seg>subcomponent</seg>
+                <seg>boss</seg>
+              </bo>
+              <position x="12.0" y="38.0"/>
+              <size width="90.0" height="35.0"/>
+            </element>
+            <element uuid="55a6a7a1-1b70-4206-829f-054cdad129b0" manual="true">
+              <bo>
+                <seg>subcomponent</seg>
+                <seg>max_drug_watcher</seg>
+              </bo>
+              <position x="12.0" y="93.0"/>
+              <size width="176.0" height="35.0"/>
+            </element>
+            <element uuid="83da7357-5afe-41b8-8a12-5d9802408d80" manual="true">
+              <bo>
+                <seg>subcomponent</seg>
+                <seg>patient_bolus_checker</seg>
+              </bo>
+              <position x="12.0" y="203.0"/>
+              <size width="203.0" height="35.0"/>
+            </element>
+            <element uuid="9cce2816-96e7-4d62-aeda-c00547e660d5" manual="true">
+              <bo>
+                <seg>subcomponent</seg>
+                <seg>prescription_checker</seg>
+              </bo>
+              <position x="12.0" y="148.0"/>
+              <size width="194.0" height="35.0"/>
+            </element>
+            <element uuid="18a475d3-4528-4e8f-8d64-ce99dbb4d565" manual="true">
+              <bo>
+                <seg>subcomponent</seg>
+                <seg>rate_controller</seg>
+              </bo>
+              <position x="122.0" y="38.0"/>
+              <size width="149.0" height="35.0"/>
+            </element>
+            <bo>
+              <seg>subcomponent</seg>
+              <seg>operation_threads</seg>
+            </bo>
+            <position x="27.0" y="92.0"/>
+            <size width="283.0" height="250.0"/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>operation_process</seg>
+          </bo>
+          <position x="121.0" y="38.0"/>
+          <size width="338.0" height="355.0"/>
+        </element>
+        <element uuid="81a71f35-94a9-4615-aaa1-3edd5c662ccd" manual="true">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>scanner</seg>
+          </bo>
+          <position x="12.0" y="38.0"/>
+          <size width="110.0" height="35.0"/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>operation_subsystem</seg>
+        </bo>
+        <position x="462.0" y="10.0"/>
+        <size width="471.0" height="405.0"/>
+      </element>
+      <element uuid="e2b8056b-dc31-4caf-b052-8dcf6da446ad" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>power_subsystem</seg>
+        </bo>
+        <position x="12.0" y="38.0"/>
+        <size width="170.0" height="35.0"/>
+      </element>
+      <element uuid="28ca6250-d856-4b8f-982c-f0cc3d4c95e0" manual="true">
+        <element uuid="55c1fb3a-2fb8-4422-a156-340ef8ed0cc6" manual="true">
+          <element uuid="0323006f-8d98-4a8d-a6b8-b8a23ec6205f" manual="true">
+            <bo>
+              <seg>subcomponent</seg>
+              <seg>alarm_thr</seg>
+            </bo>
+            <position x="12.0" y="93.0"/>
+            <size width="118.0" height="35.0"/>
+          </element>
+          <element uuid="f81e8b3f-4e19-4ca1-b32a-f20bbe56771c" manual="true">
+            <bo>
+              <seg>subcomponent</seg>
+              <seg>flow_rate</seg>
+            </bo>
+            <position x="12.0" y="38.0"/>
+            <size width="115.0" height="35.0"/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>alarm_process</seg>
+          </bo>
+          <position x="12.0" y="148.0"/>
+          <size width="149.0" height="140.0"/>
+        </element>
+        <element uuid="93bd93a5-1121-4129-b28e-b0c36f4e38cd" manual="true">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>error_detect</seg>
+          </bo>
+          <position x="12.0" y="93.0"/>
+          <size width="135.0" height="35.0"/>
+        </element>
+        <element uuid="612b30f4-1330-496a-a150-619f59a8d487" manual="true">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>fault_log</seg>
+          </bo>
+          <position x="112.0" y="38.0"/>
+          <size width="113.0" height="35.0"/>
+        </element>
+        <element uuid="dbc2a306-3572-4174-a6b1-fa58640c1e33" manual="true">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>led</seg>
+          </bo>
+          <position x="12.0" y="38.0"/>
+          <size width="80.0" height="35.0"/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>safety_subsystem</seg>
+        </bo>
+        <position x="202.0" y="20.0"/>
+        <size width="237.0" height="300.0"/>
+      </element>
+      <element uuid="878fef5e-0fac-4ff5-be5c-63bdabedf82e" manual="true">
+        <element uuid="2af0d4ee-9135-4164-a6f2-a4a425a42981" manual="true">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>button</seg>
+          </bo>
+          <position x="128.0" y="38.0"/>
+          <size width="101.0" height="35.0"/>
+        </element>
+        <element uuid="df659472-1653-4645-bd76-0be067d6c3e7" manual="true">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>downstream</seg>
+          </bo>
+          <position x="12.0" y="148.0"/>
+          <size width="136.0" height="35.0"/>
+        </element>
+        <element uuid="72aceb17-c4af-4b21-910c-5bd55d51e616" manual="true">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>pump</seg>
+          </bo>
+          <position x="12.0" y="38.0"/>
+          <size width="96.0" height="35.0"/>
+        </element>
+        <element uuid="c5cc52ac-a7be-445b-b854-612e5a80e106" manual="true">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>reservoir</seg>
+          </bo>
+          <position x="12.0" y="93.0"/>
+          <size width="115.0" height="35.0"/>
+        </element>
+        <element uuid="768f9a2a-6411-43f3-8b7c-8ca16b95e78f" manual="true">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>upstream</seg>
+          </bo>
+          <position x="147.0" y="93.0"/>
+          <size width="118.0" height="35.0"/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>sensors_actuators</seg>
+        </bo>
+        <position x="972.0" y="20.0"/>
+        <size width="319.0" height="300.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>func</seg>
+      </bo>
+      <position x="10.0" y="40.0"/>
+      <size width="1339.0" height="441.0"/>
+    </element>
+    <element uuid="b4fbcc29-0f17-4a34-a0fe-9f2f4f5dbc27" manual="true" background="#ffffcc">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>kernel</seg>
+      </bo>
+      <position x="10.0" y="580.0"/>
+      <size width="1331.0" height="35.0"/>
+    </element>
+    <element uuid="9a5c04cf-fdc8-4c4d-aeb4-9c83ad67c4ac" manual="true" background="#ffe5cc">
+      <element uuid="b212c401-982b-4a7c-891e-7099f10d0f9b" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>communication_subsystem</seg>
+        </bo>
+        <position x="990.0" y="20.0"/>
+        <size width="234.0" height="35.0"/>
+      </element>
+      <element uuid="cd479d1a-67c9-4526-bc17-c25e43f61a3d" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>cpal</seg>
+        </bo>
+        <position x="290.0" y="10.0"/>
+        <size width="87.0" height="35.0"/>
+      </element>
+      <element uuid="70a42f92-3bac-46b8-815a-db69cae12677" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>gui</seg>
+        </bo>
+        <position x="50.0" y="10.0"/>
+        <size width="80.0" height="35.0"/>
+      </element>
+      <element uuid="0a7f9ed6-4ca1-47cf-82d2-478322dab36e" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>security</seg>
+        </bo>
+        <position x="760.0" y="20.0"/>
+        <size width="110.0" height="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>serv</seg>
+      </bo>
+      <position x="10.0" y="490.0"/>
+      <size width="1339.0" height="71.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>pca_pump_system.i</seg>
+    </bo>
+    <position y="10.0"/>
+    <size width="1361.0" height="791.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>ipca_medical_device::pca_pump_system.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

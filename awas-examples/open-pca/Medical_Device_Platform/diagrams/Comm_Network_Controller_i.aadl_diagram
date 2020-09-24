@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="a0121c8a-5680-4b33-ab19-8edb33e5d582" manual="true">
+    <element uuid="2033660d-e213-4a73-ad29-39d34495aca6">
+      <bo>
+        <seg>connection</seg>
+        <seg>al</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="24bb9c22-89fc-47a4-b61f-8224c075cd37">
+      <bo>
+        <seg>connection</seg>
+        <seg>dns</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="c7135a9b-70d4-4e80-9d2c-f2ed654de717">
+      <bo>
+        <seg>connection</seg>
+        <seg>fo</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="8eb69de9-b195-43df-8af6-9a894f5dc69f">
+      <bo>
+        <seg>connection</seg>
+        <seg>net</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="dba1a7b7-6041-48d1-b08a-04306c71dd9e">
+      <bo>
+        <seg>connection</seg>
+        <seg>sl</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="6129f9b3-b991-4f0a-89e2-590a262fdb0c">
+      <bo>
+        <seg>connection</seg>
+        <seg>tn</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="a6110e85-5962-49a1-a65d-a1e14ec5f04e">
+      <bo>
+        <seg>connection</seg>
+        <seg>ts</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="7347a255-3877-4f3a-ba27-1e48ecec24bb" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarm</seg>
+      </bo>
+      <position y="116.0"/>
+      <size width="59.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="01e3c8a5-e1ea-4c24-b59f-d200ddec2b65" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_operation</seg>
+      </bo>
+      <position y="36.0"/>
+      <size width="110.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="f02a018a-3102-4cbd-9bd5-44e93cc7a92b" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>to_nic</seg>
+      </bo>
+      <position y="196.0"/>
+      <size width="54.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="85987032-2002-4644-ae45-50df18cfd731">
+      <element uuid="9dc3803e-50c1-411c-9abf-5bf6a599d88b" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>dns</seg>
+        </bo>
+        <position y="10.0"/>
+        <size width="41.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="11aed0b6-11d9-4c69-b466-39e45d69984e" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>net</seg>
+        </bo>
+        <position y="118.0"/>
+        <size width="38.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="402bd970-2938-406e-a765-34e20881e2b6" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>syslog</seg>
+        </bo>
+        <position y="172.0"/>
+        <size width="57.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="8f5839c3-0a97-4295-98a5-b04c4f47da43" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>timesync</seg>
+        </bo>
+        <position y="64.0"/>
+        <size width="73.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>firewall</seg>
+      </bo>
+      <position x="628.0" y="58.0"/>
+      <size width="251.0" height="226.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="a94ea89c-5f3a-49fd-b9e6-29b34fcfe387">
+      <element uuid="8cabc6ce-6aad-4988-bd8e-0d2debf4045b" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm</seg>
+        </bo>
+        <position y="80.0"/>
+        <size width="59.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="0e2fa3bf-12ea-47e7-aca2-2a55d98540ed" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>dns</seg>
+        </bo>
+        <position x="256.0" y="21.0"/>
+        <size width="41.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="1602a91f-efd7-4990-b939-ba5752dbc797" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>from_operation</seg>
+        </bo>
+        <position y="10.0"/>
+        <size width="110.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="91000efd-49f3-4260-8ac3-539750255331" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>net</seg>
+        </bo>
+        <position x="259.0" y="140.0"/>
+        <size width="38.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="96522aab-c9c9-49ea-a290-13c8cb784093" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>syslog</seg>
+        </bo>
+        <position x="240.0" y="200.0"/>
+        <size width="57.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="3c0466df-17dd-4a3a-b841-8500bda73b22" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>timesync</seg>
+        </bo>
+        <position x="224.0" y="75.0"/>
+        <size width="73.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="e1d6d331-a443-4fdd-804c-db630ef7bf6e" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>to_nic</seg>
+        </bo>
+        <position y="157.0"/>
+        <size width="54.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>nit</seg>
+      </bo>
+      <position x="208.0" y="38.0"/>
+      <size width="297.0" height="276.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>network_controller.i</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1009.0" height="359.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>comm::network_controller.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

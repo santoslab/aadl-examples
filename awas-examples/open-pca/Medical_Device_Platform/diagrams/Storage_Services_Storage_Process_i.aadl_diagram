@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="3">
+  <element id="0" manual="true" autoContentsFilter="allow_fundamental">
+    <element id="42" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="43" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection</seg>
+      </bo>
+    </element>
+    <element id="60" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="61" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection10</seg>
+      </bo>
+    </element>
+    <element id="62" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="63" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection11</seg>
+      </bo>
+    </element>
+    <element id="64" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="65" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection12</seg>
+      </bo>
+    </element>
+    <element id="66" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="67" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection13</seg>
+      </bo>
+    </element>
+    <element id="44" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="45" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection2</seg>
+      </bo>
+    </element>
+    <element id="46" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="47" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection3</seg>
+      </bo>
+    </element>
+    <element id="48" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="49" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection4</seg>
+      </bo>
+    </element>
+    <element id="50" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="51" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection5</seg>
+      </bo>
+    </element>
+    <element id="52" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="53" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection6</seg>
+      </bo>
+    </element>
+    <element id="54" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="55" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection7</seg>
+      </bo>
+    </element>
+    <element id="56" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="57" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection8</seg>
+      </bo>
+    </element>
+    <element id="58" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="59" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>storage_process_i_new_connection9</seg>
+      </bo>
+    </element>
+    <element id="3" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>database</seg>
+      </bo>
+      <position x="778.0" y="110.0"/>
+      <size width="74.0" height="50.0"/>
+    </element>
+    <element id="5" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>fault_log</seg>
+      </bo>
+      <position y="380.0"/>
+    </element>
+    <element id="2" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>filesystem</seg>
+      </bo>
+      <position y="80.0"/>
+      <size width="80.0" height="50.0"/>
+    </element>
+    <element id="9" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>get_fault_log</seg>
+      </bo>
+      <position y="535.0"/>
+    </element>
+    <element id="8" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>get_security_log</seg>
+      </bo>
+      <position y="440.0"/>
+    </element>
+    <element id="4" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>sec_log</seg>
+      </bo>
+      <position y="320.0"/>
+    </element>
+    <element id="7" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>the_fault_log</seg>
+      </bo>
+      <position y="591.0"/>
+    </element>
+    <element id="6" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>the_security_log</seg>
+      </bo>
+      <position y="490.0"/>
+    </element>
+    <element id="1" autoContentsFilter="allow_fundamental">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+    </element>
+    <element id="12" manual="true" autoContentsFilter="allow_all">
+      <element id="17" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>bg_out</seg>
+        </bo>
+        <position x="34.0" y="150.0"/>
+        <size width="97.0" height="30.0"/>
+      </element>
+      <element id="16" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>database</seg>
+        </bo>
+        <position x="100.0" y="50.0"/>
+        <size width="74.0" height="50.0"/>
+      </element>
+      <element id="18" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>cd</seg>
+      </bo>
+      <position x="600.0" y="50.0"/>
+      <size width="174.0" height="180.0"/>
+    </element>
+    <element id="10" manual="true" autoContentsFilter="allow_all">
+      <element id="19" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>bg</seg>
+        </bo>
+        <position x="171.0" y="280.0"/>
+        <size width="41.0" height="50.0"/>
+      </element>
+      <element id="21" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>fault_log</seg>
+        </bo>
+        <position y="126.0"/>
+      </element>
+      <element id="25" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>get_fault_log</seg>
+        </bo>
+        <position y="285.0"/>
+      </element>
+      <element id="24" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>get_security_log</seg>
+        </bo>
+        <position y="180.0"/>
+      </element>
+      <element id="20" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>sec_log</seg>
+        </bo>
+        <position y="81.0"/>
+      </element>
+      <element id="23" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>the_fault_log</seg>
+        </bo>
+        <position y="330.0"/>
+      </element>
+      <element id="22" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>the_security_log</seg>
+        </bo>
+        <position y="240.0"/>
+      </element>
+      <element id="26" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>lv</seg>
+      </bo>
+      <position x="115.0" y="240.0"/>
+      <size width="212.0" height="391.0"/>
+    </element>
+    <element id="13" manual="true" autoContentsFilter="allow_all">
+      <element id="27" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>bg_in</seg>
+        </bo>
+        <position y="44.0"/>
+        <size width="58.0" height="50.0"/>
+      </element>
+      <element id="28" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>bg_out</seg>
+        </bo>
+        <position x="58.0" y="44.0"/>
+        <size width="67.0" height="50.0"/>
+      </element>
+      <element id="29" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>lv2</seg>
+      </bo>
+      <position x="450.0" y="300.0"/>
+      <size width="125.0" height="120.0"/>
+    </element>
+    <element id="14" manual="true" autoContentsFilter="allow_all">
+      <element id="30" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>bg_in</seg>
+        </bo>
+        <position y="50.0"/>
+        <size width="58.0" height="50.0"/>
+      </element>
+      <element id="31" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>bg_out</seg>
+        </bo>
+        <position x="58.0" y="60.0"/>
+        <size width="67.0" height="50.0"/>
+      </element>
+      <element id="32" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>lv3</seg>
+      </bo>
+      <position x="654.0" y="300.0"/>
+      <size width="125.0" height="120.0"/>
+    </element>
+    <element id="11" manual="true" autoContentsFilter="allow_all">
+      <element id="34" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>bg_out</seg>
+        </bo>
+        <position x="101.0" y="90.0"/>
+        <size width="97.0" height="30.0"/>
+      </element>
+      <element id="33" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>filesystem</seg>
+        </bo>
+        <position y="50.0"/>
+        <size width="80.0" height="50.0"/>
+      </element>
+      <element id="35" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mafs</seg>
+      </bo>
+      <position x="349.0" y="50.0"/>
+      <size width="235.0" height="120.0"/>
+    </element>
+    <element id="15" manual="true" autoContentsFilter="allow_type">
+      <element id="38" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>database</seg>
+        </bo>
+        <position x="167.0" y="50.0"/>
+        <size width="81.0" height="50.0"/>
+      </element>
+      <element id="37" autoContentsFilter="allow_fundamental" dockArea="top">
+        <bo>
+          <seg>feature</seg>
+          <seg>files</seg>
+        </bo>
+        <position x="140.0"/>
+        <size width="80.0" height="30.0"/>
+      </element>
+      <element id="36" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>logs</seg>
+        </bo>
+        <position y="50.0"/>
+        <size width="50.0" height="50.0"/>
+      </element>
+      <element id="41" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mux</seg>
+      </bo>
+      <position x="370.0" y="460.0"/>
+      <size width="248.0" height="121.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>storage_process.i</seg>
+    </bo>
+    <position x="20.0"/>
+    <size width="852.0" height="701.0"/>
+  </element>
+  <config connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>storage_services::storage_process.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

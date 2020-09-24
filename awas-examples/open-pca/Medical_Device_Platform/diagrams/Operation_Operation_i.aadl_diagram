@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="b1047754-e6ff-405e-b3ef-0d483d50db4d" manual="true">
+    <element uuid="5aaacf95-3eee-466c-b9cb-2895a99034ee" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarm</seg>
+      </bo>
+      <position y="325.0"/>
+      <size width="58.0" height="44.0"/>
+    </element>
+    <element uuid="8a1b9162-0527-4c4f-b57f-5846e9d4b9f0" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_maintenance</seg>
+      </bo>
+      <position y="17.0"/>
+      <size width="138.0" height="44.0"/>
+    </element>
+    <element uuid="ceaf8f7e-c681-4864-a203-d525a41448a6" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>from_power</seg>
+      </bo>
+      <position y="448.0"/>
+      <size width="90.0" height="44.0"/>
+    </element>
+    <element uuid="8ab55441-ad02-44c5-b604-abe22de15bda" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>to_comm</seg>
+      </bo>
+      <position y="263.0"/>
+      <size width="73.0" height="44.0"/>
+    </element>
+    <element uuid="58478e26-5e01-42cf-9e3f-00497cda529d" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>to_peripherals</seg>
+      </bo>
+      <position y="202.0"/>
+      <size width="105.0" height="44.0"/>
+    </element>
+    <element uuid="fa45e6f4-accd-46c3-84d1-d0fed619fcfb" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>to_safety</seg>
+      </bo>
+      <position y="140.0"/>
+      <size width="73.0" height="44.0"/>
+    </element>
+    <element uuid="ce27dd87-5380-43ff-9f88-45225669808a" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>to_security</seg>
+      </bo>
+      <position y="386.0"/>
+      <size width="84.0" height="44.0"/>
+    </element>
+    <element uuid="eeeffa92-688f-4480-a274-832b5fafb643" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>to_user</seg>
+      </bo>
+      <position y="79.0"/>
+      <size width="62.0" height="44.0"/>
+    </element>
+    <element uuid="fd634ae3-f196-43ab-8464-4e02ea87c931" manual="true">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>operation.i</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="549.0" height="509.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>operation::operation.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

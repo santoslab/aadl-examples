@@ -1,0 +1,6 @@
+#ifndef SIREUM_TYPE_H_hamr_SW_Impl_Instance_AM_CASE_AttestationManager_App
+#define SIREUM_TYPE_H_hamr_SW_Impl_Instance_AM_CASE_AttestationManager_App
+#include <misc.h>
+
+
+#endif

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="dee1561a-933d-48c4-bb07-cea7cf848107" manual="true" background="#ccffcc">
+    <element uuid="158d210f-db12-4ce7-b700-d30b69656da2">
+      <element uuid="2f2bd2e3-4004-459f-b9a2-4910a48b443d">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>bc</seg>
+      </bo>
+      <bendpoints>
+        <point x="400.0" y="267.0"/>
+        <point x="400.0" y="305.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="bdbf1cab-f14c-4a61-a132-38f006e2581a">
+      <element uuid="c8c01ad1-c06b-408d-9a16-b8b92f36893f">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>bv</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="73b6a014-b82a-4213-a384-ab391a712843">
+      <element uuid="9049db70-f16d-447c-895f-211173ebf31e">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>dba</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="025239b1-4d65-4219-bf26-5f95d256ac76">
+      <element uuid="b7f0cfc1-5799-47f4-a096-f933bd8f9bec">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>lbw</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="4b9d6e22-e5a0-48be-9739-e21e943ba5e2">
+      <element uuid="e77e3f11-fe9c-449b-9853-0ec4cd450016">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>psv</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="8deba5e7-4556-4e8c-b299-3e5f06cf5a6a">
+      <element uuid="9eb2f4cf-d1cf-40a1-beb3-49bb7cd2948f">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>rbt</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="1a934997-532d-457c-9af0-9716bfaa66d1">
+      <element uuid="18100b0d-d674-4d37-b047-811c6480c7fe">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ubp</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="81a6e5c0-42e5-4d39-ac90-fd4f3f1561d4">
+      <element uuid="a0221a47-8b4a-4498-903c-003bdd62b83c">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>vor</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="a2a6f94c-ed67-4513-956a-78153e55de84" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>defective_btty</seg>
+      </bo>
+      <position x="908.0" y="98.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="7371b97f-c66c-4ba5-a36b-58e7f3482844" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>low_battery_warning</seg>
+      </bo>
+      <position x="865.0" y="248.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="6f8a80fd-dfbf-4763-805f-ca9c06fe6784" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>remaining_battery_time</seg>
+      </bo>
+      <position x="841.0" y="148.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="daf19d79-7489-4457-9ec5-4b14b638db49" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>using_battery_power</seg>
+      </bo>
+      <position x="865.0" y="48.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="5764f07d-64e2-4529-8a94-6c4062ba5c2f" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>voltage_oor</seg>
+      </bo>
+      <position x="916.0" y="298.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="6b187bbd-0289-4a9c-9c8c-24f38c8218b2" background="#e0e0e0">
+      <element uuid="ddb9118c-df47-4619-b4b5-a3bc6c6ccdf7" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>battery_current</seg>
+        </bo>
+        <position x="199.0" y="60.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="14bf0661-6978-41ea-a394-a8159a70f192" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>battery_voltage</seg>
+        </bo>
+        <position x="200.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="916ae8f1-b17b-4408-9b41-83fff8114afe">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>btty</seg>
+      </bo>
+      <position x="66.0" y="163.0"/>
+      <size width="312.0" height="110.0"/>
+      <contentFilters>
+        <filter>internalFeatures</filter>
+        <filter>flowSpecifications</filter>
+        <filter>processorFeatures</filter>
+        <filter>features</filter>
+        <filter>connections</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <element uuid="1c63fac4-7b45-4002-82d5-85e26211abc9" background="#e0e0e0">
+      <element uuid="0aa56cdd-0ec6-459e-81c2-f4eb9e2f79ac" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>battery_current</seg>
+        </bo>
+        <position y="223.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="e7c9110e-6e66-40fb-90a1-f3916d5f6543" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>battery_voltage</seg>
+        </bo>
+        <position y="135.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="1ca847a9-728a-4e24-b91a-38d87073265a" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>defective_battery</seg>
+        </bo>
+        <position x="303.0" y="60.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="f2171dbf-e039-4071-841f-2524a13b7dfc" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>low_battery_warning</seg>
+        </bo>
+        <position x="282.0" y="210.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="99ef3ce3-94c1-4171-baeb-23762b05067c" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_voltage</seg>
+        </bo>
+        <position y="48.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="68be15d7-ef34-42b3-9895-8dd98d6c3658" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>remaining_battery_time</seg>
+        </bo>
+        <position x="258.0" y="110.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="b2d39c6a-a063-4cf9-a15b-4feae3322a70" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>using_battery_power</seg>
+        </bo>
+        <position x="282.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="73a18b58-d445-4d84-a37d-8c7c2a2f11d2" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>voltage_oor</seg>
+        </bo>
+        <position x="333.0" y="260.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="02cd5021-3e0e-46b0-bc84-6fb48092bc87">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>pwr</seg>
+      </bo>
+      <position x="398.0" y="38.0"/>
+      <size width="431.0" height="310.0"/>
+      <contentFilters>
+        <filter>featureGroupFeatures</filter>
+        <filter>parameterFeatures</filter>
+        <filter>internalFeatures</filter>
+        <filter>dataPortFeatures</filter>
+        <filter>connections</filter>
+        <filter>subcomponentType</filter>
+        <filter>eventPortFeatures</filter>
+        <filter>dataAccessFeatures</filter>
+        <filter>subprogramGroupAccessFeatures</filter>
+        <filter>subprogramAccessFeatures</filter>
+        <filter>eventDataPortFeatures</filter>
+        <filter>abstractFeatureFeatures</filter>
+        <filter>flowSpecifications</filter>
+        <filter>processorFeatures</filter>
+      </contentFilters>
+    </element>
+    <element uuid="0350ffb1-f1a6-4dd0-ad80-b21208f58a0d" background="#e0e0e0">
+      <element uuid="1c006d58-b939-44c2-836b-3b2904b1464e" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_voltage</seg>
+        </bo>
+        <position x="187.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="e31dab6d-492c-4e1e-b889-ee19f88d86ce">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>vcc</seg>
+      </bo>
+      <position x="87.0" y="76.0"/>
+      <size width="291.0" height="60.0"/>
+      <contentFilters>
+        <filter>internalFeatures</filter>
+        <filter>flowSpecifications</filter>
+        <filter>processorFeatures</filter>
+        <filter>features</filter>
+        <filter>connections</filter>
+        <filter>subcomponentType</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>power.i</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1014.0" height="360.0"/>
+    <contentFilters>
+      <filter>featureGroupFeatures</filter>
+      <filter>parameterFeatures</filter>
+      <filter>internalFeatures</filter>
+      <filter>dataPortFeatures</filter>
+      <filter>connections</filter>
+      <filter>eventPortFeatures</filter>
+      <filter>dataAccessFeatures</filter>
+      <filter>subprogramGroupAccessFeatures</filter>
+      <filter>subcomponents</filter>
+      <filter>subprogramAccessFeatures</filter>
+      <filter>eventDataPortFeatures</filter>
+      <filter>abstractFeatureFeatures</filter>
+      <filter>flowSpecifications</filter>
+      <filter>processorFeatures</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>ipca_power::power.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

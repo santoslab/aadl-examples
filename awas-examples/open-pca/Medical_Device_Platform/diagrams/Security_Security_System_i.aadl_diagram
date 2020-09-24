@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="74021f47-98dc-4874-84bc-7a162653a17a" manual="true">
+    <element uuid="e31cdf0d-3ecc-4d0c-86fd-33be79c968bd">
+      <bo>
+        <seg>connection</seg>
+        <seg>cont</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="55a96cc1-ff57-4723-94ef-5f49aa566f38" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>crypto_control</seg>
+      </bo>
+      <position y="48.0"/>
+      <size width="105.0" height="44.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="ae59abe8-55c4-4cf9-a764-3ef35f071607">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="6849854e-0b73-47a3-a5db-0c335d07a2d0">
+      <element uuid="8350dadc-9bd8-4e1d-a2aa-6d09a91db63e">
+        <bo>
+          <seg>connection</seg>
+          <seg>algo</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="67a9574e-3fda-45e9-b7cc-cbdf57f11b0d">
+        <bo>
+          <seg>connection</seg>
+          <seg>cont</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="7b8c21aa-ea73-4a4e-b520-7cb47d40304b" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>crypto_control</seg>
+        </bo>
+        <position y="10.0"/>
+        <size width="105.0" height="44.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="f3a81d21-b05d-498a-bd4a-4fe22982914c">
+        <element uuid="8393eab4-8e85-45dc-b33b-274733db07b5" dockArea="top">
+          <bo>
+            <seg>feature</seg>
+            <seg>security_interface</seg>
+          </bo>
+          <position x="270.0"/>
+          <size width="166.0" height="30.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="be885a46-0496-4641-83b3-de9030be5a50" manual="true" background="#ffcccc" boData="Platform security architecture     &#xA;used by all implementations.   ">
+          <bo>
+            <seg>note</seg>
+            <seg>3c64f79c-f53c-4e0c-82f0-9fb1d153ce60</seg>
+          </bo>
+          <position x="90.0" y="70.0"/>
+          <size width="261.0" height="71.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="5da82d90-73b9-4c7e-83b9-e607bac68f3b">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>algorithms</seg>
+        </bo>
+        <position x="104.0" y="280.0"/>
+        <size width="446.0" height="251.0"/>
+        <contentFilters>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>internalFeatures</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>processorFeatures</filter>
+        </contentFilters>
+      </element>
+      <element uuid="185324a1-0776-453e-9947-06e1de1976cd">
+        <element uuid="be472bde-384c-4e32-ad81-f43a85190ca0" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>crypto_control</seg>
+          </bo>
+          <position y="64.0"/>
+          <size width="105.0" height="44.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="d8cc6a10-2306-4f56-adf4-2e0f4e06d7b7" dockArea="bottom">
+          <bo>
+            <seg>feature</seg>
+            <seg>security_interface</seg>
+          </bo>
+          <position x="240.0" y="169.0"/>
+          <size width="166.0" height="30.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="aa8f68b3-3ab6-4322-bf6f-213dc8d6ae19" manual="true" background="#ffcccc" boData="Refined to implement the &#xA;security functions needed   &#xA;by the product.">
+          <bo>
+            <seg>note</seg>
+            <seg>1e24062b-3565-43ab-85a1-df76c3a3afe1</seg>
+          </bo>
+          <position x="110.0" y="47.0"/>
+          <size width="241.0" height="91.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="a46cad74-38c7-4d4a-82c2-3fe7c2a6f28f">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>controller</seg>
+        </bo>
+        <position x="134.0" y="53.0"/>
+        <size width="436.0" height="199.0"/>
+        <contentFilters>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>internalFeatures</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>processorFeatures</filter>
+        </contentFilters>
+      </element>
+      <element uuid="aa20d060-9a8b-4012-b1a8-045e2d34c688">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>security_process</seg>
+      </bo>
+      <position x="104.0" y="48.0"/>
+      <size width="625.0" height="561.0"/>
+      <contentFilters>
+        <filter>flowSpecifications</filter>
+        <filter>subcomponents</filter>
+        <filter>connections</filter>
+        <filter>internalFeatures</filter>
+        <filter>subcomponentType</filter>
+        <filter>features</filter>
+        <filter>processorFeatures</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>security_system.i</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="829.0" height="669.0"/>
+    <contentFilters>
+      <filter>generalizations</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+      <filter>connections</filter>
+      <filter>internalFeatures</filter>
+      <filter>features</filter>
+      <filter>processorFeatures</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>security::security_system.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>

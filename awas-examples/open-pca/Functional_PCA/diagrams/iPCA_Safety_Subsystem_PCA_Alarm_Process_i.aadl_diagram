@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="4514f6b0-4ce6-41cc-b75c-8dff35c3763c" manual="true" background="#ccffcc">
+    <element uuid="913d9398-f17d-43e4-a9a2-7fe0ac242b48">
+      <element uuid="f661368b-86ea-46ed-9dfc-f603495baf59">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>alr</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="c4e985e8-21d5-4534-be88-d489b719798b">
+      <element uuid="75776515-1e6a-4e84-baec-b93735528c5e">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>baso</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="5b792ac3-31f6-4fec-a686-e80c121fdf4d">
+      <element uuid="850f5ad1-af29-4ef3-94ea-e8a6ab4cd62c">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>basu</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="bc80c2b4-cca6-4583-8441-e4821746ac2d">
+      <element uuid="21903738-101d-42f0-b760-6c6a843125cf">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>bolo</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="3c18db20-bae6-4b68-8702-318fe49e375c">
+      <element uuid="84d8cd21-f761-4a2f-b295-9ce9ea2ac10f">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>bolu</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="14e9111e-c5d6-4465-ab79-0ea91e629507">
+      <element uuid="fbbb8610-822f-4448-9e11-8375778a7d3e">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>bub</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="442.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="e1bda155-c3cc-4c91-a65f-481a2fc208d8">
+      <element uuid="1c256b33-6c05-461f-b62e-14945e993acf">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>cpra</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="1042.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="b7276a77-bd3f-414f-84dc-25837d3972b1">
+      <element uuid="373880fc-5454-4969-9bc1-ea215092dd0c">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>db</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="66391869-137d-4bcf-8558-1e610706271b">
+      <element uuid="163e840d-21e1-4e24-af01-b6784ac7a1bb">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>dfr</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="2ee678fd-b2c1-4bac-a378-46858cbbebb7">
+      <element uuid="b49ff14e-754c-4737-91ad-698803bb39a5">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>dnl</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="942.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="6ad26622-ca2c-416a-aeff-180e605521a9">
+      <element uuid="8f451e4c-d383-4946-a4bc-19f3890bba8b">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>doo</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="242.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="4661d88b-d874-4bb5-a16a-acad58a8c210">
+      <element uuid="0f07040c-8023-41a9-ae9b-eaf068b5b4f0">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>dso</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="392.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="63265680-dcf6-4011-b910-0490dc6af094">
+      <element uuid="43819f6d-18ec-4bdc-8b31-14ee9d5b71d0">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>er</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="440a2f8f-3eae-4ae8-8df2-719678bec3b8">
+      <element uuid="d1c11437-fe7e-4ef0-91dd-69062383237a">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>hlv</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="1092.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="d5811251-7db1-48a2-a920-d56ca3faf750">
+      <element uuid="6eda59b7-4857-403a-9bf0-78adb91167d7">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ifr</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="a9271944-c0e5-41fe-baae-b750367afe82">
+      <element uuid="910a04fd-59a8-4968-96bf-7c2cbdb7f9da">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>lb</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="a48b07af-8b6d-42e6-8464-6c8fe3a2fb2f">
+      <element uuid="a35d9436-4a1b-41ca-9431-e39e73e785c5">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>lf</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="f3da047b-ec60-4621-81ce-7f3f88994c3a">
+      <element uuid="326fddee-83d9-4ef7-8ba4-fcf24391d594">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>lr</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="342.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="ba59809a-a7a7-440e-9964-00384cbb03f2">
+      <element uuid="a79649e7-87c3-4983-954f-f1fdbe1c969d">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>mdw</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="792.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="d05b8a42-088b-4430-a7ce-92ce072af511">
+      <element uuid="c244086c-424c-4e28-9004-a9088ea60a53">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pca_alarm_process_i_new_connection</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="4aa4aa67-34f7-4743-a70a-1838d747578c">
+      <element uuid="bb663553-5430-47d5-9855-6177aa4bca5b">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pca_alarm_process_i_new_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="3082b96e-9fe9-4539-8429-3211f3a2f0a2">
+      <element uuid="e1146085-06fd-4a6b-bd20-8c2ac878598f">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pf</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="992.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="4ecd2335-31ad-479e-8b8e-f5f34e19a98d">
+      <element uuid="a618d315-15b0-4fa1-90c4-d5e7e6d2b288">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ph</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="292.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="62c7dd91-ba3d-4805-887b-d89500bdceff">
+      <element uuid="daea4b6b-d530-4c91-a7fa-f18601f2b0c0">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pkvo</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="892.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="8d2bb1e2-a06e-47e6-91d1-eb4726c24ef1">
+      <element uuid="16113b3e-2556-44fa-b628-3f3d68306253">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pr</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="37b2b56c-29e7-40b9-84db-c6f2a03af502">
+      <element uuid="5a1fc05d-2c14-4beb-ab18-ff9af03e5688">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>sbo</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="135e805b-b995-44cb-aac2-f87498eecae8">
+      <element uuid="454f2566-9dc3-4c68-be77-bf5f5816ea79">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>sbu</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="8b21b5df-b23c-4d7a-a8ef-ba2c7e506901">
+      <element uuid="274d0687-07f6-41f6-b335-9f684143afec">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>secf</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="842.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="bd1f8466-fa75-4cae-9707-bbacb52d710b">
+      <element uuid="23149cc5-c150-4aed-8422-1427d3d6231a">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>spc</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="192.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="985c5d6e-3cca-4512-adcf-b65e787ad49e">
+      <element uuid="9423896a-1d3f-452a-a8c6-80bfc5657be8">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ufr</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="93467cc5-8883-4d00-8702-635fbe6537ed">
+      <element uuid="152f4fdf-876f-43f3-8b43-2735ddbc72ba">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>uso</seg>
+      </bo>
+      <bendpoints>
+        <point x="736.0" y="142.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="1c90db8d-c6ea-40c3-9e3e-6b5a3e78913b">
+      <element uuid="ce5db2f4-da89-45ea-8215-e774cca2ff5b">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>voo</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="d67322d1-13a6-4ff4-aa2a-b124be7a00c4">
+      <element uuid="a1272744-d3c3-43eb-ae78-44555a235a69">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>war</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="7134808b-c173-49e2-8a26-8065ac007d08" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarm_inactivation</seg>
+      </bo>
+      <position x="1260.0" y="399.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="2249ae0c-ef94-4157-90a8-3d1c08bfa570" dockArea="left">
+      <element uuid="e636eb18-ba70-4fc8-9767-6039edc48375">
+        <bo>
+          <seg>feature</seg>
+          <seg>cp_reset_alarm</seg>
+        </bo>
+        <position x="30.0" y="602.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="1caef028-3a26-4cfc-9865-101034eba75f">
+        <bo>
+          <seg>feature</seg>
+          <seg>drug_not_in_library</seg>
+        </bo>
+        <position x="30.0" y="482.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="85c8b6b4-460e-47ef-9cc1-012b95b78895">
+        <bo>
+          <seg>feature</seg>
+          <seg>halt</seg>
+        </bo>
+        <position x="30.0" y="159.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="199263d6-28aa-4cbe-b0b9-d3880c028937">
+        <bo>
+          <seg>feature</seg>
+          <seg>hard_limit_violated</seg>
+        </bo>
+        <position x="30.0" y="662.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="862993c1-c506-4ff7-80ef-ba0497ff722a">
+        <bo>
+          <seg>feature</seg>
+          <seg>hw_detected_failure</seg>
+        </bo>
+        <position x="30.0" y="114.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="f690ee3d-28b1-4c7c-88da-c359cc929176">
+        <bo>
+          <seg>feature</seg>
+          <seg>infusion_flow_rate</seg>
+        </bo>
+        <position x="30.0" y="272.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="a86969b3-da1d-4bad-afe2-6d675980f342">
+        <bo>
+          <seg>feature</seg>
+          <seg>over_max_drug_per_hour</seg>
+        </bo>
+        <position x="30.0" y="322.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="19b32bae-78a6-4848-b6c9-de0bb6bc6706">
+        <bo>
+          <seg>feature</seg>
+          <seg>post_done</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="ee50c45c-1860-41cb-9b12-1535d4df4365">
+        <bo>
+          <seg>feature</seg>
+          <seg>post_fail</seg>
+        </bo>
+        <position x="30.0" y="69.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="c4795d63-a9d0-49af-ac50-e1b9688de3fa">
+        <bo>
+          <seg>feature</seg>
+          <seg>prime_failure</seg>
+        </bo>
+        <position x="30.0" y="542.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="d1d52e33-61a6-4674-b401-89ae189c4f29">
+        <bo>
+          <seg>feature</seg>
+          <seg>pump_at_kvo_rate</seg>
+        </bo>
+        <position x="30.0" y="432.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="b15e20b6-8fa8-4e02-8ae2-238ce0e93ee1">
+        <bo>
+          <seg>feature</seg>
+          <seg>pumping_mode</seg>
+        </bo>
+        <position x="30.0" y="212.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="c4bf733d-4db5-4d8d-b8e7-69c8aa38b65d">
+        <bo>
+          <seg>feature</seg>
+          <seg>security_fault</seg>
+        </bo>
+        <position x="30.0" y="383.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>feature</seg>
+        <seg>from_operation</seg>
+      </bo>
+      <position y="676.0"/>
+      <size width="212.0" height="744.0"/>
+      <contentFilters>
+        <filter>features</filter>
+      </contentFilters>
+    </element>
+    <element uuid="77ac35aa-4491-4ef2-a843-77b39249ad19" dockArea="right">
+      <element uuid="1fae99ec-acfc-4a14-904f-0a21dee00093">
+        <bo>
+          <seg>feature</seg>
+          <seg>defective_btty</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="3eb1a6e6-2bab-4855-ab14-9659b90f08d9">
+        <bo>
+          <seg>feature</seg>
+          <seg>low_battery_warning</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="565abdde-043e-40fb-b620-f16d8a732352">
+        <bo>
+          <seg>feature</seg>
+          <seg>voltage_oor</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>feature</seg>
+        <seg>from_power</seg>
+      </bo>
+      <position x="1211.0" y="1038.0"/>
+      <size width="179.0" height="244.0"/>
+      <contentFilters>
+        <filter>features</filter>
+      </contentFilters>
+    </element>
+    <element uuid="b1e8c12e-f0be-4d7e-bab1-68ae3335e70b" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>peripheral_malfunction</seg>
+      </bo>
+      <position x="1226.0" y="455.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="6ad58b14-c363-42ce-86c9-04232ccbef91" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>report_hazard</seg>
+      </bo>
+      <position x="1287.0" y="311.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="2578d58b-3182-41e3-b6d2-4e04e988831f" dockArea="right">
+      <element uuid="d2bb2bfa-120c-4a01-b15d-5c89da5e6482">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="47f293cd-c60b-48ae-a825-255c68f0cfde">
+        <bo>
+          <seg>feature</seg>
+          <seg>warning</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>feature</seg>
+        <seg>send_alarm</seg>
+      </bo>
+      <position x="1294.0" y="621.0"/>
+      <size width="96.0" height="144.0"/>
+      <contentFilters>
+        <filter>features</filter>
+      </contentFilters>
+    </element>
+    <element uuid="07dae8dc-4377-4c02-988c-43bfa85772c1" dockArea="left">
+      <element uuid="954a9c7a-d6fd-4931-a956-5993414dfde3">
+        <bo>
+          <seg>feature</seg>
+          <seg>bubble</seg>
+        </bo>
+        <position x="30.0" y="347.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="4e25a93a-9806-40db-8a6f-184f6e5d1570">
+        <bo>
+          <seg>feature</seg>
+          <seg>door_open</seg>
+        </bo>
+        <position x="30.0" y="159.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="5ca48c4c-727a-4123-bc2c-0899a2c66a1b">
+        <bo>
+          <seg>feature</seg>
+          <seg>downstream_flow_rate</seg>
+        </bo>
+        <position x="30.0" y="447.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="bd1e800a-cdd4-4739-9bf0-c0f75ed8ce54">
+        <bo>
+          <seg>feature</seg>
+          <seg>downstream_occlusion</seg>
+        </bo>
+        <position x="30.0" y="302.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="12c6249d-8a7c-4ff9-834a-edd0ae6c204e">
+        <bo>
+          <seg>feature</seg>
+          <seg>empty_reservoir</seg>
+        </bo>
+        <position x="30.0" y="24.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="cdbb1ef3-8052-4961-ab81-e13df9fe2cb0">
+        <bo>
+          <seg>feature</seg>
+          <seg>halt</seg>
+        </bo>
+        <position x="30.0" y="114.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="bb25432c-f34b-4a20-bb3e-adce77a06b76">
+        <bo>
+          <seg>feature</seg>
+          <seg>low_reservoir</seg>
+        </bo>
+        <position x="30.0" y="251.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="1bcf7bac-1ca0-4831-b441-14f2ed5f1506">
+        <bo>
+          <seg>feature</seg>
+          <seg>pump_too_hot</seg>
+        </bo>
+        <position x="30.0" y="206.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="aaa882ac-4546-4efb-9ab0-ead7599bf236">
+        <bo>
+          <seg>feature</seg>
+          <seg>upstream_flow_rate</seg>
+        </bo>
+        <position x="30.0" y="492.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="590e9b3a-b240-45ae-935d-e3aef83eadf8">
+        <bo>
+          <seg>feature</seg>
+          <seg>upstream_occlusion</seg>
+        </bo>
+        <position x="30.0" y="69.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>feature</seg>
+        <seg>to_peripherals</seg>
+      </bo>
+      <position y="46.0"/>
+      <size width="195.0" height="544.0"/>
+      <contentFilters>
+        <filter>features</filter>
+      </contentFilters>
+    </element>
+    <element uuid="1a6c1655-61b2-487d-88d6-94faa8c320e4" background="#ffcccc">
+      <element uuid="f301fb0e-4914-433f-967e-71d793f72cd0" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm</seg>
+        </bo>
+        <position x="361.0" y="585.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="d36933ba-e609-427b-80bd-16b06ae425d3" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm_inactivation</seg>
+        </bo>
+        <position x="285.0" y="349.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="a995ffc3-e5ec-4f88-ab99-eb4e3a2ebc2a" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>basal_overinfusion</seg>
+        </bo>
+        <position y="410.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="5955ea55-cabb-4281-bf18-9616ca49150d" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>basal_underinfusion</seg>
+        </bo>
+        <position y="460.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="395457f7-407d-4178-9aa3-9a66a3d339fc" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>bolus_overinfusion</seg>
+        </bo>
+        <position y="510.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="89fe0fe9-af15-4a08-bac2-b41e681744d1" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>bolus_underinfusion</seg>
+        </bo>
+        <position y="610.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="61870699-2322-4c27-925e-5d5e74853f12" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>bubble</seg>
+        </bo>
+        <position y="360.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="a8921cf5-7a8d-45c4-baec-3a91eb8aaed0" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cp_reset_alarm</seg>
+        </bo>
+        <position y="960.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="e5d807bf-af57-427c-8aac-67d37f1810f6" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>defective_btty</seg>
+        </bo>
+        <position x="309.0" y="1130.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="8fcc9e78-4cf5-4061-8476-b4015defa691" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>door_open</seg>
+        </bo>
+        <position y="160.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="33ee5a35-1563-439b-8481-8f55f0aba86d" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>downstream_occlusion</seg>
+        </bo>
+        <position y="310.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="59ad4074-f61d-4d97-84bf-4da9e1973a19" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>drug_not_in_library</seg>
+        </bo>
+        <position y="860.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="1153870d-b859-4630-9fd5-6d5e30d1ff89" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>empty_res</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="e20217de-b3aa-45ac-b7ba-c79a5266d265" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hard_limit_violation</seg>
+        </bo>
+        <position y="1010.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="b6bfce64-32c4-4adf-a674-899b4a927125" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>log_fault</seg>
+        </bo>
+        <position x="339.0" y="273.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="8c238f3f-c19b-4016-bf29-75fab36d846a" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>low_battery_warning</seg>
+        </bo>
+        <position x="266.0" y="1020.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="15222de2-7799-4455-aff9-fe94444fb233" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>low_res</seg>
+        </bo>
+        <position y="260.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="bc6051f0-8a9a-400a-a16a-dd0062845ae2" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>max_dose_warning</seg>
+        </bo>
+        <position y="710.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="2a41ae5e-1f3a-4218-b69e-f4a79017e2c1" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>peripheral_malfunction</seg>
+        </bo>
+        <position x="251.0" y="430.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="4f652369-5709-4601-9914-f7b18154dcda" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>prime_failure</seg>
+        </bo>
+        <position y="910.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="34e35b3c-ba0f-45e7-a6d7-322f692b790f" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>pump_at_kvo_rate</seg>
+        </bo>
+        <position y="810.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="056c94eb-766f-4820-b67f-a80521b2e76f" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>pump_hot</seg>
+        </bo>
+        <position y="210.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="e7e68cc1-5ce6-4569-ba2c-f425553c8555" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>security_fault</seg>
+        </bo>
+        <position y="760.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="a246e7f2-c153-4521-a7f7-306be40d1dac" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>square_bolus_overinfusion</seg>
+        </bo>
+        <position y="560.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="a36b85a8-e6c1-4f4a-ae7a-8f1d85560f26" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>square_bolus_underinfusion</seg>
+        </bo>
+        <position y="660.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="36f8f56f-ebb4-4015-8db1-27bcea5eef45" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>stop_pump_completely</seg>
+        </bo>
+        <position y="110.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="a090a695-297e-43da-87d7-056944778ff1" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>upstream_occlusion</seg>
+        </bo>
+        <position y="60.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="09675ce7-16b0-46a6-b981-b999987d0233" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>voltage_oor</seg>
+        </bo>
+        <position x="317.0" y="1080.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="31572269-9f2e-4fec-8ab8-a18dab2dded6" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>warning</seg>
+        </bo>
+        <position x="347.0" y="649.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>alarm_thr</seg>
+      </bo>
+      <position x="788.0" y="38.0"/>
+      <size width="415.0" height="1210.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="9dfbd35a-1f1d-4407-a616-dcca6a72a53e" background="#ccccff">
+      <element uuid="8b6f28a1-8d99-463d-8cd1-47ce5799f8c1" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>basal_overinfusion</seg>
+        </bo>
+        <position x="382.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="20335e0b-2b88-426c-ab3e-d26cfbf2c4e5" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>basal_underinfusion</seg>
+        </bo>
+        <position x="373.0" y="60.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="d6e322e0-40a5-425f-9f04-1add0fd0d132" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>bolus_overinfusion</seg>
+        </bo>
+        <position x="381.0" y="110.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="30a0ba89-c82c-4856-977c-2f18cc250454" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>bolus_underinfusion</seg>
+        </bo>
+        <position x="372.0" y="210.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="2b053403-48ad-4541-ac91-9ae4d288c450" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>downstream_flow_rate</seg>
+        </bo>
+        <position y="30.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="13697f40-018d-4409-ab6d-ac3c0287682c" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>infusion_flow_rate</seg>
+        </bo>
+        <position x="122.0" y="286.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="6013d06d-1b0b-42e4-bf83-9e60cec7b3f1" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>pumping_mode</seg>
+        </bo>
+        <position y="240.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="4fd05d52-485f-4e43-84a1-f29158ba9f55" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>square_bolus_overinfusion</seg>
+        </bo>
+        <position x="326.0" y="160.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="74235d21-47ca-4777-a06f-337041b3392c" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>square_bolus_underinfusion</seg>
+        </bo>
+        <position x="317.0" y="260.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="b814d8a7-83ef-4023-814e-3c11d4879e80" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>upstream_flow_rate</seg>
+        </bo>
+        <position y="100.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>flow_rate</seg>
+      </bo>
+      <position x="194.0" y="455.0"/>
+      <size width="518.0" height="310.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>pca_alarm_process.i</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1390.0" height="1448.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>ipca_safety_subsystem::pca_alarm_process.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>
