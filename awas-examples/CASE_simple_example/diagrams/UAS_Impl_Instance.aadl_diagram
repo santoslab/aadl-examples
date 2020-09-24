@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="42ab1482-605c-4c40-ab83-b3edf5c252e4" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+    <element uuid="df443bac-1f93-44cf-9866-68bf3bf5f825" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="97547144-7894-4a9f-8a5a-a383a6f3d264" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>recv_status</seg>
+        </bo>
+        <position y="175.0"/>
+      </element>
+      <element uuid="8eb2b354-c041-4f27-b774-6ff364e30c42" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>rfa</seg>
+        </bo>
+        <position y="115.0"/>
+      </element>
+      <element uuid="424b3546-6c60-45e3-a2dc-cff01fb94293" manual="true" dockArea="left" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>send_map</seg>
+        </bo>
+        <position y="38.0"/>
+      </element>
+      <element uuid="8b1baa77-252d-4577-a3a1-575f3d6325d3" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>flow_specification_instance</seg>
+          <seg>receive_status</seg>
+        </bo>
+        <position x="359.0" y="207.0"/>
+        <primaryLabelPosition x="48.5" y="3.0"/>
+      </element>
+      <element uuid="36f30b8b-2e66-42f1-98d4-6be1fd912424" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>flow_specification_instance</seg>
+          <seg>transmit_map</seg>
+        </bo>
+        <position x="346.0" y="70.0"/>
+        <primaryLabelPosition x="47.0" y="3.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>gnd</seg>
+      </bo>
+      <position x="2066.0" y="214.0"/>
+      <size width="454.0" height="244.0"/>
+    </element>
+    <element uuid="6ff3f1ef-d273-4f97-95cd-f9cfa542cc27" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>rfb</seg>
+      </bo>
+      <position x="162.0" y="702.0"/>
+      <size width="52.0" height="40.0"/>
+    </element>
+    <element uuid="c448b259-faa0-4af8-b1f6-6cf394f24d8f" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="7d3243db-1e58-4aaa-8a43-9e9fe2fedc24" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <element uuid="9108e158-0a0d-4df7-9a96-85d2fe8363f3" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>feature_instance</seg>
+            <seg>position_status</seg>
+          </bo>
+          <position y="38.0"/>
+        </element>
+        <element uuid="d2b8c555-fcf2-4893-ab0b-de4dc9e31414" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>feature_instance</seg>
+            <seg>uarta</seg>
+          </bo>
+          <position y="192.0"/>
+        </element>
+        <element uuid="a4df2ea5-4e7f-42af-ba1d-6dc06e82f4e8" manual="true" dockArea="left" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>feature_instance</seg>
+            <seg>waypoint</seg>
+          </bo>
+          <position y="115.0"/>
+        </element>
+        <element uuid="177353ca-94f1-4751-8d47-7e4e1183086b" manual="true" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>flow_specification_instance</seg>
+            <seg>follow_waypoints</seg>
+          </bo>
+          <position x="351.0" y="147.0"/>
+          <primaryLabelPosition x="25.5" y="3.0"/>
+        </element>
+        <element uuid="7dfeaac6-89b2-4fc9-8ea5-1ab29391ad52" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>flow_specification_instance</seg>
+            <seg>send_pos</seg>
+          </bo>
+          <position x="342.0" y="70.0"/>
+          <primaryLabelPosition x="70.0" y="3.0"/>
+        </element>
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>component_instance</seg>
+          <seg>fctl</seg>
+        </bo>
+        <position x="981.0" y="49.0"/>
+        <size width="478.0" height="244.0"/>
+      </element>
+      <element uuid="9c8dbe8e-3a65-4e37-bb2f-a2f0dc0cf2ea" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <element uuid="86fea3ac-fa83-44c6-bb9e-b493cbc913af" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>feature_instance</seg>
+            <seg>position_status</seg>
+          </bo>
+          <position y="115.0"/>
+        </element>
+        <element uuid="70c64ec1-d3e5-4b03-add4-c20c6cc98dce" manual="true" dockArea="left" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>feature_instance</seg>
+            <seg>recv_map</seg>
+          </bo>
+          <position y="38.0"/>
+        </element>
+        <element uuid="06ba69e9-f60e-4ee1-a90b-0048532b31c4" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>feature_instance</seg>
+            <seg>rfa</seg>
+          </bo>
+          <position y="192.0"/>
+        </element>
+        <element uuid="dd40ed25-fb92-43fc-9ba0-b70b9498832e" manual="true" dockArea="right" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>feature_instance</seg>
+            <seg>send_status</seg>
+          </bo>
+          <position x="434.0" y="115.0"/>
+        </element>
+        <element uuid="2e750a5d-a033-4be0-8e69-f68a25ec03e2" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>feature_instance</seg>
+            <seg>uarta</seg>
+          </bo>
+          <position y="252.0"/>
+        </element>
+        <element uuid="327acd51-d570-4281-933f-0f65c360cf41" manual="true" dockArea="right" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>feature_instance</seg>
+            <seg>waypoint</seg>
+          </bo>
+          <position x="453.0" y="38.0"/>
+        </element>
+        <element uuid="8ec9e908-cfa0-4b81-987b-d3ff8a68dfeb" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>flow_specification_instance</seg>
+            <seg>compute_status</seg>
+          </bo>
+          <primaryLabelPosition x="-298.0" y="-161.0"/>
+        </element>
+        <element uuid="72b4eff5-4a21-449a-a305-510329ef2b43" manual="true" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+          <bo>
+            <seg>org.osate.ge.diagrams.instance</seg>
+            <seg>flow_specification_instance</seg>
+            <seg>compute_waypoint</seg>
+          </bo>
+          <primaryLabelPosition x="-343.5" y="-161.0"/>
+        </element>
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>component_instance</seg>
+          <seg>mcmp</seg>
+        </bo>
+        <position x="368.0" y="164.0"/>
+        <size width="528.0" height="304.0"/>
+      </element>
+      <element uuid="802d1e4e-8209-4d99-b2c6-10958256e5da" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>component_instance</seg>
+          <seg>sbus</seg>
+        </bo>
+        <position x="1509.0" y="317.0"/>
+        <size width="62.0" height="50.0"/>
+      </element>
+      <element uuid="60566ccc-785e-40f9-8a82-b1212e7b933b" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>connection_reference</seg>
+          <seg>bac1 : uas_impl_instance.uav.mcmp.uarta -> uas_impl_instance.uav.sbus</seg>
+        </bo>
+        <bendpoints>
+          <point x="649.0" y="498.0"/>
+          <point x="649.0" y="528.0"/>
+          <point x="1800.0" y="528.0"/>
+          <point x="1800.0" y="407.0"/>
+          <point x="1816.0" y="407.0"/>
+        </bendpoints>
+        <primaryLabelPosition x="-31.0" y="3.0"/>
+      </element>
+      <element uuid="62f8841e-d79b-4da9-ace8-282ef671bcb6" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>connection_reference</seg>
+          <seg>bac1 : uas_impl_instance.uav.sbus -> uas_impl_instance.uav.mcmp.uarta</seg>
+        </bo>
+        <bendpoints>
+          <point x="1816.0" y="377.0"/>
+          <point x="1800.0" y="377.0"/>
+          <point x="1800.0" y="88.0"/>
+          <point x="649.0" y="88.0"/>
+          <point x="649.0" y="498.0"/>
+        </bendpoints>
+        <primaryLabelPosition x="75.0" y="3.0"/>
+      </element>
+      <element uuid="159529f1-1267-45a7-b458-ac6d94ffe682" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>connection_reference</seg>
+          <seg>bac2 : uas_impl_instance.uav.fctl.uarta -> uas_impl_instance.uav.sbus</seg>
+        </bo>
+        <bendpoints>
+          <point x="1282.0" y="323.0"/>
+          <point x="1282.0" y="387.0"/>
+          <point x="1816.0" y="387.0"/>
+        </bendpoints>
+        <primaryLabelPosition x="1.5" y="-24.0"/>
+      </element>
+      <element uuid="adffe541-45fc-4d91-bab8-15f28e52f387" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>connection_reference</seg>
+          <seg>bac2 : uas_impl_instance.uav.sbus -> uas_impl_instance.uav.fctl.uarta</seg>
+        </bo>
+        <bendpoints>
+          <point x="1816.0" y="397.0"/>
+          <point x="1800.0" y="397.0"/>
+          <point x="1800.0" y="398.0"/>
+          <point x="1282.0" y="398.0"/>
+          <point x="1282.0" y="323.0"/>
+        </bendpoints>
+        <primaryLabelPosition x="6.5" y="3.0"/>
+      </element>
+      <element uuid="c0b07d75-0fd7-4627-b194-d3ef93caccff" manual="true" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>connection_reference</seg>
+          <seg>c3 : uas_impl_instance.uav.mcmp.waypoint -> uas_impl_instance.uav.fctl.waypoint</seg>
+        </bo>
+        <bendpoints>
+          <point x="1282.0" y="284.0"/>
+          <point x="1282.0" y="246.0"/>
+        </bendpoints>
+        <primaryLabelPosition x="-6.5" y="3.0"/>
+      </element>
+      <element uuid="26e18c74-b892-4741-bcfa-9baefe415c38" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>connection_reference</seg>
+          <seg>c4 : uas_impl_instance.uav.fctl.position_status -> uas_impl_instance.uav.mcmp.position_status</seg>
+        </bo>
+        <bendpoints>
+          <point x="659.0" y="169.0"/>
+          <point x="659.0" y="361.0"/>
+        </bendpoints>
+        <primaryLabelPosition x="58.5" y="3.0"/>
+      </element>
+      <element uuid="2c5b9759-086e-41da-bc77-d549eae6dd32" manual="true" dockArea="left" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>recv_map</seg>
+        </bo>
+        <position y="406.0"/>
+      </element>
+      <element uuid="678bc2be-8185-46bc-b97e-583f3ea04395" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>rfa</seg>
+        </bo>
+        <position y="356.0"/>
+      </element>
+      <element uuid="638b3252-ff4d-48a5-8d4d-fcff9a41f51e" manual="true" dockArea="right" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>send_status</seg>
+        </bo>
+        <position x="1593.0" y="351.0"/>
+      </element>
+      <element uuid="e2778e9c-3714-454b-8b07-4b4f8033b749" manual="true" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>flow_specification_instance</seg>
+          <seg>provide_map</seg>
+        </bo>
+        <position x="916.0" y="523.0"/>
+        <bendpoints>
+          <point x="533.0" y="488.0"/>
+          <point x="533.0" y="573.0"/>
+        </bendpoints>
+        <primaryLabelPosition x="-188.5" y="3.0"/>
+      </element>
+      <element uuid="5af9839f-6d87-4af7-a5fa-692a3ac3573b" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>flow_specification_instance</seg>
+          <seg>update_status</seg>
+        </bo>
+        <position x="328.0" y="568.0"/>
+        <bendpoints>
+          <point x="1810.0" y="433.0"/>
+          <point x="1810.0" y="618.0"/>
+        </bendpoints>
+        <primaryLabelPosition x="110.0" y="3.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>uav</seg>
+      </bo>
+      <position x="299.0" y="38.0"/>
+      <size width="1687.0" height="605.0"/>
+    </element>
+    <element uuid="69c99f4e-0bb8-48f4-8e41-22263f1f74bd" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bac1 : uas_impl_instance.gnd.rfa -> uas_impl_instance.rfb</seg>
+      </bo>
+      <bendpoints>
+        <point x="2068.0" y="373.0"/>
+        <point x="2068.0" y="734.0"/>
+        <point x="230.0" y="734.0"/>
+      </bendpoints>
+      <primaryLabelPosition x="-207.5" y="-24.0"/>
+    </element>
+    <element uuid="5367419c-a4fa-4e98-89b5-5adc8b536469" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bac1 : uas_impl_instance.rfb -> uas_impl_instance.gnd.rfa</seg>
+      </bo>
+      <bendpoints>
+        <point x="230.0" y="744.0"/>
+        <point x="236.0" y="744.0"/>
+        <point x="236.0" y="745.0"/>
+        <point x="2068.0" y="745.0"/>
+        <point x="2068.0" y="373.0"/>
+      </bendpoints>
+      <primaryLabelPosition x="-212.5" y="3.0"/>
+    </element>
+    <element uuid="4a96258a-d53d-4784-8010-e3210ee5bb8b" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bac2 : uas_impl_instance.rfb -> uas_impl_instance.uav.rfa</seg>
+      </bo>
+      <bendpoints>
+        <point x="230.0" y="724.0"/>
+        <point x="236.0" y="724.0"/>
+        <point x="236.0" y="438.0"/>
+      </bendpoints>
+      <primaryLabelPosition x="10.0" y="-127.5"/>
+    </element>
+    <element uuid="ba8a6651-5af4-46ed-9aa3-6cb953d378a9" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bac3 : uas_impl_instance.uav.rfa -> uas_impl_instance.uav.mcmp.rfa</seg>
+      </bo>
+    </element>
+    <element uuid="1f3f4da7-3ede-4fb5-9026-d50a896d199d" manual="true" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c1 : uas_impl_instance.gnd.send_map -> uas_impl_instance.uav.recv_map</seg>
+      </bo>
+      <bendpoints>
+        <point x="2058.0" y="296.0"/>
+        <point x="2058.0" y="675.0"/>
+        <point x="301.0" y="675.0"/>
+        <point x="301.0" y="488.0"/>
+      </bendpoints>
+      <primaryLabelPosition x="-141.0" y="3.0"/>
+    </element>
+    <element uuid="24a6757c-b3d6-428e-953c-f0fe090f848a" manual="true" background="#ff8000" outline="#ff00ff" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c1 : uas_impl_instance.uav.recv_map -> uas_impl_instance.uav.mcmp.recv_map</seg>
+      </bo>
+      <bendpoints>
+        <point x="669.0" y="488.0"/>
+        <point x="669.0" y="284.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="474901bf-88f7-400a-b121-2033c0097c27" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c2 : uas_impl_instance.uav.mcmp.send_status -> uas_impl_instance.uav.send_status</seg>
+      </bo>
+      <bendpoints>
+        <point x="1217.0" y="361.0"/>
+        <point x="1217.0" y="433.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="0048c622-58e0-4d0f-9580-1ca5a5d287e1" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c2 : uas_impl_instance.uav.send_status -> uas_impl_instance.gnd.recv_status</seg>
+      </bo>
+      <primaryLabelPosition x="17.0" y="-24.0"/>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/case_simple_example/aadl/instances/uas_uas_impl_instance.aaxl2</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="2532.0" height="770.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/case_simple_example/aadl/instances/uas_uas_impl_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>

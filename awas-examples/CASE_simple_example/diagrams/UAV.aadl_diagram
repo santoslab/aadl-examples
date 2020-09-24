@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="73036b2c-09f6-4f76-b28e-3fc41b22e65b" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+    <element uuid="d87ce904-785a-4951-b4ec-175b3cc17a1b" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>serial</seg>
+      </bo>
+      <position x="59.0" y="38.0"/>
+      <size width="91.0" height="35.0"/>
+    </element>
+    <element uuid="8d50a265-b9d5-4703-a299-9139291df62c" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>uav</seg>
+      </bo>
+      <position x="195.0" y="93.0"/>
+      <size width="87.0" height="35.0"/>
+    </element>
+    <element uuid="f6c30c8f-a714-43b4-a86d-8b3d4ed27620" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="1a348cfd-d9d3-4b43-9d20-19a1febf2689" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="191.0" y="122.5"/>
+          <point x="203.0" y="122.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>uav.impl</seg>
+      </bo>
+      <position x="59.0" y="93.0"/>
+      <size width="116.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>uav</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="294.0" height="140.0"/>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>uav</seg>
+    </context>
+  </config>
+</diagram:Diagram>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ASCII"?>
+<assure:AssuranceCaseResult xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:assure="http://www.osate.org/assure/Assure" name="UASAssuranceCase">
+  <metrics tbdCount="5"/>
+  <modelResult>
+    <metrics tbdCount="5"/>
+    <plan href="../AADL/ReqSpec/UASAssuranceCase.alisa#//@assurancePlans.0"/>
+    <target xsi:type="aadl2:SystemImplementation" href="../AADL/UAS.aadl#UAS.UAS.Impl"/>
+    <claimResult>
+      <metrics tbdCount="2"/>
+      <targetReference>
+        <verificationPlan href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0"/>
+        <requirement>
+          <requirement href="../AADL/ReqSpec/UASReqSpec.reqspec#//@parts.1/@requirements.0"/>
+        </requirement>
+      </targetReference>
+      <verificationActivityResult xsi:type="assure:VerificationActivityResult">
+        <metrics tbdCount="1"/>
+        <targetReference>
+          <verificationPlan href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0"/>
+          <requirement>
+            <requirement href="../AADL/ReqSpec/UASReqSpec.reqspec#//@parts.1/@requirements.0"/>
+          </requirement>
+          <verificationActivity href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0/@claim.0/@activities.0"/>
+        </targetReference>
+      </verificationActivityResult>
+      <verificationActivityResult xsi:type="assure:VerificationActivityResult">
+        <metrics tbdCount="1"/>
+        <targetReference>
+          <verificationPlan href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0"/>
+          <requirement>
+            <requirement href="../AADL/ReqSpec/UASReqSpec.reqspec#//@parts.1/@requirements.0"/>
+          </requirement>
+          <verificationActivity href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0/@claim.0/@activities.1"/>
+        </targetReference>
+      </verificationActivityResult>
+    </claimResult>
+    <claimResult>
+      <metrics tbdCount="1"/>
+      <targetReference>
+        <verificationPlan href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0"/>
+        <requirement>
+          <requirement href="../AADL/ReqSpec/UASReqSpec.reqspec#//@parts.1/@requirements.1"/>
+        </requirement>
+      </targetReference>
+      <verificationActivityResult xsi:type="assure:VerificationActivityResult">
+        <metrics tbdCount="1"/>
+        <targetReference>
+          <verificationPlan href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0"/>
+          <requirement>
+            <requirement href="../AADL/ReqSpec/UASReqSpec.reqspec#//@parts.1/@requirements.1"/>
+          </requirement>
+          <verificationActivity href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0/@claim.1/@activities.0"/>
+        </targetReference>
+      </verificationActivityResult>
+    </claimResult>
+    <claimResult>
+      <metrics tbdCount="1"/>
+      <targetReference>
+        <verificationPlan href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0"/>
+        <requirement>
+          <requirement href="../AADL/ReqSpec/UASReqSpec.reqspec#//@parts.1/@requirements.2"/>
+        </requirement>
+      </targetReference>
+      <verificationActivityResult xsi:type="assure:VerificationActivityResult">
+        <metrics tbdCount="1"/>
+        <targetReference>
+          <verificationPlan href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0"/>
+          <requirement>
+            <requirement href="../AADL/ReqSpec/UASReqSpec.reqspec#//@parts.1/@requirements.2"/>
+          </requirement>
+          <verificationActivity href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0/@claim.2/@activities.0"/>
+        </targetReference>
+      </verificationActivityResult>
+    </claimResult>
+    <claimResult>
+      <metrics tbdCount="1"/>
+      <targetReference>
+        <verificationPlan href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0"/>
+        <requirement>
+          <requirement href="../AADL/ReqSpec/UASReqSpec.reqspec#//@parts.1/@requirements.3"/>
+        </requirement>
+      </targetReference>
+      <verificationActivityResult xsi:type="assure:VerificationActivityResult">
+        <metrics tbdCount="1"/>
+        <targetReference>
+          <verificationPlan href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0"/>
+          <requirement>
+            <requirement href="../AADL/ReqSpec/UASReqSpec.reqspec#//@parts.1/@requirements.3"/>
+          </requirement>
+          <verificationActivity href="../AADL/ReqSpec/UASImplVPlan.verify#//@contents.0/@claim.3/@activities.0"/>
+        </targetReference>
+      </verificationActivityResult>
+    </claimResult>
+    <subsystemResult>
+      <metrics/>
+      <targetSystem xsi:type="aadl2:BusSubcomponent" href="../AADL/UAS.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedBusSubcomponent.0"/>
+    </subsystemResult>
+    <subsystemResult>
+      <metrics/>
+      <targetSystem xsi:type="aadl2:DeviceSubcomponent" href="../AADL/UAS.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedDeviceSubcomponent.0"/>
+    </subsystemResult>
+    <subsystemResult>
+      <metrics/>
+      <targetSystem xsi:type="aadl2:SystemSubcomponent" href="../AADL/UAS.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedSystemSubcomponent.0"/>
+      <subsystemResult>
+        <metrics/>
+        <targetSystem xsi:type="aadl2:BusSubcomponent" href="../AADL/UAV.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedBusSubcomponent.0"/>
+      </subsystemResult>
+      <subsystemResult>
+        <metrics/>
+        <targetSystem xsi:type="aadl2:SystemSubcomponent" href="../AADL/UAV.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedSystemSubcomponent.0"/>
+        <subsystemResult>
+          <metrics/>
+          <targetSystem xsi:type="aadl2:BusSubcomponent" href="../AADL/MC.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedBusSubcomponent.0"/>
+        </subsystemResult>
+        <subsystemResult>
+          <metrics/>
+          <targetSystem xsi:type="aadl2:DeviceSubcomponent" href="../AADL/MC.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedDeviceSubcomponent.0"/>
+        </subsystemResult>
+        <subsystemResult>
+          <metrics/>
+          <targetSystem xsi:type="aadl2:DeviceSubcomponent" href="../AADL/MC.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedDeviceSubcomponent.1"/>
+        </subsystemResult>
+        <subsystemResult>
+          <metrics/>
+          <targetSystem xsi:type="aadl2:MemorySubcomponent" href="../AADL/MC.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedMemorySubcomponent.0"/>
+        </subsystemResult>
+        <subsystemResult>
+          <metrics/>
+          <targetSystem xsi:type="aadl2:ProcessSubcomponent" href="../AADL/MC.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedProcessSubcomponent.0"/>
+          <subsystemResult>
+            <metrics/>
+            <targetSystem xsi:type="aadl2:ThreadSubcomponent" href="../AADL/SW.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedThreadSubcomponent.0"/>
+          </subsystemResult>
+          <subsystemResult>
+            <metrics/>
+            <targetSystem xsi:type="aadl2:ThreadSubcomponent" href="../AADL/SW.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedThreadSubcomponent.1"/>
+          </subsystemResult>
+          <subsystemResult>
+            <metrics/>
+            <targetSystem xsi:type="aadl2:ThreadSubcomponent" href="../AADL/SW.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedThreadSubcomponent.2"/>
+          </subsystemResult>
+          <subsystemResult>
+            <metrics/>
+            <targetSystem xsi:type="aadl2:ThreadSubcomponent" href="../AADL/SW.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedThreadSubcomponent.3"/>
+          </subsystemResult>
+          <subsystemResult>
+            <metrics/>
+            <targetSystem xsi:type="aadl2:ThreadSubcomponent" href="../AADL/SW.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedThreadSubcomponent.4"/>
+          </subsystemResult>
+          <subsystemResult>
+            <metrics/>
+            <targetSystem xsi:type="aadl2:ThreadSubcomponent" href="../AADL/SW.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedThreadSubcomponent.5"/>
+          </subsystemResult>
+          <subsystemResult>
+            <metrics/>
+            <targetSystem xsi:type="aadl2:ThreadSubcomponent" href="../AADL/SW.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedThreadSubcomponent.6"/>
+          </subsystemResult>
+        </subsystemResult>
+        <subsystemResult>
+          <metrics/>
+          <targetSystem xsi:type="aadl2:ProcessorSubcomponent" href="../AADL/MC.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedProcessorSubcomponent.0"/>
+        </subsystemResult>
+      </subsystemResult>
+      <subsystemResult>
+        <metrics/>
+        <targetSystem xsi:type="aadl2:SystemSubcomponent" href="../AADL/UAV.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedSystemSubcomponent.1"/>
+      </subsystemResult>
+    </subsystemResult>
+  </modelResult>
+</assure:AssuranceCaseResult>

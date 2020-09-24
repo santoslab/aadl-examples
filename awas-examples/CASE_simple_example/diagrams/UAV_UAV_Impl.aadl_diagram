@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="3127a752-29bc-491a-bf98-3a7878cb6a77" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+    <element uuid="5fdcaed2-5b85-4e87-923a-d99c4bc6476d" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>bac1</seg>
+      </bo>
+      <bendpoints>
+        <point x="288.0" y="404.3333333333333"/>
+        <point x="294.0" y="404.3333333333333"/>
+        <point x="294.0" y="193.0"/>
+        <point x="673.0" y="193.0"/>
+        <point x="673.0" y="264.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="abbe27a4-94a6-435c-b6b9-7049c3b4823e" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>connection</seg>
+        <seg>bac2</seg>
+      </bo>
+      <bendpoints>
+        <point x="284.0" y="415.99999999999994"/>
+      </bendpoints>
+    </element>
+    <element uuid="2406bd34-1a84-4868-95b3-44cffc3d07e3" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="7f5db95c-2d96-4bc9-aeed-d9c8a75171a8" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>bac3</seg>
+      </bo>
+      <bendpoints>
+        <point x="673.0" y="456.0"/>
+        <point x="673.0" y="324.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="66362f3e-3b96-48a9-bc14-faf665d8a190" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="f1aeeace-18af-4369-8f3b-30c8d31c18c2" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c1</seg>
+      </bo>
+    </element>
+    <element uuid="f2247db6-ec88-4463-824a-a78920f99728" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="9dda9b80-5c81-436c-972f-8252d7d8aee0" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c2</seg>
+      </bo>
+      <bendpoints>
+        <point x="1041.0" y="204.0"/>
+        <point x="1041.0" y="495.0"/>
+        <point x="294.0" y="495.0"/>
+        <point x="294.0" y="506.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="5a136e7c-a104-4b82-8499-0dc2a39b16d9" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="137b78f9-8506-4796-810e-b204819014d6" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c3</seg>
+      </bo>
+      <bendpoints>
+        <point x="1051.0" y="144.0"/>
+        <point x="1051.0" y="446.0"/>
+        <point x="304.0" y="446.0"/>
+        <point x="304.0" y="350.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="3c1d8ce6-0a89-4f73-9037-454264d68ba1" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="012df03b-78c8-4679-9875-e4e07e8e9cde" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c4</seg>
+      </bo>
+      <bendpoints>
+        <point x="304.0" y="284.0"/>
+        <point x="304.0" y="204.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="ad9afe3a-fdf7-4ddc-b82e-b6b21226f4c0" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>feature</seg>
+        <seg>recv_map</seg>
+      </bo>
+      <position y="100.0"/>
+    </element>
+    <element uuid="889e3b43-5dc6-4fce-8751-682afd2816dc" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>feature</seg>
+        <seg>rfa</seg>
+      </bo>
+      <position y="412.0"/>
+    </element>
+    <element uuid="7db33a24-7a3a-41dd-98c6-9f31df0f9fb2" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>feature</seg>
+        <seg>send_status</seg>
+      </bo>
+      <position y="462.0"/>
+    </element>
+    <element uuid="d72e1c09-90a9-4cf1-a8e2-c9f272e41107" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>provide_map</seg>
+      </bo>
+      <position x="1049.0" y="51.0"/>
+      <bendpoints>
+        <point x="294.0" y="144.0"/>
+        <point x="294.0" y="63.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="ae8752ad-1d58-43ee-92fe-2ea4996fd6cb" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>update_status</seg>
+      </bo>
+      <position x="1049.0" y="494.0"/>
+    </element>
+    <element uuid="cfbfddbd-abc2-4346-8dbf-fee757931b1d" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="044a3abf-904e-4e21-adbb-ef21c7fb45cc" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>feature</seg>
+          <seg>position_status</seg>
+        </bo>
+        <position y="38.0"/>
+      </element>
+      <element uuid="a06f2898-ba62-4b9c-b9f7-12b7331344fd" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>feature</seg>
+          <seg>uarta</seg>
+        </bo>
+        <position y="170.0"/>
+      </element>
+      <element uuid="9432f61f-e6fa-41c5-8001-27fd7d371985" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>feature</seg>
+          <seg>waypoint</seg>
+        </bo>
+        <position y="104.0"/>
+      </element>
+      <element uuid="29349a40-3fb9-4cf4-a363-98f969dc9825" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>follow_waypoints</seg>
+        </bo>
+        <position x="182.0" y="136.0"/>
+      </element>
+      <element uuid="c9a3cd30-10b2-4c6e-bb99-4f8ac48245c7" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>send_pos</seg>
+        </bo>
+        <position x="222.0" y="70.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>fctl</seg>
+      </bo>
+      <position x="302.0" y="202.0"/>
+      <size width="349.0" height="222.0"/>
+    </element>
+    <element uuid="96478439-c601-4ada-8e1e-d78c9203ddfb" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <element uuid="eb11b777-7d2b-4128-bc42-f5c310647829" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>feature</seg>
+          <seg>position_status</seg>
+        </bo>
+        <position y="98.0"/>
+      </element>
+      <element uuid="5b88d425-88dd-4aac-8b22-7fd2acc54262" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>feature</seg>
+          <seg>recv_map</seg>
+        </bo>
+        <position y="38.0"/>
+      </element>
+      <element uuid="87e2cf8f-4f8a-4d3d-a7b0-a0598f9e9f88" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>feature</seg>
+          <seg>rfa</seg>
+        </bo>
+        <position y="218.0"/>
+      </element>
+      <element uuid="3a9cd27f-3cc1-44a6-9bf8-9e4ad7a41115" manual="true" dockArea="right" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>feature</seg>
+          <seg>send_status</seg>
+        </bo>
+        <position x="254.0" y="98.0"/>
+      </element>
+      <element uuid="3bbec927-75f0-432c-923d-a0d5787e895f" manual="true" dockArea="left" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>feature</seg>
+          <seg>uarta</seg>
+        </bo>
+        <position y="158.0"/>
+      </element>
+      <element uuid="12ff23f9-673c-498a-82b8-77d2398e5e6c" manual="true" dockArea="right" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>feature</seg>
+          <seg>waypoint</seg>
+        </bo>
+        <position x="273.0" y="38.0"/>
+      </element>
+      <element uuid="911bc20e-707a-48f5-bb6d-28dbac09e540" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>compute_status</seg>
+        </bo>
+      </element>
+      <element uuid="516994ae-dace-448e-96fc-b9191dab1dce" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>compute_waypoint</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mcmp</seg>
+      </bo>
+      <position x="671.0" y="62.0"/>
+      <size width="348.0" height="270.0"/>
+    </element>
+    <element uuid="4c4018e2-0272-42a5-8ed7-da0a8cf1c5fb" manual="true" background="#ffffff" outline="#000000" fontColor="#000000" fontSize="10.0" lineWidth="2.0" primaryLabelVisible="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>sbus</seg>
+      </bo>
+      <position x="175.0" y="381.0"/>
+      <size width="97.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>uav.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1155.0" height="520.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>uav::uav.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>
